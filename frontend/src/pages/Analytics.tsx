@@ -106,7 +106,7 @@ export default function Analytics() {
         <MetricCard
           label="Fraud value surfaced"
           value={`$${summary.fraud_value_caught.toLocaleString()}`}
-          sub={`${summary.fraud_surfaced} invoice(s) flagged or blocked`}
+          sub={`${(summary.flagged || 0) + (summary.blocked || 0)} invoice(s) flagged or blocked`}
           benchmark="before payment released"
           tone="rose"
         />

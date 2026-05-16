@@ -537,7 +537,7 @@ def get_analytics(db: Session = Depends(get_db)) -> dict:
     )
     fraud_value = float(fraud_sum or 0)
 
-    fraud_surfaced = (flagged or 0) + (blocked or 0)
+    fraud_count = int((flagged or 0) + (blocked or 0))
 
     manual_cost_per_invoice = 17.00
     ai_cost_per_invoice = 0.04
@@ -569,7 +569,7 @@ def get_analytics(db: Session = Depends(get_db)) -> dict:
             "approved": approved,
             "flagged": flagged,
             "blocked": blocked,
-            "fraud_surfaced": fraud_surfaced,
+            "fraud_surfaced": fraud_count,
             "touchless_rate": touchless_rate,
             "avg_processing_seconds": avg_seconds,
             "fraud_value_caught": fraud_value,
