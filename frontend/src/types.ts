@@ -264,11 +264,12 @@ export interface Vendor {
 
 // ── Demo invoices (bundled PDFs for judges) ───────────────────────────────────
 export interface DemoInvoiceMeta {
+  id: string;
   filename: string;
   label: string;
   vendor: string;
   amount: string;
-  expected_outcome: string;
+  expected: string;
   description: string;
 }
 

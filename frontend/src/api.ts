@@ -4,6 +4,7 @@ import type {
   AnalyticsPayload,
   AuditEntry,
   ChainVerifyResult,
+  DemoInvoiceMeta,
   DemoInvoicesCatalog,
   Invoice,
   PipelineResult,
@@ -14,6 +15,11 @@ import type {
 // VITE_API_BASE can override (e.g. VITE_API_BASE=http://localhost:8000 for raw mode).
 export const API_BASE = (
   (import.meta as any).env?.VITE_API_BASE || "/api"
+).replace(/\/+$/, "");
+
+/** Origin for raw `fetch`. Empty = browser default (paths like `/api/...` use the proxy). */
+export const API = (
+  (import.meta as any).env?.VITE_API_ORIGIN ?? ""
 ).replace(/\/+$/, "");
 
 const http = axios.create({
@@ -111,19 +117,51 @@ export async function getAnalytics(): Promise<AnalyticsPayload> {
   return data;
 }
 
-export async function getDemoInvoices(): Promise<DemoInvoicesCatalog> {
-  const { data } = await http.get("/demo-invoices");
-  return data;
+function _normalizeDemoRow(
+  row: Record<string, unknown>,
+  index: number,
+): DemoInvoiceMeta {
+  const filename = String(row.filename ?? "");
+  const slug = filename
+    .replace(/[^a-zA-Z0-9_-]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+  return {
+    id: String(row.id ?? (slug || `demo_${index}`)),
+    filename,
+    label: String(row.label ?? ""),
+    vendor: String(row.vendor ?? ""),
+    amount: String(row.amount ?? ""),
+    expected: String(row.expected ?? row.expected_outcome ?? ""),
+    description: String(row.description ?? ""),
+  };
 }
 
-export async function fetchDemoInvoicePdf(filename: string): Promise<Blob> {
-  const { data } = await http.get(
-    `/demo-invoices/${encodeURIComponent(filename)}`,
-    {
-      responseType: "blob",
-    },
+export async function getDemoInvoices(): Promise<DemoInvoicesCatalog> {
+  const resp = await fetch(`${API}/api/demo-invoices`);
+  if (!resp.ok) {
+    const t = await resp.text();
+    throw new Error(t || `HTTP ${resp.status}`);
+  }
+  const raw = (await resp.json()) as {
+    clean?: Record<string, unknown>[];
+    fraud?: Record<string, unknown>[];
+  };
+  return {
+    clean: (raw.clean ?? []).map(_normalizeDemoRow),
+    fraud: (raw.fraud ?? []).map(_normalizeDemoRow),
+  };
+}
+
+export async function fetchDemoInvoicePdf(filename: string): Promise<File> {
+  const resp = await fetch(
+    `${API}/api/demo-invoices/${encodeURIComponent(filename)}`,
   );
-  return data as Blob;
+  if (!resp.ok) {
+    const t = await resp.text();
+    throw new Error(t || `HTTP ${resp.status}`);
+  }
+  const blob = await resp.blob();
+  return new File([blob], filename, { type: "application/pdf" });
 }
 
 // ── SSE stream of agent events ────────────────────────────────────────────────

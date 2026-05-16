@@ -48,10 +48,7 @@ export default function DemoInvoicePanel({
       setLoadingFilename(meta.filename);
       onDemoBusyChange?.(true);
       try {
-        const blob = await fetchDemoInvoicePdf(meta.filename);
-        const file = new File([blob], meta.filename, {
-          type: "application/pdf",
-        });
+        const file = await fetchDemoInvoicePdf(meta.filename);
         const { job_id } = await uploadInvoice(file);
         onJobStarted(job_id, file);
       } catch (err: unknown) {
@@ -141,7 +138,7 @@ export default function DemoInvoicePanel({
             </h3>
             <div className="flex flex-col gap-2">
               {catalog.clean.map((meta) => (
-                <DemoCard key={meta.filename} meta={meta} variant="clean" />
+                <DemoCard key={meta.id} meta={meta} variant="clean" />
               ))}
             </div>
           </div>
@@ -151,7 +148,7 @@ export default function DemoInvoicePanel({
             </h3>
             <div className="flex flex-col gap-2">
               {catalog.fraud.map((meta) => (
-                <DemoCard key={meta.filename} meta={meta} variant="fraud" />
+                <DemoCard key={meta.id} meta={meta} variant="fraud" />
               ))}
             </div>
           </div>
