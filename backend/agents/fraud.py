@@ -704,12 +704,21 @@ def detect_fraud(
         try:
             from backend.db.models import Invoice as InvoiceModel
 
+            tier = result["tier"]
+            if tier == "block":
+                row_status = "blocked"
+            elif tier == "review":
+                row_status = "flagged"
+            else:
+                row_status = "complete"
+
             db.query(InvoiceModel).filter(InvoiceModel.id == invoice_id).update(
                 {
                     "fraud_score": int(result["risk_score"] or 0),
-                    "fraud_tier": result["tier"],
-                    "status": "blocked" if result["tier"] == "block" else "flagged",
-                }
+                    "fraud_tier": tier,
+                    "status": row_status,
+                },
+                synchronize_session=False,
             )
             db.commit()
         except Exception as exc:  # noqa: BLE001

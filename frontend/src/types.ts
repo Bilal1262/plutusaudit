@@ -226,6 +226,8 @@ export interface AnalyticsSummary {
   approved: number;
   flagged: number;
   blocked: number;
+  /** Invoices that required intervention (flagged + blocked) */
+  fraud_surfaced: number;
   touchless_rate: number;
   avg_processing_seconds: number;
   fraud_value_caught: number;

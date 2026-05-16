@@ -381,14 +381,18 @@ async def _run_pipeline(job_id: str, file_bytes: bytes, filename: str, invoice_i
             },
         )
 
-        # Finalize Invoice row
-        invoice_row.status = (
-            "blocked"
-            if pipeline.get("verdict") == "BLOCKED"
-            else "flagged"
-            if pipeline.get("verdict") in ("ESCALATED", "APPROVED_WITH_WARNING")
-            else "complete"
-        )
+        # Finalize Invoice row — reconcile verifier verdict with fraud tier
+        verdict = pipeline.get("verdict")
+        fraud_tier = fraud.get("tier")
+        if verdict == "BLOCKED" or fraud_tier == "block":
+            invoice_row.status = "blocked"
+        elif (
+            verdict in ("ESCALATED", "APPROVED_WITH_WARNING")
+            or fraud_tier == "review"
+        ):
+            invoice_row.status = "flagged"
+        else:
+            invoice_row.status = "complete"
         invoice_row.fraud_tier = fraud.get("tier")
         invoice_row.fraud_score = fraud.get("risk_score")
         invoice_row.processing_time_ms = int((time.time() - t0) * 1000)
@@ -528,10 +532,12 @@ def get_analytics(db: Session = Depends(get_db)) -> dict:
 
     fraud_sum = (
         db.query(func.sum(Invoice.grand_total))
-        .filter(Invoice.status == "blocked")
+        .filter(Invoice.status.in_(["blocked", "flagged"]))
         .scalar()
     )
     fraud_value = float(fraud_sum or 0)
+
+    fraud_surfaced = (flagged or 0) + (blocked or 0)
 
     manual_cost_per_invoice = 17.00
     ai_cost_per_invoice = 0.04
@@ -563,6 +569,7 @@ def get_analytics(db: Session = Depends(get_db)) -> dict:
             "approved": approved,
             "flagged": flagged,
             "blocked": blocked,
+            "fraud_surfaced": fraud_surfaced,
             "touchless_rate": touchless_rate,
             "avg_processing_seconds": avg_seconds,
             "fraud_value_caught": fraud_value,
