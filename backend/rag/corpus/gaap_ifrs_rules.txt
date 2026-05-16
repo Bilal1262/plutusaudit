@@ -1,0 +1,1186 @@
+# VeridianAI Accounting Knowledge Base
+# GAAP / IFRS Rules for Audit AI Agent and GL Classification
+# Version: Expanded RAG-ready knowledge base
+# Source file reviewed: gaap_ifrs_rules.txt
+# Purpose: invoice classification, audit checks, journal-entry reasoning, CAPEX/OPEX decisions, accrual/prepaid detection, revenue/expense recognition, and anomaly flags.
+# Note: Apply company materiality thresholds, local statutory requirements, entity accounting policies, chart of accounts, tax law, and auditor judgment before final posting.
+# Each rule separated by ---
+# RAG fields used: STANDARD, PARAGRAPH, TOPIC, RULE, GL_CLASSIFICATION, JOURNAL_ENTRY, AUDIT_CHECKS, RED_FLAGS, KEYWORDS
+
+---
+
+---
+STANDARD: IFRS 15
+PARAGRAPH: 31
+TOPIC: Software Subscriptions and SaaS
+RULE: A software subscription or SaaS license is a service delivered over time. It represents a performance obligation satisfied ratably over the subscription period. The full invoice amount must NOT be expensed immediately. Initial recognition: Debit Prepaid Expenses (Asset), Credit Accounts Payable. Monthly amortization: Debit Subscription Expense (OPEX), Credit Prepaid Expenses. Example: A 12-month software license for $2,400 creates $200/month expense.
+KEYWORDS: software, subscription, saas, license, annual, monthly, cloud, platform
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Office Supplies and Consumables
+RULE: Office supplies purchased for immediate operational use are expensed as incurred. They do not meet capitalization criteria as they have no future economic benefit beyond the current period. Journal entry: Debit Office Supplies Expense (OPEX), Credit Accounts Payable. No deferral required. Examples: paper, pens, printer ink, folders, stationery.
+KEYWORDS: office supplies, stationery, paper, consumables, pens, printer, ink, folders
+
+---
+STANDARD: IAS 16
+PARAGRAPH: 7
+TOPIC: Property Plant and Equipment - Capitalization
+RULE: An item must be capitalized (treated as CAPEX) when it is probable that future economic benefits will flow to the entity AND the cost can be measured reliably AND the useful life exceeds one accounting period (typically 1 year). Computers, laptops, servers, and equipment with useful life over 1 year must be capitalized. Journal entry: Debit Computer Equipment / Fixed Assets (CAPEX), Credit Accounts Payable. Depreciation is then recorded over the useful life.
+KEYWORDS: laptop, computer, server, equipment, hardware, machinery, furniture, vehicle, asset
+
+---
+STANDARD: IAS 16
+PARAGRAPH: 10
+TOPIC: Low-Value Assets and Materiality Threshold
+RULE: Items below the company's capitalization threshold (commonly $500-$2,500 depending on policy) may be expensed immediately regardless of useful life. Keyboards, mice, small peripherals, and accessories typically fall below this threshold. Journal entry: Debit IT Equipment Expense (OPEX), Credit Accounts Payable.
+KEYWORDS: keyboard, mouse, peripheral, accessory, cable, monitor, headset, webcam
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Consulting and Professional Services - Expense Classification
+RULE: Consulting services, professional fees, and advisory fees received and paid by the entity are operating expenses recognized when services are rendered. Journal entry: Debit Professional Services Expense (OPEX), Credit Accounts Payable. These are NEVER classified under ASC 606 or IFRS 15 - those standards govern revenue recognition for the party delivering services, not the party receiving and paying for them.
+KEYWORDS: consulting, advisory, professional services, strategy, management consulting, advisory fee, professional fees
+
+---
+STANDARD: IAS 17 / IFRS 16
+PARAGRAPH: 22
+TOPIC: Office Rent and Lease Payments
+RULE: Short-term lease payments (lease term 12 months or less) or low-value asset leases are expensed as incurred under IFRS 16 simplified approach. Journal entry: Debit Rent Expense (OPEX), Credit Accounts Payable. Long-term leases (over 12 months) require right-of-use asset recognition: Debit Right-of-Use Asset, Credit Lease Liability.
+KEYWORDS: rent, lease, office space, premises, facility, building, coworking, workspace
+
+---
+STANDARD: ASC 946 / IAS 38
+PARAGRAPH: 18
+TOPIC: Marketing and Advertising Expenses
+RULE: Marketing, advertising, and promotional expenses are expensed as incurred. They do not meet the criteria for intangible asset recognition as future benefits are uncertain and cannot be reliably measured. Journal entry: Debit Marketing Expense / Advertising Expense (OPEX), Credit Accounts Payable.
+KEYWORDS: marketing, advertising, promotion, campaign, social media, digital marketing, branding, PR
+
+---
+STANDARD: ASC 740
+PARAGRAPH: 10
+TOPIC: Travel and Entertainment Expenses
+RULE: Travel expenses for business purposes are expensed as incurred in the period the travel occurs. Journal entry: Debit Travel Expense (OPEX), Credit Accounts Payable or Employee Expense Payable. Entertainment expenses require documentation of business purpose. Meals are typically 50% deductible for tax purposes but fully expensed for accounting purposes.
+KEYWORDS: travel, flight, hotel, accommodation, meals, entertainment, taxi, transport, conference
+
+---
+STANDARD: IAS 38
+PARAGRAPH: 54
+TOPIC: Research and Development
+RULE: Research costs must always be expensed as incurred - they cannot be capitalized. Development costs may be capitalized only when technical feasibility, intention to complete, ability to use or sell, and reliable measurement are all demonstrated. Journal entry for research: Debit R&D Expense (OPEX), Credit Accounts Payable.
+KEYWORDS: research, development, R&D, prototype, feasibility study, innovation, testing
+
+---
+STANDARD: ASC 420
+PARAGRAPH: 15
+TOPIC: Utilities and Operating Expenses
+RULE: Utility expenses including electricity, water, internet, and telecommunications are operating expenses incurred in the period of use. Journal entry: Debit Utilities Expense (OPEX), Credit Accounts Payable. These are never capitalized.
+KEYWORDS: electricity, utilities, internet, broadband, telephone, water, gas, telecoms, wifi
+
+---
+STANDARD: IAS 19
+PARAGRAPH: 11
+TOPIC: Employee Training and Development
+RULE: Employee training, development, and education costs are expensed as incurred. They cannot be capitalized as intangible assets because the company does not control the future economic benefits (employee could leave). Journal entry: Debit Training Expense (OPEX), Credit Accounts Payable.
+KEYWORDS: training, education, course, certification, workshop, seminar, conference registration, learning
+
+---
+STANDARD: ASC 350
+PARAGRAPH: 40
+TOPIC: Software Development Costs - Internal Use
+RULE: Internal-use software development costs during the application development stage are capitalized. Preliminary project stage and post-implementation stage costs are expensed. For purchased software with useful life over 1 year: capitalize and amortize. Journal entry: Debit Intangible Assets - Software (CAPEX), Credit Accounts Payable.
+KEYWORDS: software development, custom software, implementation, system integration, ERP, CRM, development hours
+
+---
+STANDARD: IFRS 15
+PARAGRAPH: 106
+TOPIC: Maintenance and Support Contracts
+RULE: Annual maintenance and support contracts for software or equipment are recognized ratably over the contract period, similar to subscriptions. If the maintenance period spans multiple accounting periods, the prepaid portion is deferred. Journal entry: Debit Prepaid Maintenance, Credit Accounts Payable. Monthly: Debit Maintenance Expense, Credit Prepaid Maintenance.
+KEYWORDS: maintenance, support, annual support, warranty, service contract, helpdesk, technical support
+
+---
+STANDARD: IAS 2
+PARAGRAPH: 10
+TOPIC: Inventory and Stock Purchases
+RULE: Goods purchased for resale or for use in production are recorded as inventory (asset) not as expense. Journal entry: Debit Inventory (Asset), Credit Accounts Payable. The inventory is expensed as Cost of Goods Sold (COGS) when the goods are sold. Raw materials for manufacturing follow the same treatment.
+KEYWORDS: inventory, stock, goods, raw materials, components, parts, resale, manufacturing, merchandise
+
+---
+STANDARD: ASC 835
+PARAGRAPH: 20
+TOPIC: Interest and Finance Charges
+RULE: Interest expense on borrowings and finance charges are expensed in the period incurred. They are not capitalized unless directly attributable to the acquisition of a qualifying asset under IAS 23. Journal entry: Debit Interest Expense (Finance Cost), Credit Accounts Payable or Accrued Interest.
+KEYWORDS: interest, finance charge, bank fee, loan fee, borrowing cost, credit facility
+
+---
+STANDARD: IFRS 15
+PARAGRAPH: 38
+TOPIC: Recruitment and Staffing Agency Fees
+RULE: Recruitment fees paid to staffing agencies for hiring permanent employees are expensed as incurred as they represent the cost of the recruitment service already rendered. Journal entry: Debit Recruitment Expense (OPEX), Credit Accounts Payable. They are not capitalized as part of employee cost.
+KEYWORDS: recruitment, staffing, agency, headhunter, hiring fee, placement fee, temp agency
+
+---
+STANDARD: IAS 37
+PARAGRAPH: 14
+TOPIC: Insurance Premiums
+RULE: Insurance premiums covering future periods are initially recorded as prepaid assets and expensed ratably over the coverage period. Journal entry on payment: Debit Prepaid Insurance (Asset), Credit Accounts Payable. Monthly: Debit Insurance Expense, Credit Prepaid Insurance.
+KEYWORDS: insurance, premium, indemnity, liability insurance, professional indemnity, cyber insurance, coverage
+
+---
+STANDARD: ASC 840
+PARAGRAPH: 16
+TOPIC: Printing and Reproduction Services
+RULE: Printing, copying, and document reproduction services used in operations are operating expenses incurred in the period. Journal entry: Debit Printing and Stationery Expense (OPEX), Credit Accounts Payable. Large print runs for marketing may be classified under Marketing Expense.
+KEYWORDS: printing, reproduction, copying, brochure, flyer, banner, signage, print run
+
+---
+STANDARD: IAS 16
+PARAGRAPH: 15
+TOPIC: Vehicle and Fleet Expenses
+RULE: Company vehicles with useful life over 1 year are capitalized as fixed assets. Journal entry: Debit Vehicles (CAPEX), Credit Accounts Payable. Running costs (fuel, servicing, insurance) are OPEX. Debit Vehicle Running Costs, Credit Accounts Payable. Leased vehicles under IFRS 16 require right-of-use asset recognition for leases over 12 months.
+KEYWORDS: vehicle, car, van, fleet, automobile, truck, lease vehicle, company car
+
+---
+STANDARD: ASC 605
+PARAGRAPH: 25
+TOPIC: Freight Shipping and Delivery
+RULE: Freight and shipping costs for delivering goods to customers are selling expenses (OPEX). Freight costs for receiving inventory are part of inventory cost (capitalized into inventory value). Journal entry for delivery: Debit Freight Out Expense, Credit Accounts Payable. For receiving: Debit Inventory, Credit Accounts Payable.
+KEYWORDS: freight, shipping, delivery, courier, logistics, DHL, FedEx, UPS, postage, dispatch
+
+---
+STANDARD: IAS 16
+PARAGRAPH: 7b
+TOPIC: Tangible Fixed Assets - Furniture and Fittings
+RULE: Furniture, fixtures, and high-value decorative items such as rugs, art, and furnishings with a cost above the capitalization threshold and useful life exceeding one accounting period are capitalized as Furniture and Fittings under Property Plant and Equipment. Journal entry: Debit Furniture and Fittings (CAPEX), Credit Accounts Payable. Low-value items below the capitalization threshold ($500-$2,500 depending on company policy) are expensed as Office Supplies Expense or Sundry Expenses.
+KEYWORDS: rug, carpet, furniture, furnishings, fixtures, fittings, decorative, art, painting
+
+# --- Expanded rules added for Audit AI / RAG coverage ---
+---
+STANDARD: IAS 1 / ASC 205
+PARAGRAPH: IAS 1.15-17 / ASC 205-10
+TOPIC: Substance Over Form and Fair Presentation
+RULE: Classify transactions based on economic substance, not invoice wording alone. When invoice text conflicts with contract terms, service period, delivery evidence, asset control, or business purpose, use the underlying substance.
+GL_CLASSIFICATION: Depends on substance: asset, liability, equity, revenue, expense, COGS, CAPEX, OPEX, finance cost, or tax.
+JOURNAL_ENTRY: Use the entry required by the underlying transaction after inspecting contract, invoice, receipt, PO, service period, and approval trail.
+AUDIT_CHECKS: Compare invoice description, PO, contract, delivery evidence, vendor master, payment terms, and period of benefit.
+RED_FLAGS: vague invoice description, round-dollar invoice, related-party vendor, missing support, management override, unusual coding, invoice split below approval threshold.
+KEYWORDS: substance over form, fair presentation, economic substance, classification, audit judgment, supporting documents
+
+---
+STANDARD: IAS 1 / ASC 250
+PARAGRAPH: IAS 1.27-28 / ASC 250-10
+TOPIC: Accrual Basis and Period Cut-Off
+RULE: Revenue and expenses are recognized when earned or incurred, not when cash is received or paid. If goods or services were received before period-end but invoiced after period-end, an accrual is required.
+GL_CLASSIFICATION: Accrued Expense, Accrued Revenue, Accounts Payable, Revenue, Expense.
+JOURNAL_ENTRY: Accrue expense: Debit Expense or Asset, Credit Accrued Liabilities. Reverse on invoice receipt: Debit Accrued Liabilities, Credit Accounts Payable.
+AUDIT_CHECKS: Search post-period invoices, unmatched POs, receiving reports, vendor statements, payroll cut-off, utility bills, and legal invoices.
+RED_FLAGS: invoices after close for prior-period services, no accrual reversal, unusually low expenses near period-end, manual top-side accruals.
+KEYWORDS: accrual, cut-off, incurred, received not invoiced, GRNI, unbilled, period end, matching
+
+---
+STANDARD: IAS 1 / ASC 210
+PARAGRAPH: IAS 1.66-76 / ASC 210-10
+TOPIC: Current vs Noncurrent Classification
+RULE: Assets and liabilities expected to be realized, consumed, settled, or paid within the normal operating cycle or within 12 months are current. Amounts due beyond 12 months are noncurrent unless due on demand or covenant breach makes them current.
+GL_CLASSIFICATION: Current Asset, Noncurrent Asset, Current Liability, Noncurrent Liability.
+JOURNAL_ENTRY: Reclass current portion: Debit Long-Term Liability, Credit Current Portion of Debt.
+AUDIT_CHECKS: Inspect maturity schedules, loan agreements, covenant compliance, payment terms, and aging reports.
+RED_FLAGS: covenant breach not considered, old receivables shown current without collection support, long-term debt not split.
+KEYWORDS: current, noncurrent, long term, short term, maturity, due within one year, operating cycle
+
+---
+STANDARD: IAS 16 / ASC 360
+PARAGRAPH: IAS 16.12-14 / ASC 360-10
+TOPIC: Repairs and Maintenance vs Capital Improvements
+RULE: Routine repairs and maintenance are expensed as incurred. Costs that enhance capacity, extend useful life, improve performance beyond original condition, or replace a major component may be capitalized if recognition criteria are met.
+GL_CLASSIFICATION: Repairs Expense, Maintenance Expense, Fixed Asset Addition, Leasehold Improvement.
+JOURNAL_ENTRY: Routine repair: Debit Repairs and Maintenance Expense, Credit AP. Capital improvement: Debit Fixed Asset or Leasehold Improvement, Credit AP.
+AUDIT_CHECKS: Review work orders, engineering description, useful-life impact, component replacement evidence, and before/after condition.
+RED_FLAGS: normal repairs capitalized, major replacement capitalized without removing old component, expense deferral to improve EBITDA.
+KEYWORDS: repair, maintenance, upgrade, overhaul, improvement, renovation, replacement, refurbishment
+
+---
+STANDARD: IFRS 16 / ASC 842
+PARAGRAPH: IFRS 16.22 / ASC 842-20
+TOPIC: Lease Recognition - Lessee Accounting
+RULE: A lease generally creates a right-of-use asset and lease liability when the entity controls the use of an identified asset for a period of time in exchange for consideration. IFRS allows exemptions for short-term leases and low-value assets. US GAAP recognizes both operating and finance leases on balance sheet for lessees.
+GL_CLASSIFICATION: Right-of-Use Asset, Lease Liability, Lease Expense, Depreciation, Interest Expense.
+JOURNAL_ENTRY: Commencement: Debit Right-of-Use Asset, Credit Lease Liability. Payment: Debit Lease Liability and Interest Expense, Credit Cash or AP.
+AUDIT_CHECKS: Inspect lease term, renewal options, discount rate, embedded leases, non-lease components, commencement date, and exemptions.
+RED_FLAGS: long-term lease expensed only monthly, embedded lease missed in service contract, renewal option excluded without support.
+KEYWORDS: lease, rent, right-of-use, ROU, lease liability, office lease, vehicle lease, equipment lease
+
+---
+STANDARD: IFRS 16 / ASC 842
+PARAGRAPH: IFRS 16.5-6 / ASC 842-20-25
+TOPIC: Short-Term and Low-Value Leases
+RULE: Short-term leases of 12 months or less and, under IFRS, low-value asset leases may be expensed if the entity elects the exemption. Purchase options or likely renewals may prevent short-term treatment.
+GL_CLASSIFICATION: Rent Expense, Lease Expense, Equipment Rental Expense.
+JOURNAL_ENTRY: Debit Rent Expense or Lease Expense, Credit AP or Cash.
+AUDIT_CHECKS: Verify lease term, renewal options, cancellation rights, asset value, and policy election.
+RED_FLAGS: rolling 12-month contracts that are economically long-term, renewal options ignored, exemption applied inconsistently.
+KEYWORDS: short-term lease, low-value lease, rental, coworking, temporary office, month to month
+
+---
+STANDARD: ASC 350-40 / IAS 38
+PARAGRAPH: ASC 350-40-25 / IAS 38.57
+TOPIC: Internal-Use Software Development Costs
+RULE: Internal-use software costs are expensed during the preliminary project stage, capitalized during the application development stage when criteria are met, and expensed during training and post-implementation maintenance. Purchased software with useful life over one year may be capitalized if controlled by the entity.
+GL_CLASSIFICATION: Software Asset, Intangible Asset, Software Development Expense, Training Expense.
+JOURNAL_ENTRY: Capitalized stage: Debit Internal-Use Software Asset, Credit AP or Payroll Accrual. Expense stage: Debit Software Development Expense, Credit AP or Payroll Accrual.
+AUDIT_CHECKS: Review project phase, time tracking, vendor SOW, go-live date, training costs, maintenance tickets, and useful life.
+RED_FLAGS: preliminary planning capitalized, training capitalized, post-go-live support capitalized, unsupported developer time allocations.
+KEYWORDS: software development, custom software, implementation, ERP, CRM, coding, configuration, system integration
+
+---
+STANDARD: ASC 350-40 / IAS 38
+PARAGRAPH: ASC 350-40-25 / IAS 38.21
+TOPIC: Cloud Computing Implementation Costs
+RULE: SaaS access fees are usually service costs recognized over the service period. Certain cloud implementation costs may be deferred under US GAAP if they would qualify under internal-use software guidance. Under IFRS, configuration/customization is often expensed unless a controlled intangible asset is created.
+GL_CLASSIFICATION: Prepaid SaaS, Deferred Implementation Cost, Implementation Expense, Subscription Expense.
+JOURNAL_ENTRY: Eligible deferral: Debit Deferred Cloud Implementation Costs, Credit AP. Amortization: Debit Implementation Amortization Expense, Credit Deferred Costs.
+AUDIT_CHECKS: Separate hosting access, configuration, customization, training, data conversion, maintenance, and contract term.
+RED_FLAGS: all cloud implementation capitalized, training/data cleansing deferred, no SaaS contract term support.
+KEYWORDS: cloud implementation, SaaS implementation, configuration, customization, migration, data conversion, setup fee
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.22-30 / ASC 606-10-25
+TOPIC: Revenue Recognition - Five Step Model
+RULE: Revenue is recognized by applying the five-step model: identify contract, identify performance obligations, determine transaction price, allocate transaction price, and recognize revenue when or as obligations are satisfied. Billing alone does not determine revenue recognition.
+GL_CLASSIFICATION: Revenue, Contract Asset, Contract Liability, Deferred Revenue, Accounts Receivable.
+JOURNAL_ENTRY: Invoice before performance: Debit AR, Credit Deferred Revenue. Revenue recognition: Debit Deferred Revenue or Contract Asset, Credit Revenue.
+AUDIT_CHECKS: Inspect contract, PO, invoice, delivery evidence, acceptance clauses, variable consideration, and performance obligation matrix.
+RED_FLAGS: revenue before delivery, side letters, unusual quarter-end sales, bill-and-hold, manual revenue entries, missing acceptance.
+KEYWORDS: revenue, contract, performance obligation, transaction price, deferred revenue, contract liability, ASC 606, IFRS 15
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.35 / ASC 606-10-25-27
+TOPIC: Revenue Over Time vs Point in Time
+RULE: Revenue is recognized over time if the customer receives and consumes benefits as performed, controls the asset as created, or the asset has no alternative use and there is an enforceable right to payment. Otherwise recognize at a point in time when control transfers.
+GL_CLASSIFICATION: Revenue, Contract Asset, Deferred Revenue.
+JOURNAL_ENTRY: Over time: Debit Contract Asset or Deferred Revenue, Credit Revenue based on progress. Point in time: Debit AR, Credit Revenue when control transfers.
+AUDIT_CHECKS: Review delivery terms, customer acceptance, milestones, progress measures, enforceable right to payment, and cancellation terms.
+RED_FLAGS: milestone billing treated as revenue without performance evidence, unsupported percentage completion, point-in-time product revenue spread incorrectly.
+KEYWORDS: over time, point in time, milestone, progress, control transfer, customer acceptance
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.106-108 / ASC 606-10-45
+TOPIC: Deferred Revenue, Contract Assets, and Unbilled Revenue
+RULE: Amounts billed or collected before performance are contract liabilities or deferred revenue. If revenue is recognized before the unconditional right to invoice, record contract asset or unbilled revenue and reclassify to AR when billing right becomes unconditional.
+GL_CLASSIFICATION: Deferred Revenue, Contract Liability, Contract Asset, Unbilled Revenue, Revenue.
+JOURNAL_ENTRY: Advance billing: Debit AR/Cash, Credit Deferred Revenue. Earned unbilled revenue: Debit Contract Asset, Credit Revenue. Billing later: Debit AR, Credit Contract Asset.
+AUDIT_CHECKS: Reconcile deferred revenue rollforward, service periods, unbilled schedules, milestone evidence, and subsequent invoices.
+RED_FLAGS: annual contracts recognized upfront, old unbilled balances, negative deferred revenue, revenue schedule missing.
+KEYWORDS: deferred revenue, contract asset, unbilled revenue, unearned revenue, advance billing, contract liability
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.50-59 / ASC 606-10-32
+TOPIC: Variable Consideration and Refund Liabilities
+RULE: Discounts, rebates, credits, penalties, returns, SLA credits, and performance bonuses are variable consideration. Estimate variable consideration and constrain revenue to amounts not expected to reverse significantly.
+GL_CLASSIFICATION: Revenue Reduction, Refund Liability, Accrued Rebate, Contract Liability.
+JOURNAL_ENTRY: Estimate rebate or refund: Debit Revenue or Sales Discounts, Credit Refund Liability or Accrued Rebates.
+AUDIT_CHECKS: Review historical returns, rebate agreements, SLA clauses, credit notes, and post-period adjustments.
+RED_FLAGS: rebates ignored, no constraint analysis, large credit notes after year-end, manual revenue top-side entries.
+KEYWORDS: rebate, discount, refund, return, credit note, variable consideration, SLA credit, penalty
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.B34-B38 / ASC 606-10-55
+TOPIC: Principal vs Agent Revenue
+RULE: If the entity controls the good or service before transfer to the customer, it is principal and recognizes gross revenue. If it arranges for another party to provide the good or service, it is agent and recognizes net commission or fee revenue.
+GL_CLASSIFICATION: Gross Revenue, Net Revenue, Commission Revenue, COGS.
+JOURNAL_ENTRY: Principal: Debit AR, Credit Revenue; Debit COGS, Credit Inventory/AP. Agent: Debit AR/Cash, Credit Commission Revenue and supplier payable as applicable.
+AUDIT_CHECKS: Review control indicators, inventory risk, pricing discretion, fulfillment responsibility, and supplier/customer contracts.
+RED_FLAGS: gross revenue for pass-through services, no COGS for principal arrangement, inconsistent treatment by contract.
+KEYWORDS: principal, agent, gross revenue, net revenue, marketplace, reseller, pass through, commission
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.B79-B82 / ASC 606-10-55
+TOPIC: Bill-and-Hold Arrangements
+RULE: Bill-and-hold revenue is recognized only when strict criteria are met, including substantive reason, product separately identified as customer-owned, ready for transfer, and inability to use or redirect the product.
+GL_CLASSIFICATION: Revenue, Deferred Revenue, Inventory, COGS.
+JOURNAL_ENTRY: If criteria met: Debit AR, Credit Revenue; Debit COGS, Credit Inventory. If not met: Debit AR/Cash, Credit Deferred Revenue.
+AUDIT_CHECKS: Inspect customer request, segregation evidence, readiness for delivery, shipping schedule, and inability to redirect.
+RED_FLAGS: quarter-end bill-and-hold without customer request, goods not segregated, goods still available for other customers.
+KEYWORDS: bill and hold, warehouse, customer request, delivery delay, revenue cut-off, segregation
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.B20-B27 / ASC 606-10-55
+TOPIC: Consignment Inventory
+RULE: Products delivered on consignment remain inventory of the consignor until control transfers to an end customer or other sale criteria are met. Delivery to the consignee alone does not create revenue.
+GL_CLASSIFICATION: Consignment Inventory, Revenue, COGS.
+JOURNAL_ENTRY: Transfer to consignee: reclassify inventory if needed, no revenue. End sale: Debit AR/Cash, Credit Revenue; Debit COGS, Credit Inventory.
+AUDIT_CHECKS: Review consignment agreements, sell-through reports, return rights, inventory confirmations, and cut-off.
+RED_FLAGS: revenue recorded when shipped to consignee, consigned inventory omitted from count, old consigned stock not reserved.
+KEYWORDS: consignment, consignee, sell-through, channel inventory, return rights, distributor
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.B64-B76 / ASC 606-10-55
+TOPIC: Customer Options, Loyalty Points, and Material Rights
+RULE: Loyalty points, renewal discounts, coupons, free goods, and customer options are separate performance obligations if they provide a material right beyond what similar customers receive. Allocate transaction price and defer revenue for the material right.
+GL_CLASSIFICATION: Deferred Revenue, Contract Liability, Revenue.
+JOURNAL_ENTRY: Debit Cash/AR, Credit Revenue and Deferred Revenue based on allocation. On redemption or expiry: Debit Deferred Revenue, Credit Revenue.
+AUDIT_CHECKS: Review loyalty terms, redemption history, standalone selling prices, breakage estimates, and expiry.
+RED_FLAGS: loyalty points ignored, all revenue recognized upfront, unsupported breakage assumption.
+KEYWORDS: loyalty points, coupon, material right, renewal option, discount, free goods, rewards
+
+---
+STANDARD: IFRS 15 / ASC 606
+PARAGRAPH: IFRS 15.60-65 / ASC 606-10-32
+TOPIC: Significant Financing Component
+RULE: If payment timing provides a significant financing benefit to customer or entity, adjust transaction price for time value of money unless a practical expedient applies, such as one year or less between transfer and payment.
+GL_CLASSIFICATION: Revenue, Interest Income, Interest Expense, Contract Asset, Contract Liability.
+JOURNAL_ENTRY: Seller financing: recognize revenue at present value and interest income over time.
+AUDIT_CHECKS: Compare payment timing to performance timing, interest rates, advance payments, and financing purpose.
+RED_FLAGS: multi-year upfront payments without financing assessment, extended payment terms treated as normal revenue.
+KEYWORDS: significant financing, advance payment, extended terms, time value, interest income, deferred payment
+
+---
+STANDARD: ASC 340-40 / IFRS 15
+PARAGRAPH: ASC 340-40-25 / IFRS 15.91-98
+TOPIC: Contract Costs - Sales Commissions and Fulfillment Costs
+RULE: Incremental costs of obtaining a contract, such as recoverable sales commissions, are capitalized unless the amortization period is one year or less and practical expedient is elected. Fulfillment costs are capitalized only if they relate directly to a contract, generate resources used to satisfy obligations, and are expected to be recovered.
+GL_CLASSIFICATION: Deferred Contract Cost, Commission Expense, Contract Fulfillment Asset, COGS.
+JOURNAL_ENTRY: Capitalize commission: Debit Deferred Contract Costs, Credit Commissions Payable. Amortize: Debit Commission Expense, Credit Deferred Contract Costs.
+AUDIT_CHECKS: Review commission plan, contract term, renewal commissions, clawbacks, direct cost link, and recoverability.
+RED_FLAGS: commissions capitalized for failed bids, all commissions expensed despite multi-year contracts, general overhead capitalized.
+KEYWORDS: sales commission, contract cost, deferred commission, fulfillment cost, onboarding, customer acquisition cost
+
+---
+STANDARD: IAS 2 / ASC 330
+PARAGRAPH: IAS 2.10-18 / ASC 330-10
+TOPIC: Inventory Cost Components
+RULE: Inventory cost includes purchase price, import duties, non-refundable taxes, freight-in, handling, conversion costs, and costs directly attributable to bringing inventory to present location and condition. Inventory is expensed as COGS when sold.
+GL_CLASSIFICATION: Inventory Asset, Raw Materials, Work in Process, Finished Goods, COGS.
+JOURNAL_ENTRY: Purchase: Debit Inventory, Credit AP. Sale: Debit COGS, Credit Inventory.
+AUDIT_CHECKS: Verify receiving, ownership transfer, freight terms, costing method, physical count, and cut-off.
+RED_FLAGS: freight-in expensed while inventory remains unsold, obsolete stock not reserved, missing receiving documents.
+KEYWORDS: inventory, stock, raw materials, finished goods, landed cost, freight-in, COGS
+
+---
+STANDARD: IAS 2 / ASC 330
+PARAGRAPH: IAS 2.28-33 / ASC 330-10-35
+TOPIC: Inventory Net Realizable Value and Obsolescence
+RULE: Inventory is written down when cost is not recoverable due to damage, obsolescence, slow movement, declining selling prices, or excess stock. IFRS uses lower of cost and net realizable value; US GAAP treatment depends on inventory method.
+GL_CLASSIFICATION: Inventory Write-Down Expense, Inventory Reserve, COGS.
+JOURNAL_ENTRY: Debit Inventory Write-Down Expense or COGS, Credit Inventory or Inventory Reserve.
+AUDIT_CHECKS: Analyze aging, slow-moving items, post-period sales, margins, physical damage, and discontinued products.
+RED_FLAGS: old stock with no reserve, negative margins, large discounts after year-end, management override of reserve.
+KEYWORDS: obsolete inventory, NRV, write-down, slow moving, damaged goods, excess stock, reserve
+
+---
+STANDARD: IAS 2 / ASC 330
+PARAGRAPH: IAS 2.16 / ASC 330-10
+TOPIC: Abnormal Waste, Storage, and Production Inefficiency
+RULE: Abnormal waste, excessive spoilage, avoidable rework, idle capacity costs, and storage not necessary for production are expensed as incurred rather than included in inventory.
+GL_CLASSIFICATION: Production Variance Expense, Scrap Expense, Storage Expense.
+JOURNAL_ENTRY: Debit Scrap or Production Variance Expense, Credit Inventory or AP.
+AUDIT_CHECKS: Compare standard vs actual usage, scrap reports, capacity utilization, and warehouse purpose.
+RED_FLAGS: abnormal losses capitalized into inventory, unexplained production variances, no scrap approval.
+KEYWORDS: scrap, spoilage, abnormal waste, rework, storage, idle capacity, production variance
+
+---
+STANDARD: IAS 2 / ASC 330
+PARAGRAPH: IAS 2.25 / ASC 330-10
+TOPIC: Inventory Costing Methods
+RULE: Inventory cost flow assumptions must be applied consistently. IFRS permits FIFO and weighted average but prohibits LIFO. US GAAP permits FIFO, weighted average, specific identification, and LIFO when elected.
+GL_CLASSIFICATION: Inventory, COGS, LIFO Reserve under US GAAP if applicable.
+JOURNAL_ENTRY: Normal inventory and COGS entries; adjust reserve if applicable.
+AUDIT_CHECKS: Review costing method, system settings, cost layers, consistency, and inventory rollforward.
+RED_FLAGS: LIFO used in IFRS reporting, costing method changed without disclosure, negative inventory quantities.
+KEYWORDS: FIFO, LIFO, weighted average, specific identification, inventory costing, cost flow
+
+---
+STANDARD: IAS 23 / ASC 835-20
+PARAGRAPH: IAS 23.8 / ASC 835-20
+TOPIC: Borrowing Costs Capitalization
+RULE: Borrowing costs directly attributable to acquiring, constructing, or producing a qualifying asset are capitalized while the asset is being prepared for intended use or sale. Other interest costs are expensed as incurred.
+GL_CLASSIFICATION: Capitalized Interest, Interest Expense, Qualifying Asset.
+JOURNAL_ENTRY: Capitalize eligible interest: Debit CIP or Qualifying Asset, Credit Interest Payable or Cash. Expense other interest: Debit Interest Expense, Credit Accrued Interest.
+AUDIT_CHECKS: Verify qualifying asset, capitalization period, borrowing rate, suspension periods, and placed-in-service date.
+RED_FLAGS: interest capitalized after asset ready for use, working-capital interest capitalized, no calculation support.
+KEYWORDS: interest, borrowing cost, capitalized interest, qualifying asset, construction, loan, finance charge
+
+---
+STANDARD: IAS 36 / ASC 360
+PARAGRAPH: IAS 36.9-12 / ASC 360-10-35
+TOPIC: Impairment of Long-Lived Assets
+RULE: Assets are tested for impairment when indicators exist. IFRS compares carrying amount to recoverable amount. US GAAP long-lived assets held and used first use an undiscounted cash flow recoverability test, then fair value measurement if not recoverable.
+GL_CLASSIFICATION: Impairment Loss, Accumulated Impairment, Fixed Assets, Intangibles.
+JOURNAL_ENTRY: Debit Impairment Loss, Credit Asset or Accumulated Impairment.
+AUDIT_CHECKS: Review market decline, underperformance, idle assets, restructuring plans, cash flow forecasts, discount rates, and fair value support.
+RED_FLAGS: negative cash flows without impairment assessment, idle assets still fully valued, unsupported forecasts.
+KEYWORDS: impairment, recoverable amount, fair value, value in use, CGU, long-lived asset
+
+---
+STANDARD: IAS 36 / ASC 350
+PARAGRAPH: IAS 36.90 / ASC 350-20
+TOPIC: Goodwill Impairment
+RULE: Goodwill is not amortized under IFRS or US GAAP. It is tested for impairment annually and when indicators exist. Goodwill is allocated to CGUs under IFRS or reporting units under US GAAP.
+GL_CLASSIFICATION: Goodwill, Impairment Loss.
+JOURNAL_ENTRY: Debit Goodwill Impairment Loss, Credit Goodwill.
+AUDIT_CHECKS: Review acquisition model, CGU/reporting unit allocation, annual impairment test, discount rate, growth assumptions, and sensitivity analysis.
+RED_FLAGS: market capitalization below book value, missed annual test, aggressive terminal growth, no sensitivity analysis.
+KEYWORDS: goodwill, impairment, acquisition, CGU, reporting unit, purchase price allocation
+
+---
+STANDARD: IFRS 3 / ASC 805
+PARAGRAPH: IFRS 3.10-19 / ASC 805-20
+TOPIC: Business Combination and Acquisition Accounting
+RULE: In a business combination, identifiable assets acquired and liabilities assumed are recognized at acquisition-date fair value, with goodwill or bargain purchase gain for the difference. Acquisition-related transaction costs are generally expensed, not included in consideration transferred.
+GL_CLASSIFICATION: Assets Acquired, Liabilities Assumed, Goodwill, Acquisition Costs Expense.
+JOURNAL_ENTRY: Debit identifiable assets and goodwill, Credit liabilities assumed and consideration payable. Expense transaction costs: Debit Acquisition Costs Expense, Credit AP.
+AUDIT_CHECKS: Review purchase agreement, control date, valuation reports, contingent consideration, and transaction costs.
+RED_FLAGS: acquisition legal/advisory fees capitalized into goodwill, incomplete liability recognition, unsupported fair values.
+KEYWORDS: acquisition, business combination, goodwill, PPA, due diligence, transaction costs
+
+---
+STANDARD: IAS 37 / ASC 450
+PARAGRAPH: IAS 37.14 / ASC 450-20
+TOPIC: Provisions and Contingent Liabilities
+RULE: Recognize a provision when there is a present obligation from a past event, outflow is probable, and amount can be reliably estimated. Under US GAAP, loss contingencies are accrued when probable and reasonably estimable. Possible obligations are disclosed but not recognized.
+GL_CLASSIFICATION: Provision, Accrued Liability, Legal Expense, Contingent Liability Disclosure.
+JOURNAL_ENTRY: Debit Relevant Expense, Credit Provision or Accrued Liability.
+AUDIT_CHECKS: Review legal letters, board minutes, claims, warranties, restructuring plans, post-period settlements, and estimates.
+RED_FLAGS: lawsuits with no accrual analysis, cookie-jar reserves, lack of legal confirmation.
+KEYWORDS: provision, contingency, legal claim, lawsuit, probable, estimate, accrued liability
+
+---
+STANDARD: IAS 37 / ASC 460 / ASC 606
+PARAGRAPH: IAS 37.24 / ASC 606-10-55
+TOPIC: Warranty Obligations
+RULE: Assurance-type warranties are accrued when the related sale occurs based on expected costs. Service-type warranties are separate performance obligations and revenue is deferred and recognized over the service period.
+GL_CLASSIFICATION: Warranty Expense, Warranty Provision, Deferred Revenue, Service Revenue.
+JOURNAL_ENTRY: Assurance warranty: Debit Warranty Expense, Credit Warranty Provision. Service warranty: Debit Cash/AR, Credit Deferred Revenue; then Debit Deferred Revenue, Credit Revenue over time.
+AUDIT_CHECKS: Review warranty terms, claims history, product failure rates, sales volume, and separate pricing.
+RED_FLAGS: warranty reserve unchanged despite sales growth, service warranty revenue recognized upfront, known defects ignored.
+KEYWORDS: warranty, guarantee, service plan, assurance warranty, extended warranty, repair obligation
+
+---
+STANDARD: IAS 19 / ASC 710
+PARAGRAPH: IAS 19.11 / ASC 710-10
+TOPIC: Payroll, Bonuses, Commissions, and Vacation Accruals
+RULE: Wages, salaries, bonuses, commissions, vacation pay, and payroll taxes are accrued when employees render service, even if paid later. Accumulating compensated absences are accrued when earned if criteria are met.
+GL_CLASSIFICATION: Salary Expense, Bonus Expense, Commission Expense, Payroll Tax Expense, Accrued Payroll, Vacation Accrual.
+JOURNAL_ENTRY: Debit Salary/Bonus/Commission/Payroll Tax Expense, Credit Accrued Payroll or Payroll Taxes Payable.
+AUDIT_CHECKS: Reconcile payroll register, HR records, bonus plans, commission reports, vacation balances, and post-period payments.
+RED_FLAGS: missing bonus accrual, payroll cut-off errors, ghost employees, duplicate bank accounts, unusual manual payroll entries.
+KEYWORDS: payroll, salary, wages, bonus, commission, vacation, holiday pay, employee, payroll tax
+
+---
+STANDARD: IAS 19 / ASC 715
+PARAGRAPH: IAS 19.57 / ASC 715-30
+TOPIC: Pension and Post-Employment Benefits
+RULE: Defined contribution plans are expensed as contributions become payable. Defined benefit plans require actuarial measurement of obligation and plan assets, with service cost, interest cost, remeasurements, and disclosures under applicable standards.
+GL_CLASSIFICATION: Pension Expense, Pension Liability, Plan Assets, OCI.
+JOURNAL_ENTRY: Defined contribution: Debit Pension Expense, Credit Accrued Contributions. Defined benefit entries depend on actuarial valuation.
+AUDIT_CHECKS: Obtain actuarial report, plan asset confirmation, assumptions, contribution schedule, and payroll reconciliation.
+RED_FLAGS: no actuarial update, unsupported discount rate, unrecorded plan deficit, late contributions.
+KEYWORDS: pension, retirement, defined benefit, defined contribution, actuarial, post-employment
+
+---
+STANDARD: IFRS 2 / ASC 718
+PARAGRAPH: 718-10-50
+TOPIC: Share-Based Compensation
+RULE: Equity-settled share-based awards are measured at grant-date fair value and expensed over the vesting period. Liability-classified awards are remeasured until settlement. Forfeitures, modifications, and performance conditions must be evaluated.
+GL_CLASSIFICATION: Share-Based Compensation Expense, Additional Paid-In Capital, Equity Reserve, Share-Based Payment Liability.
+JOURNAL_ENTRY: Equity award vesting: Debit Share-Based Compensation Expense, Credit APIC or Equity Reserve.
+AUDIT_CHECKS: Review grant agreements, board approvals, vesting terms, valuation model, forfeiture assumptions, and modifications.
+RED_FLAGS: missing expense for options or RSUs, unsupported fair value, backdated grants, unapproved modifications.
+KEYWORDS: stock option, RSU, share based compensation, equity award, vesting, grant date
+
+---
+STANDARD: IAS 12 / ASC 740
+PARAGRAPH: IAS 12.15-24 / ASC 740-10
+TOPIC: Income Taxes - Current and Deferred
+RULE: Current tax is recognized for taxes payable or recoverable for the period. Deferred tax assets and liabilities are recognized for temporary differences between accounting carrying amounts and tax bases, subject to recoverability or valuation allowance assessment.
+GL_CLASSIFICATION: Income Tax Expense, Current Tax Payable, Deferred Tax Asset, Deferred Tax Liability, Valuation Allowance.
+JOURNAL_ENTRY: Current tax: Debit Income Tax Expense, Credit Income Tax Payable. Deferred tax entry depends on temporary difference direction.
+AUDIT_CHECKS: Reconcile tax provision to taxable income, inspect tax returns, temporary difference schedules, NOLs, uncertain tax positions, and enacted rates.
+RED_FLAGS: tax expense posted to operating expense, no deferred tax analysis, unsupported deferred tax asset recoverability.
+KEYWORDS: income tax, corporate tax, deferred tax, tax payable, DTA, DTL, valuation allowance
+
+---
+STANDARD: IAS 12 / ASC 740
+PARAGRAPH: IAS 12.46 / ASC 740-10
+TOPIC: Sales Tax, VAT, and GST
+RULE: VAT, GST, and sales tax collected from customers or paid to vendors are usually recorded as tax receivable or payable when the company acts as tax collector, not as revenue or expense. Non-recoverable taxes are included in asset cost or expense depending on the underlying item.
+GL_CLASSIFICATION: VAT Receivable, VAT Payable, Sales Tax Payable, Non-Recoverable Tax Expense or Asset Cost.
+JOURNAL_ENTRY: Purchase with recoverable VAT: Debit Expense/Asset net of VAT, Debit VAT Receivable, Credit AP. Sale with VAT: Debit AR, Credit Revenue, Credit VAT Payable.
+AUDIT_CHECKS: Reconcile tax returns, tax codes, exempt supplies, reverse charge, and non-deductible input tax.
+RED_FLAGS: gross revenue including VAT, recoverable VAT expensed, old unreconciled VAT balances.
+KEYWORDS: VAT, GST, sales tax, input tax, output tax, tax code, reverse charge
+
+---
+STANDARD: IAS 21 / ASC 830
+PARAGRAPH: IAS 21.21-28 / ASC 830-20
+TOPIC: Foreign Currency Transactions
+RULE: Foreign currency transactions are initially recorded at the spot rate on transaction date. Monetary balances are retranslated at closing rates at reporting date, with exchange differences recognized in profit or loss unless hedge or net investment rules apply.
+GL_CLASSIFICATION: Foreign Exchange Gain/Loss, AP, AR, Cash.
+JOURNAL_ENTRY: Initial invoice: Debit Expense/Asset, Credit AP at transaction-date rate. Remeasurement: Debit/Credit FX Gain/Loss and AP/AR.
+AUDIT_CHECKS: Verify transaction rate source, closing rate, monetary vs non-monetary classification, and realized/unrealized FX.
+RED_FLAGS: no revaluation of foreign AP/AR, manual rates, gains/losses posted to wrong period.
+KEYWORDS: foreign currency, FX, exchange rate, revaluation, translation, EUR, USD, GBP
+
+---
+STANDARD: IFRS 9 / ASC 326
+PARAGRAPH: IFRS 9.5.5 / ASC 326-20
+TOPIC: Accounts Receivable Credit Losses
+RULE: Receivables must be evaluated for expected credit losses. IFRS uses expected credit loss model, often lifetime ECL for trade receivables. US GAAP uses CECL for financial assets measured at amortized cost.
+GL_CLASSIFICATION: Bad Debt Expense, Allowance for Credit Losses, Accounts Receivable.
+JOURNAL_ENTRY: Debit Bad Debt Expense, Credit Allowance for Credit Losses.
+AUDIT_CHECKS: Analyze aging, customer credit risk, post-period collections, disputes, historical loss rates, and forward-looking factors.
+RED_FLAGS: old receivables with no allowance, related-party AR, credit memos after year-end, doubtful customer revenue.
+KEYWORDS: bad debt, allowance, expected credit loss, ECL, CECL, doubtful accounts, aging
+
+---
+STANDARD: IFRS 9 / ASC 815
+PARAGRAPH: IFRS 9.6 / ASC 815-20
+TOPIC: Derivatives and Hedge Accounting
+RULE: Derivatives are recognized on balance sheet at fair value. Hedge accounting is allowed only when documentation, eligibility, and effectiveness requirements are met. Otherwise fair value changes generally go to profit or loss.
+GL_CLASSIFICATION: Derivative Asset, Derivative Liability, Fair Value Gain/Loss, OCI for qualifying cash flow hedges.
+JOURNAL_ENTRY: Fair value gain: Debit Derivative Asset, Credit Gain on Derivative. Fair value loss: Debit Loss on Derivative, Credit Derivative Liability.
+AUDIT_CHECKS: Review hedge documentation at inception, risk objective, effectiveness testing, valuation, and confirmations.
+RED_FLAGS: derivative not recorded, hedge accounting without documentation, valuation based only on management spreadsheet.
+KEYWORDS: derivative, hedge, forward, swap, option, fair value, FX forward, cash flow hedge
+
+---
+STANDARD: IFRS 9 / ASC 470
+PARAGRAPH: IFRS 9.5.4 / ASC 835-30
+TOPIC: Debt, Loans, and Effective Interest Method
+RULE: Debt is initially recognized at fair value net of eligible transaction costs and subsequently measured using the effective interest method unless measured at fair value. Debt issuance costs are generally deferred and amortized over the debt term.
+GL_CLASSIFICATION: Debt Liability, Interest Expense, Debt Issuance Costs, Accrued Interest.
+JOURNAL_ENTRY: Loan proceeds: Debit Cash, Debit/Contra Debt Issuance Costs as applicable, Credit Loan Payable. Interest: Debit Interest Expense, Credit Accrued Interest or Cash.
+AUDIT_CHECKS: Inspect loan agreement, repayment schedule, covenants, interest calculation, fees, and confirmations.
+RED_FLAGS: debt fees expensed immediately when material, covenant breach ignored, related-party loan undocumented.
+KEYWORDS: debt, loan, borrowing, note payable, interest, covenant, effective interest, debt issuance costs
+
+---
+STANDARD: IAS 32 / ASC 480
+PARAGRAPH: IAS 32.15-32 / ASC 480-10
+TOPIC: Liability vs Equity Classification
+RULE: Financial instruments are classified as liabilities or equity based on contractual obligations. An obligation to deliver cash or another financial asset generally creates a liability. Fixed-for-fixed equity settlement may support equity classification under IFRS subject to detailed rules.
+GL_CLASSIFICATION: Equity, Financial Liability, Preferred Shares, Convertible Debt.
+JOURNAL_ENTRY: Depends on instrument terms; bifurcate liability/equity components where required.
+AUDIT_CHECKS: Review shareholder agreements, redemption rights, put/call features, conversion terms, and settlement provisions.
+RED_FLAGS: redeemable shares classified as permanent equity, side agreements ignored, embedded derivatives missed.
+KEYWORDS: equity, liability, preferred shares, convertible, redemption, warrant, fixed for fixed
+
+---
+STANDARD: IAS 7 / ASC 230
+PARAGRAPH: IAS 7.10 / ASC 230-10
+TOPIC: Cash Flow Statement Classification
+RULE: Cash flows are classified as operating, investing, or financing based on nature. IFRS permits some policy choices for interest and dividends; US GAAP is more prescriptive.
+GL_CLASSIFICATION: Operating Cash Flow, Investing Cash Flow, Financing Cash Flow.
+JOURNAL_ENTRY: No separate journal entry; classification affects cash flow presentation.
+AUDIT_CHECKS: Reconcile cash flow statement to trial balance, debt rollforward, capex additions, dividends, and noncash transactions.
+RED_FLAGS: loan proceeds in operating cash flow, capex in operating cash flow, noncash leases shown as cash.
+KEYWORDS: cash flow, operating, investing, financing, statement of cash flows, noncash
+
+---
+STANDARD: IAS 7 / ASC 305
+PARAGRAPH: IAS 7.6-8 / ASC 305-10
+TOPIC: Cash, Cash Equivalents, and Restricted Cash
+RULE: Cash equivalents are short-term, highly liquid investments readily convertible to known cash amounts and subject to insignificant value-change risk, typically original maturities of three months or less. Restricted cash must be separately tracked and disclosed.
+GL_CLASSIFICATION: Cash, Cash Equivalents, Short-Term Investments, Restricted Cash.
+JOURNAL_ENTRY: Reclassify eligible instruments: Debit Cash Equivalents, Credit Short-Term Investments if needed.
+AUDIT_CHECKS: Obtain bank confirmations, inspect maturity dates, restrictions, reconciliations, and outstanding checks.
+RED_FLAGS: restricted cash shown as unrestricted, stale reconciling items, overdrafts netted incorrectly.
+KEYWORDS: cash, cash equivalent, bank, deposit, money market, treasury bill, restricted cash, overdraft
+
+---
+STANDARD: IAS 10 / ASC 855
+PARAGRAPH: IAS 10.3-10 / ASC 855-10
+TOPIC: Events After Reporting Period
+RULE: Adjusting subsequent events provide evidence of conditions existing at reporting date and require adjustment. Non-adjusting events relate to conditions arising after reporting date and generally require disclosure if material.
+GL_CLASSIFICATION: Adjustment or Disclosure depending on event type.
+JOURNAL_ENTRY: Adjusting event: record the necessary entry in the reporting period. Non-adjusting event: no entry unless disclosure required.
+AUDIT_CHECKS: Review board minutes, legal updates, financing events, customer bankruptcies, inventory sales, and management representation.
+RED_FLAGS: post-year-end settlement ignored, customer bankruptcy indicating prior impairment ignored, major event undisclosed.
+KEYWORDS: subsequent event, after reporting period, adjusting event, non-adjusting, disclosure, year end
+
+---
+STANDARD: IAS 8 / ASC 250
+PARAGRAPH: IAS 8.5 / ASC 250-10
+TOPIC: Accounting Estimates vs Errors
+RULE: Changes in accounting estimates are applied prospectively. Prior period errors are corrected retrospectively when material. Changes in accounting policy are applied retrospectively unless impracticable or transitional guidance says otherwise.
+GL_CLASSIFICATION: Prior Period Adjustment, Retained Earnings, Current Expense/Income.
+JOURNAL_ENTRY: Error correction may adjust retained earnings and comparatives; estimate changes affect current and future periods.
+AUDIT_CHECKS: Determine whether new information relates to current estimate or prior error; inspect materiality and disclosure.
+RED_FLAGS: error labeled as estimate change to avoid restatement, unsupported useful life change, inconsistent policy.
+KEYWORDS: estimate, error, prior period adjustment, restatement, accounting policy, retrospective, prospective
+
+---
+STANDARD: IAS 24 / ASC 850
+PARAGRAPH: IAS 24.9-18 / ASC 850-10
+TOPIC: Related Party Transactions
+RULE: Related party relationships, transactions, balances, commitments, and key management compensation require identification and disclosure. Transactions should be assessed for arm's-length terms and proper authorization.
+GL_CLASSIFICATION: Depends on transaction; Related Party Receivable/Payable may be needed.
+JOURNAL_ENTRY: Use normal entry for the transaction and tag related-party nature for disclosure schedules.
+AUDIT_CHECKS: Search vendor/customer master, board minutes, ownership records, unusual terms, management declarations, and payments to officers.
+RED_FLAGS: unknown vendor linked to employee, interest-free loans, unusual pricing, round-dollar invoices, missing contracts.
+KEYWORDS: related party, affiliate, director, shareholder, owner, family, management, arm's length
+
+---
+STANDARD: IFRS 10 / ASC 810
+PARAGRAPH: IFRS 10.7 / ASC 810-10
+TOPIC: Consolidation and Control
+RULE: Consolidate entities controlled by the reporting entity. IFRS control requires power over investee, exposure to variable returns, and ability to use power to affect returns. US GAAP uses voting interest and variable interest entity models.
+GL_CLASSIFICATION: Consolidated Assets/Liabilities, Noncontrolling Interest, Intercompany Eliminations.
+JOURNAL_ENTRY: Consolidation entries eliminate parent investment against subsidiary equity and recognize NCI where applicable.
+AUDIT_CHECKS: Review ownership, shareholder agreements, board control, variable interests, guarantees, and de facto control indicators.
+RED_FLAGS: unconsolidated controlled entity, structured entity omitted, side agreements granting control.
+KEYWORDS: consolidation, control, subsidiary, VIE, structured entity, noncontrolling interest, group
+
+---
+STANDARD: IFRS 10 / ASC 810
+PARAGRAPH: IFRS 10.B86 / ASC 810-10
+TOPIC: Intercompany Eliminations
+RULE: Intercompany receivables, payables, revenue, expenses, dividends, loans, and unrealized profits in inventory or fixed assets are eliminated in consolidation.
+GL_CLASSIFICATION: Intercompany Receivable, Intercompany Payable, Elimination Entry.
+JOURNAL_ENTRY: Eliminate intercompany sale: Debit Intercompany Revenue, Credit Intercompany Expense/COGS. Eliminate balances: Debit Intercompany Payable, Credit Intercompany Receivable.
+AUDIT_CHECKS: Reconcile intercompany confirmations, mismatches, FX differences, transfer pricing invoices, and profit in ending inventory.
+RED_FLAGS: unreconciled intercompany balances, one-sided entries, intercompany profit not eliminated, old balances.
+KEYWORDS: intercompany, elimination, group, parent, subsidiary, IC receivable, IC payable, transfer pricing
+
+---
+STANDARD: IAS 28 / ASC 323
+PARAGRAPH: IAS 28.3 / ASC 323-10
+TOPIC: Equity Method Investments
+RULE: Investments with significant influence, generally presumed at 20 percent or more voting power unless rebutted, are accounted for using the equity method. The investor recognizes its share of investee profit or loss and adjusts the investment carrying amount.
+GL_CLASSIFICATION: Equity Method Investment, Equity Income/Loss, Dividends Received.
+JOURNAL_ENTRY: Share of profit: Debit Investment, Credit Equity Income. Dividend: Debit Cash, Credit Investment.
+AUDIT_CHECKS: Inspect ownership, board representation, significant influence indicators, investee financial statements, and impairment.
+RED_FLAGS: 20 percent holding accounted at cost without assessment, dividends treated as income under equity method.
+KEYWORDS: associate, equity method, significant influence, investment, share of profit, dividend
+
+---
+STANDARD: IAS 20 / ASC 958 / ASC 450
+PARAGRAPH: IAS 20.7-12
+TOPIC: Government Grants and Incentives
+RULE: Government grants are recognized when there is reasonable assurance that conditions will be met and grant will be received. Income grants are recognized systematically with related costs. Asset grants under IFRS are deferred or deducted from asset carrying amount depending on policy.
+GL_CLASSIFICATION: Grant Income, Deferred Income, Asset Cost Reduction, Grant Receivable.
+JOURNAL_ENTRY: Debit Grant Receivable, Credit Deferred Grant Income or Grant Income depending on conditions and matching.
+AUDIT_CHECKS: Inspect grant agreement, eligibility, compliance conditions, cost matching, repayment clauses, and correspondence.
+RED_FLAGS: grant recognized before conditions met, repayable grant not assessed, asset grant recorded fully as current income.
+KEYWORDS: government grant, subsidy, incentive, aid, grant income, deferred grant, reimbursement
+
+---
+STANDARD: IAS 40 / ASC 360
+PARAGRAPH: IAS 40.5 / ASC 360-10
+TOPIC: Investment Property
+RULE: Under IFRS, property held to earn rentals or for capital appreciation is investment property and accounted for using fair value or cost model policy. Under US GAAP, investment property generally follows property guidance unless industry-specific rules apply.
+GL_CLASSIFICATION: Investment Property, Rental Income, Fair Value Gain/Loss, Depreciation.
+JOURNAL_ENTRY: Purchase: Debit Investment Property, Credit Cash/AP. IFRS fair value model: Debit/Credit Investment Property and Fair Value Gain/Loss.
+AUDIT_CHECKS: Assess use of property, owner-occupied portion, lease arrangements, valuation, and policy consistency.
+RED_FLAGS: owner-occupied building classified as investment property, unsupported fair value gains.
+KEYWORDS: investment property, rental property, capital appreciation, real estate, fair value model
+
+---
+STANDARD: IAS 16 / ASC 360
+PARAGRAPH: IAS 16.30-31 / ASC 360-10
+TOPIC: Depreciation of Fixed Assets
+RULE: Depreciable assets are depreciated over useful lives from the date available for intended use. Depreciation method should reflect consumption pattern and be reviewed periodically. Land is generally not depreciated.
+GL_CLASSIFICATION: Depreciation Expense, Accumulated Depreciation, Fixed Assets.
+JOURNAL_ENTRY: Debit Depreciation Expense, Credit Accumulated Depreciation.
+AUDIT_CHECKS: Verify in-service date, useful life, residual value, depreciation method, disposals, and idle assets.
+RED_FLAGS: no depreciation after capitalization, land depreciated, wrong start date, fully depreciated assets not reviewed.
+KEYWORDS: depreciation, useful life, accumulated depreciation, straight line, asset register, in service
+
+---
+STANDARD: IAS 16 / ASC 360
+PARAGRAPH: IAS 16.67-72 / ASC 360-10
+TOPIC: Fixed Asset Disposals
+RULE: When a fixed asset is sold, scrapped, or retired, remove cost and accumulated depreciation and recognize gain or loss based on proceeds compared with carrying amount.
+GL_CLASSIFICATION: Gain/Loss on Disposal, Fixed Assets, Accumulated Depreciation.
+JOURNAL_ENTRY: Debit Cash and Accumulated Depreciation, Credit Fixed Asset Cost, Credit/Debit Gain or Loss on Disposal.
+AUDIT_CHECKS: Match disposal approval, sale proceeds, asset register removal, physical existence, and insurance claims.
+RED_FLAGS: disposed assets still depreciating, proceeds posted to revenue, missing approval, asset missing from physical count.
+KEYWORDS: disposal, sale of asset, scrap, retirement, write off, gain on disposal, loss on disposal
+
+---
+STANDARD: IAS 16 / ASC 360
+PARAGRAPH: IAS 16.16-17 / ASC 360-10
+TOPIC: Directly Attributable Asset Costs
+RULE: PPE cost includes purchase price and directly attributable costs needed to bring asset to location and condition for intended use, such as delivery, installation, site preparation, testing, and professional fees. General administration, training, and maintenance are expensed.
+GL_CLASSIFICATION: Fixed Asset, Construction in Progress, Installation Expense if not directly attributable.
+JOURNAL_ENTRY: Debit Fixed Asset or CIP, Credit AP for eligible costs. Expense ineligible costs as incurred.
+AUDIT_CHECKS: Separate freight-in, installation, testing, training, maintenance, and admin overhead.
+RED_FLAGS: training capitalized, general overhead loaded into assets, no placed-in-service transfer.
+KEYWORDS: installation, delivery, site preparation, testing, commissioning, directly attributable, asset cost
+
+---
+STANDARD: IAS 16 / ASC 360
+PARAGRAPH: IAS 16.73 / ASC 360-10
+TOPIC: Construction in Progress
+RULE: Costs incurred to construct or develop a fixed asset before it is ready for use are recorded as construction in progress. Depreciation begins when asset is available for intended use, not necessarily when it generates revenue.
+GL_CLASSIFICATION: Construction in Progress, Fixed Assets, Depreciation Expense.
+JOURNAL_ENTRY: During construction: Debit CIP, Credit AP/Cash. Completion: Debit Fixed Asset, Credit CIP.
+AUDIT_CHECKS: Review project budgets, invoices, capitalization policy, placed-in-service date, and impairment indicators.
+RED_FLAGS: completed assets left in CIP to avoid depreciation, operating expenses capitalized to project, abandoned project not impaired.
+KEYWORDS: construction in progress, CIP, project cost, build out, construction, in service, capitalization
+
+---
+STANDARD: IFRS 16 / IAS 16 / ASC 842
+PARAGRAPH: 16.16
+TOPIC: Leasehold Improvements
+RULE: Improvements to leased property are capitalized if asset criteria are met and cost exceeds threshold. Depreciate over shorter of useful life and lease term unless ownership transfers or renewal is reasonably certain.
+GL_CLASSIFICATION: Leasehold Improvements, Depreciation Expense, CAPEX.
+JOURNAL_ENTRY: Debit Leasehold Improvements, Credit AP. Depreciation: Debit Depreciation Expense, Credit Accumulated Depreciation.
+AUDIT_CHECKS: Inspect lease term, renewal options, invoices, useful life, landlord incentives, and restoration obligations.
+RED_FLAGS: depreciation period exceeds lease term without renewal support, landlord-owned improvements capitalized incorrectly.
+KEYWORDS: leasehold improvement, tenant improvement, buildout, renovation, fit out, landlord incentive
+
+---
+STANDARD: IAS 37 / ASC 410
+PARAGRAPH: 21-410-20
+TOPIC: Asset Retirement Obligations and Restoration Costs
+RULE: Obligations to dismantle, remove, or restore assets or leased sites are recognized when a present obligation exists and can be estimated. Initial obligation is usually capitalized as part of related asset and depreciated, with liability accretion over time.
+GL_CLASSIFICATION: Asset Retirement Cost, Asset Retirement Obligation, Accretion Expense.
+JOURNAL_ENTRY: Initial: Debit Asset Retirement Cost, Credit ARO Liability. Accretion: Debit Accretion Expense, Credit ARO Liability.
+AUDIT_CHECKS: Review lease restoration clauses, environmental laws, engineering estimates, discount rates, and timing.
+RED_FLAGS: restoration clauses ignored, no decommissioning liability, outdated cost estimates.
+KEYWORDS: asset retirement obligation, ARO, restoration, decommissioning, dismantling, make good
+
+---
+STANDARD: IAS 38 / ASC 350
+PARAGRAPH: IAS 38.21 / ASC 350-30
+TOPIC: Acquired Intangible Assets
+RULE: An acquired intangible asset is recognized when identifiable, controlled by the entity, future benefits are probable, and cost or fair value can be measured reliably. Finite-lived intangibles are amortized; indefinite-lived intangibles are not amortized but tested for impairment.
+GL_CLASSIFICATION: Intangible Asset, Amortization Expense, Impairment Loss.
+JOURNAL_ENTRY: Acquisition: Debit Intangible Asset, Credit Cash/AP. Amortization: Debit Amortization Expense, Credit Accumulated Amortization.
+AUDIT_CHECKS: Verify legal rights, purchase agreement, valuation, useful life, amortization method, and impairment indicators.
+RED_FLAGS: no amortization for finite-lived asset, unsupported indefinite life, internally generated asset recorded as acquired.
+KEYWORDS: intangible, patent, trademark, license, customer relationship, technology, amortization
+
+---
+STANDARD: IAS 38 / ASC 350
+PARAGRAPH: IAS 38.63 / ASC 350-30
+TOPIC: Internally Generated Brands and Customer Lists
+RULE: Internally generated brands, mastheads, publishing titles, customer lists, and similar items are not recognized as intangible assets because cost cannot be distinguished reliably from business development as a whole. Acquired identifiable intangibles may be recognized.
+GL_CLASSIFICATION: Expense, Intangible Asset only if acquired and criteria met.
+JOURNAL_ENTRY: Internal brand spend: Debit Marketing Expense, Credit AP. Acquired intangible: Debit Intangible Asset, Credit Cash/AP.
+AUDIT_CHECKS: Determine whether internally generated or acquired; inspect purchase agreement and valuation report.
+RED_FLAGS: brand-building campaign capitalized, internally built customer list recognized as asset.
+KEYWORDS: brand, trademark, customer list, masthead, publishing title, internally generated intangible
+
+---
+STANDARD: IAS 38 / ASC 720
+PARAGRAPH: 350-40-25 / 38-69
+TOPIC: Website Development and Hosting Costs
+RULE: Website planning and maintenance are expensed. Application and infrastructure development may be capitalized if they create a controlled resource and meet software/intangible criteria. Content creation and advertising content are normally expensed unless specific asset criteria are met.
+GL_CLASSIFICATION: Website Development Asset, Software Asset, Website Expense, Hosting Expense.
+JOURNAL_ENTRY: Eligible development: Debit Intangible Asset or Software Asset, Credit AP. Maintenance/content: Debit Website or Marketing Expense, Credit AP.
+AUDIT_CHECKS: Separate planning, development, graphics/content, hosting, maintenance, and advertising.
+RED_FLAGS: SEO/content marketing capitalized, hosting fees capitalized, no useful life assigned.
+KEYWORDS: website, web development, hosting, domain, SEO, landing page, content, maintenance
+
+---
+STANDARD: ASC 720 / IAS 38
+PARAGRAPH: ASC 720-35 / IAS 38.69
+TOPIC: Advertising Prepayments and Media Buys
+RULE: Payments for future advertising placements are recorded as prepaid advertising until the advertisement runs. Once the advertisement is aired, published, displayed, or delivered, expense is recognized.
+GL_CLASSIFICATION: Prepaid Advertising, Advertising Expense, Marketing Expense.
+JOURNAL_ENTRY: Advance payment: Debit Prepaid Advertising, Credit AP/Cash. When ad runs: Debit Advertising Expense, Credit Prepaid Advertising.
+AUDIT_CHECKS: Match media schedule, insertion orders, campaign dates, and proof of performance.
+RED_FLAGS: annual media contract expensed immediately, old prepaid advertising with no remaining placements, no proof of performance.
+KEYWORDS: media buy, ad placement, insertion order, campaign schedule, prepaid advertising, billboard, online ads
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Legal and Professional Fees
+RULE: Legal, audit, tax advisory, consulting, and professional fees are expensed as services are rendered unless directly attributable to a qualifying asset, debt issuance, equity issuance, or business combination treatment.
+GL_CLASSIFICATION: Legal Expense, Audit Fees, Tax Advisory Expense, Professional Services Expense, Deferred Financing Cost, Equity Issuance Cost.
+JOURNAL_ENTRY: Normal service: Debit Professional Fees Expense, Credit AP. Eligible financing or equity cost: record according to debt/equity guidance.
+AUDIT_CHECKS: Review engagement letter, service period, matter description, capitalization link, and accrual for unbilled services.
+RED_FLAGS: legal fees capitalized without qualifying transaction, audit fee not accrued at year-end, vague invoices.
+KEYWORDS: legal fees, lawyer, attorney, audit fee, tax advice, professional services, consultant
+
+---
+STANDARD: ASC 340 / IAS 32 / ASC 835
+PARAGRAPH: ASC 340-10 / IAS 32.37
+TOPIC: Debt and Equity Issuance Costs
+RULE: Debt issuance costs are generally deferred and amortized using the effective interest method. Equity issuance costs directly attributable to issuing equity are deducted from equity proceeds if offering is successful. Aborted offering costs are expensed.
+GL_CLASSIFICATION: Debt Issuance Costs, Interest Expense, Additional Paid-In Capital, Offering Costs Expense.
+JOURNAL_ENTRY: Successful equity issuance cost: Debit APIC/Equity, Credit AP/Cash. Aborted offering: Debit Expense, Credit AP/Cash.
+AUDIT_CHECKS: Determine debt vs equity transaction, success/failure, direct attribution, and amortization method.
+RED_FLAGS: unsuccessful IPO costs left deferred, general legal costs charged to equity, debt fees not amortized.
+KEYWORDS: debt issuance cost, equity issuance cost, IPO cost, financing fee, underwriting, loan fee
+
+---
+STANDARD: IAS 32 / ASC 505
+PARAGRAPH: IAS 32.35 / ASC 505-10
+TOPIC: Dividends and Distributions
+RULE: Dividends are recognized as a liability when authorized and no longer at entity discretion. Dividends are distributions of equity, not expenses.
+GL_CLASSIFICATION: Dividends Payable, Retained Earnings, Equity.
+JOURNAL_ENTRY: Declaration: Debit Retained Earnings, Credit Dividends Payable. Payment: Debit Dividends Payable, Credit Cash.
+AUDIT_CHECKS: Inspect board approval, shareholder approval if required, payment date, legal reserves, and covenant restrictions.
+RED_FLAGS: dividends recorded as expense, unauthorized distributions, dividends paid despite covenant restriction.
+KEYWORDS: dividend, distribution, retained earnings, shareholder payment, declared dividend, equity
+
+---
+STANDARD: ASC 705 / IAS 2 / IAS 16
+PARAGRAPH: ASC 705-20 / IAS 2.11
+TOPIC: Vendor Rebates, Discounts, and Purchase Credits
+RULE: Vendor rebates and purchase discounts reduce the cost of related inventory, asset, or expense when linked to a purchase. If underlying item has been sold or consumed, reduce COGS or expense. Do not record purchase rebates as revenue unless they are for distinct services provided to vendor.
+GL_CLASSIFICATION: Inventory Reduction, COGS Reduction, Expense Reduction, Vendor Receivable.
+JOURNAL_ENTRY: Debit Vendor Receivable or AP, Credit Inventory/COGS/Expense depending on status of related goods.
+AUDIT_CHECKS: Review rebate agreements, volume thresholds, credit notes, post-period settlements, and matching to purchases.
+RED_FLAGS: vendor rebates recorded as revenue, earned rebate receivable missed, unsupported manual credits.
+KEYWORDS: vendor rebate, purchase discount, supplier credit, credit memo, volume rebate, allowance
+
+---
+STANDARD: IAS 2 / ASC 330
+PARAGRAPH: IAS 2.11 / ASC 330
+TOPIC: Freight-In vs Freight-Out
+RULE: Freight-in, import duties, and handling required to bring inventory to its present location and condition are included in inventory cost. Freight-out or shipping to customers is a selling or fulfillment expense unless a separate shipping performance obligation exists.
+GL_CLASSIFICATION: Inventory, Freight-In, Freight-Out Expense, Shipping Expense, Fulfillment Expense.
+JOURNAL_ENTRY: Freight-in: Debit Inventory, Credit AP. Freight-out: Debit Shipping or Freight-Out Expense, Credit AP.
+AUDIT_CHECKS: Inspect Incoterms, vendor/customer shipping terms, receiving evidence, and customer contracts.
+RED_FLAGS: inbound freight expensed while inventory remains unsold, outbound freight capitalized into inventory, wrong Incoterm assumption.
+KEYWORDS: freight, shipping, delivery, courier, logistics, DHL, FedEx, UPS, inbound, outbound
+
+---
+STANDARD: IAS 16 / IAS 2 / ASC 360 / ASC 330
+PARAGRAPH: IAS 16.16 / IAS 2.11
+TOPIC: Import Duties and Non-Refundable Taxes
+RULE: Import duties and non-refundable purchase taxes are included in cost of inventory or fixed assets when directly attributable to acquisition. Recoverable VAT/GST is recorded separately as receivable.
+GL_CLASSIFICATION: Inventory, Fixed Asset, VAT Receivable, Duties Expense if not attributable.
+JOURNAL_ENTRY: Debit Inventory/Fixed Asset for net cost plus non-refundable duties, Debit Recoverable Tax if applicable, Credit AP/Cash.
+AUDIT_CHECKS: Review customs documents, tax recoverability, import declarations, and landed cost calculations.
+RED_FLAGS: recoverable VAT capitalized, import duty expensed despite unsold inventory, missing landed cost allocation.
+KEYWORDS: import duty, customs, tariff, landed cost, non-refundable tax, recoverable VAT
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Travel, Meals, and Entertainment
+RULE: Business travel costs are expensed when travel occurs. Advance payments for future travel may be prepaid until travel date. Meals and entertainment require business purpose documentation and may have tax deductibility limits that do not change book expense classification.
+GL_CLASSIFICATION: Travel Expense, Meals Expense, Entertainment Expense, Prepaid Travel.
+JOURNAL_ENTRY: Travel incurred: Debit Travel Expense, Credit AP/Cash/Employee Payable. Advance booking: Debit Prepaid Travel, Credit AP/Cash; expense when travel occurs.
+AUDIT_CHECKS: Verify attendee, business purpose, dates, receipts, policy limits, and approval.
+RED_FLAGS: personal travel charged to company, missing receipts, weekend/holiday anomalies, duplicate reimbursements.
+KEYWORDS: travel, flight, hotel, accommodation, meals, entertainment, taxi, transport, airfare
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Employee Expense Reimbursements
+RULE: Approved employee reimbursements are recognized in the appropriate expense category based on underlying item and period incurred, not as generic payroll unless policy requires. Amounts owed to employees are employee payables.
+GL_CLASSIFICATION: Travel Expense, Office Expense, Employee Reimbursement Payable, Meals Expense.
+JOURNAL_ENTRY: Debit Relevant Expense, Credit Employee Expense Payable or Cash.
+AUDIT_CHECKS: Check receipts, approval workflow, duplicate claims, corporate card overlap, and policy compliance.
+RED_FLAGS: duplicate reimbursement and vendor payment, missing receipts, claims just below approval limit, personal items.
+KEYWORDS: reimbursement, expense claim, employee payable, receipt, corporate card, out of pocket
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Bank Fees and Merchant Processing Fees
+RULE: Bank service charges, merchant processing fees, wire fees, and card fees are generally expensed as incurred. Fees directly attributable to debt issuance may be deferred under debt guidance.
+GL_CLASSIFICATION: Bank Charges, Merchant Fees, Finance Costs, Debt Issuance Costs.
+JOURNAL_ENTRY: Debit Bank Fees or Merchant Fees Expense, Credit Cash/AP. Eligible debt fee: Debit Debt Issuance Costs/contra liability, Credit Cash/AP.
+AUDIT_CHECKS: Reconcile bank statements, merchant processor reports, debt agreements, and fee schedules.
+RED_FLAGS: debt arrangement fee expensed as bank charge when material, merchant fees netted against revenue without policy.
+KEYWORDS: bank fee, wire fee, merchant fee, card processing, Stripe, PayPal, transaction fee
+
+---
+STANDARD: IAS 1 / ASC 210
+PARAGRAPH: IAS 1.54 / ASC 210
+TOPIC: Customer Deposits and Advance Payments
+RULE: Cash received from customers before goods or services are delivered is a liability, not revenue, until performance obligations are satisfied or refund obligation expires.
+GL_CLASSIFICATION: Customer Deposits, Deferred Revenue, Contract Liability.
+JOURNAL_ENTRY: Receipt: Debit Cash, Credit Customer Deposits or Deferred Revenue. Recognition: Debit Customer Deposits/Deferred Revenue, Credit Revenue.
+AUDIT_CHECKS: Review deposit terms, refundability, delivery status, aging, and subsequent fulfillment.
+RED_FLAGS: deposits recorded as revenue, old deposits not investigated, refund obligations ignored.
+KEYWORDS: customer deposit, advance payment, prepayment, deferred revenue, unearned revenue
+
+---
+STANDARD: IAS 1 / ASC 405
+PARAGRAPH: 66
+TOPIC: Accrued Expenses vs Accounts Payable
+RULE: Use accounts payable when invoice has been received and obligation is recorded. Use accrued expenses when goods or services have been received but invoice has not yet been received or processed.
+GL_CLASSIFICATION: Accounts Payable, Accrued Expenses, Expense.
+JOURNAL_ENTRY: Accrual: Debit Expense/Asset, Credit Accrued Expenses. Invoice receipt: Debit Accrued Expenses, Credit AP.
+AUDIT_CHECKS: Review invoice receipt status, PO matching, receiving reports, vendor statements, and accrual reversal.
+RED_FLAGS: AP invoices posted to accruals to avoid AP aging, accruals not reversed, duplicate AP and accrual.
+KEYWORDS: accrued expense, accounts payable, invoice received, received not invoiced, GRNI, accrual reversal
+
+---
+STANDARD: IAS 1 / ASC 210
+PARAGRAPH: IAS 1.66
+TOPIC: Prepaid Expenses
+RULE: Payments for goods or services to be received in future periods are recorded as prepaid assets and expensed systematically over the period of benefit. Immaterial prepaids may be expensed immediately if policy allows.
+GL_CLASSIFICATION: Prepaid Expense, Expense.
+JOURNAL_ENTRY: Payment/invoice: Debit Prepaid Expense, Credit AP/Cash. Amortization: Debit Expense, Credit Prepaid Expense.
+AUDIT_CHECKS: Verify service period, coverage dates, amortization schedule, materiality threshold, and remaining benefit.
+RED_FLAGS: annual costs fully expensed upfront, expired prepaids still on balance sheet, no amortization schedule.
+KEYWORDS: prepaid, advance payment, future period, amortization, service period, subscription, insurance, rent
+
+---
+STANDARD: IAS 1 / ASC 210
+PARAGRAPH: 66
+TOPIC: Deposits Paid to Vendors and Landlords
+RULE: Refundable deposits paid to vendors, landlords, utilities, or service providers are assets, not expenses. Non-refundable deposits are prepaid expenses or asset costs depending on purpose and period of benefit.
+GL_CLASSIFICATION: Refundable Deposit Asset, Prepaid Expense, Fixed Asset Cost, Expense.
+JOURNAL_ENTRY: Refundable deposit: Debit Deposits Asset, Credit Cash/AP. Forfeiture: Debit Expense, Credit Deposit Asset.
+AUDIT_CHECKS: Inspect contract refund terms, expected recovery date, aging, and confirmations.
+RED_FLAGS: refundable deposits expensed, old deposits not recoverable, deposits to related parties without agreement.
+KEYWORDS: deposit, security deposit, landlord deposit, refundable, non-refundable, retainer, advance
+
+---
+STANDARD: IAS 37 / ASC 420
+PARAGRAPH: IAS 37.70-83 / ASC 420-10
+TOPIC: Restructuring Costs and Exit Activities
+RULE: Restructuring provisions are recognized only when detailed criteria are met. Under IFRS, a constructive obligation may arise from a detailed formal plan and valid expectation. Under US GAAP, one-time termination benefits and exit costs have specific recognition timing.
+GL_CLASSIFICATION: Restructuring Expense, Exit Cost Liability, Severance Liability.
+JOURNAL_ENTRY: Debit Restructuring Expense, Credit Restructuring Provision or Exit Liability when criteria are met.
+AUDIT_CHECKS: Review board-approved plan, employee communication, lease exit obligations, severance terms, and cost estimates.
+RED_FLAGS: future operating losses accrued, restructuring reserve used for unrelated costs, no communication of plan.
+KEYWORDS: restructuring, exit cost, severance, termination benefit, closure, relocation, redundancy
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Fines, Penalties, and Settlements
+RULE: Fines and penalties are expensed when incurred or when obligation is probable and estimable. Legal settlements follow provision/contingency guidance. Fines and penalties should be separately identifiable because they may be non-deductible for tax.
+GL_CLASSIFICATION: Fines and Penalties Expense, Legal Settlement Expense, Accrued Liability.
+JOURNAL_ENTRY: Debit Fines/Penalties or Settlement Expense, Credit AP/Accrued Liability.
+AUDIT_CHECKS: Review legal correspondence, regulator notices, settlement agreements, tax treatment, and approvals.
+RED_FLAGS: fines hidden in professional fees, settlements not accrued, regulatory matters not disclosed.
+KEYWORDS: fine, penalty, settlement, regulator, legal settlement, violation, non-deductible
+
+---
+STANDARD: ISA 240 / PCAOB AS 2401
+PARAGRAPH: ISA 240 / AS 2401
+TOPIC: Fraud Risk - Revenue Recognition
+CATEGORY: fraud_control
+RULE: Revenue recognition is presumed to be a fraud risk in audits unless rebutted. Audit AI should flag unusual revenue entries, manual postings, cut-off anomalies, side agreements, round amounts, and transactions near period-end.
+GL_CLASSIFICATION: Revenue, Deferred Revenue, Contract Asset, Accounts Receivable.
+JOURNAL_ENTRY: No automatic entry; flag for audit review and supporting evidence.
+AUDIT_CHECKS: Inspect contracts, delivery proof, acceptance, credit notes, manual journal entries, and post-period cash receipts.
+RED_FLAGS: quarter-end spike, manual revenue journal, revenue without invoice, invoice without delivery, side letter, channel stuffing.
+KEYWORDS: fraud risk, revenue recognition, cut-off, manual journal, side agreement, channel stuffing, quarter end
+
+---
+STANDARD: ISA 240 / PCAOB AS 2401
+PARAGRAPH: ISA 240 / AS 2401
+TOPIC: Management Override of Controls
+CATEGORY: fraud_control
+RULE: Manual journal entries, top-side adjustments, changes to estimates, and unusual transactions outside normal processes require review for management override risk.
+GL_CLASSIFICATION: Any GL account; high-risk accounts include revenue, reserves, accruals, estimates, related parties, suspense.
+JOURNAL_ENTRY: Do not auto-approve high-risk manual entries; require evidence and authorization.
+AUDIT_CHECKS: Analyze preparer/approver, posting time, unusual accounts, round numbers, weekend postings, late close entries, and descriptions.
+RED_FLAGS: posted by senior finance user, no support, after-hours entry, round amount, entry reverses after audit, unusual account combination.
+KEYWORDS: management override, manual journal, top-side, late entry, round amount, unsupported, post-close
+
+---
+STANDARD: ISA 315 / PCAOB AS 2110
+PARAGRAPH: ISA 315 / AS 2110
+TOPIC: Risk Assessment and Significant Accounts
+CATEGORY: fraud_control
+RULE: Accounts with high volume, complexity, estimation uncertainty, fraud susceptibility, related-party activity, or material balance should be flagged as significant accounts for audit planning and RAG retrieval priority.
+GL_CLASSIFICATION: Significant Account Flag.
+JOURNAL_ENTRY: No journal entry; risk classification only.
+AUDIT_CHECKS: Assess materiality, transaction volume, complexity, judgment, fraud risk, IT dependency, and prior misstatements.
+RED_FLAGS: high manual entry volume, estimates without review, unexplained fluctuations, weak controls.
+KEYWORDS: risk assessment, significant account, materiality, audit planning, inherent risk, control risk
+
+---
+STANDARD: ISA 500 / PCAOB AS 1105
+PARAGRAPH: ISA 500 / AS 1105
+TOPIC: Audit Evidence Reliability
+CATEGORY: fraud_control
+RULE: Audit evidence is more reliable when obtained from independent external sources, generated directly by the auditor, or supported by effective controls. Internally generated evidence alone is weaker, especially for high-risk estimates or related-party transactions.
+GL_CLASSIFICATION: Evidence Quality Flag.
+JOURNAL_ENTRY: No journal entry; evidence assessment only.
+AUDIT_CHECKS: Rank evidence: external confirmation, bank statement, signed contract, invoice, PO, receiving report, internal spreadsheet, management inquiry.
+RED_FLAGS: only verbal explanation, editable spreadsheet without source, missing original invoice, altered PDF metadata.
+KEYWORDS: audit evidence, reliability, external evidence, confirmation, support, source document
+
+---
+STANDARD: ISA 520 / PCAOB AS 2305
+PARAGRAPH: ISA 520 / AS 2305
+TOPIC: Analytical Procedures and Fluctuation Review
+CATEGORY: fraud_control
+RULE: Unexpected relationships, unusual trends, margin changes, account spikes, or deviations from budget/prior period should be flagged for investigation. Analytical procedures support risk assessment and substantive testing but require corroboration for significant risks.
+GL_CLASSIFICATION: Audit Analytics Flag.
+JOURNAL_ENTRY: No automatic entry; investigate variance and post adjustment only if misstatement is identified.
+AUDIT_CHECKS: Compare current period to prior period, budget, revenue drivers, headcount, units, margins, and nonfinancial data.
+RED_FLAGS: expense drop despite revenue growth, gross margin spike, negative expense, unusual account with no activity history.
+KEYWORDS: analytical procedure, variance, fluctuation, trend, margin, ratio, anomaly
+
+---
+STANDARD: ISA 560 / ASC 855
+PARAGRAPH: 560-12-855-10
+TOPIC: Subsequent Payments as Audit Evidence
+CATEGORY: fraud_control
+RULE: Payments made after period-end can provide evidence that liabilities existed at period-end. Post-period cash disbursement testing helps identify unrecorded liabilities and cut-off errors.
+GL_CLASSIFICATION: Accrued Expense, Accounts Payable, Prior Period Adjustment if material.
+JOURNAL_ENTRY: If prior-period liability omitted: Debit Expense or Asset, Credit Accrued Liability/AP in prior period.
+AUDIT_CHECKS: Search cash disbursements after period-end, match invoices/service dates to reporting period, and compare to AP listing.
+RED_FLAGS: large January payments for December services not accrued, vendor statement balances omitted, payment without invoice.
+KEYWORDS: subsequent payment, search for unrecorded liabilities, SURL, AP cutoff, post year-end payment
+
+---
+STANDARD: IAS 1 / ASC 210 / Audit Practice
+PARAGRAPH: 117-129
+TOPIC: Suspense, Clearing, and Miscellaneous Accounts
+CATEGORY: fraud_control
+RULE: Suspense, clearing, miscellaneous, and uncategorized accounts should be temporary and regularly reconciled. Items must be reclassified to correct account once nature is known.
+GL_CLASSIFICATION: Suspense Account, Clearing Account, Reclassification Required.
+JOURNAL_ENTRY: Reclassify: Debit Correct Account, Credit Suspense/Clearing, or reverse depending on balance direction.
+AUDIT_CHECKS: Review aging, owner, reconciliation, recurring items, and unresolved balances.
+RED_FLAGS: old suspense balances, large clearing account balance at period-end, vague descriptions, unsupported reclasses.
+KEYWORDS: suspense, clearing, miscellaneous, uncategorized, unknown vendor, reclass, unresolved
+
+---
+STANDARD: IAS 1 / ASC 210
+PARAGRAPH: IAS 1.32 / ASC 210-20
+TOPIC: Offsetting Assets, Liabilities, Income, and Expenses
+RULE: Assets and liabilities or income and expenses are not offset unless required or permitted by a specific standard and legally enforceable right and net settlement intention exist where applicable.
+GL_CLASSIFICATION: Gross Presentation, Net Presentation only if criteria met.
+JOURNAL_ENTRY: Reclassify to gross if improperly netted: Debit/Credit relevant asset/liability and income/expense accounts.
+AUDIT_CHECKS: Inspect netting agreements, legal right of setoff, settlement practice, and disclosure.
+RED_FLAGS: AR and AP netted without agreement, expenses netted against revenue, tax balances offset across jurisdictions improperly.
+KEYWORDS: offsetting, netting, gross presentation, right of setoff, net settlement
+
+---
+STANDARD: Audit Practice
+PARAGRAPH: AP-DUP-01
+TOPIC: Duplicate Invoice Detection
+CATEGORY: fraud_control
+RULE: Potential duplicate invoices should be held for review before payment or posting when vendor, invoice number, date, amount, bank account, PO, or description match prior transactions. Accounting classification is secondary until duplicate risk is resolved.
+GL_CLASSIFICATION: AP Hold, Duplicate Payment Recovery, Suspense.
+JOURNAL_ENTRY: If duplicate posted: Debit AP, Credit Expense/Asset or reverse duplicate entry. If paid: record receivable from vendor if recovery expected.
+AUDIT_CHECKS: Match exact and fuzzy invoice numbers, vendor aliases, same amount/date, PO reuse, and credit notes.
+RED_FLAGS: invoice number with punctuation changes, same PDF resubmitted, duplicate bank account across vendors, repeated round amounts.
+KEYWORDS: duplicate invoice, duplicate payment, invoice number, AP duplicate, fuzzy match, vendor duplicate
+
+---
+STANDARD: ASC 850 / IAS 24 / Audit Practice
+PARAGRAPH: ASC 850-10 / IAS 24
+TOPIC: Vendor Master and Related Party Audit Red Flags
+CATEGORY: fraud_control
+RULE: New vendors, changes to bank details, vendors with employee addresses, duplicate tax IDs, and related-party links require enhanced review. Classification should be suspended or flagged if vendor legitimacy is not established.
+GL_CLASSIFICATION: Suspense, Accounts Payable Hold, Related Party Payable.
+JOURNAL_ENTRY: Do not post or pay until validation if fraud risk is unresolved; if already posted, reverse or reclassify if invalid.
+AUDIT_CHECKS: Match vendor bank, tax ID, address, email domain, employee master, approval workflow, and sanctions screening.
+RED_FLAGS: bank account changed just before payment, vendor name similar to existing vendor, employee/vendor match, PO box only.
+KEYWORDS: vendor master, bank change, duplicate vendor, related party, fraud, supplier onboarding, payment control
+
+---
+STANDARD: IAS 1 / ASC 720 / Audit Practice
+PARAGRAPH: 117
+TOPIC: Cost Center and Department Coding
+CATEGORY: fraud_control
+RULE: GL classification should include cost center or department based on who consumes the benefit, not simply who approved invoice. Shared costs should be allocated using a consistent, supportable basis.
+GL_CLASSIFICATION: Department Expense, Shared Cost Allocation, COGS, SG&A, R&D.
+JOURNAL_ENTRY: Debit appropriate department expense accounts, Credit AP; allocate shared cost through reclass if needed.
+AUDIT_CHECKS: Review cost center owner, allocation basis, headcount/revenue/usage drivers, and consistency.
+RED_FLAGS: expenses moved between departments to meet budgets, no allocation support, approver differs from user department.
+KEYWORDS: cost center, department, allocation, shared cost, SG&A, R&D, COGS, department coding
+
+---
+STANDARD: IAS 1 / ASC 720 / Audit Practice
+PARAGRAPH: 29-31
+TOPIC: Materiality and Posting Thresholds
+CATEGORY: fraud_control
+RULE: Classification decisions should consider quantitative and qualitative materiality. Immaterial items may be expensed under policy, but intentional misclassification to manage earnings is not acceptable even if individual items are small.
+GL_CLASSIFICATION: Expense, Asset, Audit Adjustment, Passed Adjustment.
+JOURNAL_ENTRY: Post adjustment if above posting threshold or qualitatively material; otherwise document passed adjustment.
+AUDIT_CHECKS: Compare to capitalization threshold, posting threshold, aggregate misstatements, and qualitative factors.
+RED_FLAGS: many small items just below threshold, pattern of bias, related-party or fraud-sensitive items treated as immaterial.
+KEYWORDS: materiality, threshold, capitalization policy, posting threshold, trivial, aggregate misstatement
+
+---
+STANDARD: IAS 1 / ASC 720 / Audit Practice
+PARAGRAPH: 118
+TOPIC: Chart of Accounts Mapping Confidence
+CATEGORY: fraud_control
+RULE: When invoice text matches multiple accounting treatments, classify using hierarchy: contract/service period, asset control/useful life, inventory/resale intent, tax recoverability, department use, vendor history, and entity policy. Low-confidence classifications should be routed for human review.
+GL_CLASSIFICATION: Suggested GL Account, Review Required Flag.
+JOURNAL_ENTRY: Post only when confidence and evidence meet policy; otherwise hold in review queue.
+AUDIT_CHECKS: Retrieve similar historical invoices, contract, PO, vendor default account, and policy thresholds.
+RED_FLAGS: ambiguous description, new vendor, mixed invoice, missing service period, conflicting historical coding.
+KEYWORDS: GL mapping, classification confidence, RAG, ambiguity, human review, account coding, invoice AI
+
+---
+STANDARD: IAS 1 / ASC 720 / Audit Practice
+PARAGRAPH: 104
+TOPIC: Negative Expenses and Credit Balances
+CATEGORY: fraud_control
+RULE: Negative expense balances and credit balances in expense accounts require review. They may be valid due to refunds, rebates, reclasses, or accrual reversals, but should be supported and classified correctly.
+GL_CLASSIFICATION: Expense Reduction, Vendor Credit, Reclassification, Other Income if appropriate.
+JOURNAL_ENTRY: Reclassify unsupported credit balances to correct account based on nature.
+AUDIT_CHECKS: Trace to credit notes, refunds, accrual reversals, rebates, and prior-period corrections.
+RED_FLAGS: large negative expense, credit posted to obscure account, vendor refund recorded as revenue, unexplained reversal.
+KEYWORDS: negative expense, credit balance, refund, rebate, reversal, vendor credit, expense reduction
+
+---
+STANDARD: IAS 37 / ASC 405
+PARAGRAPH: 37-79-405-20
+TOPIC: Liability Derecognition and Aged Payables
+RULE: A liability is derecognized only when extinguished, paid, legally released, or expired under applicable law. Old payables should not be released to income solely because they are aged.
+GL_CLASSIFICATION: Accounts Payable, Other Income, Liability Release.
+JOURNAL_ENTRY: Valid release: Debit AP, Credit Other Income or relevant account according to policy.
+AUDIT_CHECKS: Obtain vendor confirmation, legal release, statute analysis, payment history, and dispute documentation.
+RED_FLAGS: old AP released to income to improve results, no vendor confirmation, related-party payable written off.
+KEYWORDS: aged payable, liability release, derecognition, write back, stale AP, extinguishment
+
+---
+STANDARD: IAS 1 / ASC 720 / Audit Practice
+PARAGRAPH: 114
+TOPIC: Purchase Order Commitments
+CATEGORY: fraud_control
+RULE: A purchase order alone usually does not create an accounting liability until goods/services are received or an unavoidable obligation exists. Open purchase commitments may require disclosure if material.
+GL_CLASSIFICATION: Commitment Disclosure, No Entry, Accrued Liability if received.
+JOURNAL_ENTRY: No entry for executory PO alone. If goods/services received: Debit Expense/Asset, Credit AP/Accrual.
+AUDIT_CHECKS: Review open PO listing, receiving status, cancellation terms, and material commitments.
+RED_FLAGS: PO recorded as expense before receipt, large noncancelable commitments undisclosed, stale open POs.
+KEYWORDS: purchase order, commitment, open PO, executory contract, noncancelable, goods received
+
+---
+STANDARD: IAS 1 / ASC 720 / Audit Practice
+PARAGRAPH: 120
+TOPIC: Three-Way Match for Purchases
+CATEGORY: fraud_control
+RULE: Inventory and fixed asset purchases should be matched to purchase order, receiving evidence, and vendor invoice before posting or payment. Service purchases should be matched to contract/SOW and service acceptance.
+GL_CLASSIFICATION: AP, Inventory, Fixed Asset, Expense, GRNI.
+JOURNAL_ENTRY: Record based on received goods/services and invoice status.
+AUDIT_CHECKS: PO, goods receipt, invoice, price/quantity variance, approval, and vendor master validation.
+RED_FLAGS: invoice without PO, quantity mismatch, price override, receipt after invoice, duplicate PO use.
+KEYWORDS: three way match, PO, purchase order, goods receipt, invoice match, receiving, GRNI
+
+---
+STANDARD: IAS 1 / ASC 720 / Audit Practice
+PARAGRAPH: 88
+TOPIC: Personal or Non-Business Expenses
+CATEGORY: fraud_control
+RULE: Personal, owner, or employee non-business expenses should not be recorded as company operating expenses. Treat them as receivables from employee/owner, distributions, compensation, or disallowed expenses depending on facts.
+GL_CLASSIFICATION: Employee Receivable, Owner Distribution, Compensation Expense, Non-Deductible Expense.
+JOURNAL_ENTRY: Reclass personal item: Debit Employee/Owner Receivable or Distribution, Credit Expense.
+AUDIT_CHECKS: Review receipt details, business purpose, approver, employee relationship, and reimbursement policy.
+RED_FLAGS: luxury goods, family travel, weekend entertainment, home expenses, recurring personal vendor.
+KEYWORDS: personal expense, owner expense, employee receivable, non-business, disallowed, reimbursement
+
+---
+STANDARD: ASC 720
+PARAGRAPH: 25-1
+TOPIC: Facilities and Grounds Maintenance
+RULE: Landscaping, grounds maintenance, cleaning, janitorial, 
+and facilities management services are operating expenses 
+recognized when services are rendered. Journal entry: Debit 
+Facilities Expense (OPEX), Credit Accounts Payable.
+KEYWORDS: landscape, grounds, maintenance, cleaning, janitorial, 
+facilities, gardening, mowing, lawn

@@ -1,0 +1,2708 @@
+{
+  "ACME_SOFTWARE": [
+    {
+      "invoice_id": "ACME-0000",
+      "amount": 17100.44,
+      "date": "2024-09-04",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0001",
+      "amount": 2007.29,
+      "date": "2024-11-16",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0002",
+      "amount": 27915.12,
+      "date": "2024-02-21",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0003",
+      "amount": 83521.39,
+      "date": "2024-01-10",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0004",
+      "amount": 382.36,
+      "date": "2024-10-05",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0005",
+      "amount": 12970.57,
+      "date": "2024-02-15",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0006",
+      "amount": 213.12,
+      "date": "2024-10-14",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0007",
+      "amount": 148.19,
+      "date": "2024-08-05",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0008",
+      "amount": 375.39,
+      "date": "2024-06-17",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0009",
+      "amount": 12458.35,
+      "date": "2024-04-19",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0010",
+      "amount": 25117.04,
+      "date": "2024-10-27",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0011",
+      "amount": 49360.95,
+      "date": "2024-02-25",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0012",
+      "amount": 1320.58,
+      "date": "2024-09-10",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0013",
+      "amount": 27303.45,
+      "date": "2024-10-09",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0014",
+      "amount": 2610.64,
+      "date": "2024-05-24",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0015",
+      "amount": 4641.0,
+      "date": "2024-06-03",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0016",
+      "amount": 787.81,
+      "date": "2024-10-22",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0017",
+      "amount": 821.21,
+      "date": "2024-05-08",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0018",
+      "amount": 75312.74,
+      "date": "2024-08-02",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0019",
+      "amount": 786.0,
+      "date": "2024-04-15",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0020",
+      "amount": 1322.17,
+      "date": "2024-09-26",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0021",
+      "amount": 2345.17,
+      "date": "2024-04-06",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0022",
+      "amount": 1531.3,
+      "date": "2024-07-03",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0023",
+      "amount": 853.45,
+      "date": "2024-09-09",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0024",
+      "amount": 61271.89,
+      "date": "2024-09-06",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0025",
+      "amount": 1517.87,
+      "date": "2024-01-14",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0026",
+      "amount": 21728.38,
+      "date": "2024-01-13",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0027",
+      "amount": 89746.15,
+      "date": "2024-10-26",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0028",
+      "amount": 48884.16,
+      "date": "2024-09-26",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0029",
+      "amount": 96101.31,
+      "date": "2024-09-27",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0030",
+      "amount": 325.53,
+      "date": "2024-04-06",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0031",
+      "amount": 31225.71,
+      "date": "2024-05-01",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0032",
+      "amount": 297.45,
+      "date": "2024-07-09",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0033",
+      "amount": 17502.18,
+      "date": "2024-11-09",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0034",
+      "amount": 1514.58,
+      "date": "2024-06-12",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0035",
+      "amount": 2138.78,
+      "date": "2024-11-03",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0036",
+      "amount": 442.35,
+      "date": "2024-02-23",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0037",
+      "amount": 232.77,
+      "date": "2024-04-26",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0038",
+      "amount": 1874.47,
+      "date": "2024-08-06",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0039",
+      "amount": 82130.81,
+      "date": "2024-05-15",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0040",
+      "amount": 17882.47,
+      "date": "2024-04-20",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0041",
+      "amount": 4155.18,
+      "date": "2024-05-14",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0042",
+      "amount": 1619.36,
+      "date": "2024-07-14",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0043",
+      "amount": 2153.32,
+      "date": "2024-06-26",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0044",
+      "amount": 74942.26,
+      "date": "2024-12-05",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0045",
+      "amount": 120.8,
+      "date": "2024-11-25",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0046",
+      "amount": 589.89,
+      "date": "2024-01-10",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0047",
+      "amount": 2267.2,
+      "date": "2024-03-23",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0048",
+      "amount": 2473.49,
+      "date": "2024-03-10",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0049",
+      "amount": 216.71,
+      "date": "2024-09-08",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0050",
+      "amount": 1816.96,
+      "date": "2024-04-22",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0051",
+      "amount": 242.74,
+      "date": "2024-07-13",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0052",
+      "amount": 177.49,
+      "date": "2024-11-11",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0053",
+      "amount": 44922.79,
+      "date": "2024-10-05",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0054",
+      "amount": 5516.89,
+      "date": "2024-11-13",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0055",
+      "amount": 14744.98,
+      "date": "2024-11-05",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0056",
+      "amount": 6274.38,
+      "date": "2024-10-06",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0057",
+      "amount": 286.06,
+      "date": "2024-09-13",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0058",
+      "amount": 83016.7,
+      "date": "2024-09-19",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0059",
+      "amount": 24995.22,
+      "date": "2024-10-07",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0060",
+      "amount": 2078.19,
+      "date": "2024-07-14",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0061",
+      "amount": 396.08,
+      "date": "2024-09-18",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0062",
+      "amount": 20916.39,
+      "date": "2024-08-17",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0063",
+      "amount": 1292.87,
+      "date": "2024-11-26",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0064",
+      "amount": 3411.83,
+      "date": "2024-08-03",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0065",
+      "amount": 90991.11,
+      "date": "2024-05-14",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0066",
+      "amount": 17113.99,
+      "date": "2024-12-05",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0067",
+      "amount": 1531.39,
+      "date": "2024-03-02",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0068",
+      "amount": 5104.93,
+      "date": "2024-01-19",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0069",
+      "amount": 165.84,
+      "date": "2024-04-07",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0070",
+      "amount": 6893.48,
+      "date": "2024-06-24",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0071",
+      "amount": 561.67,
+      "date": "2024-08-25",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0072",
+      "amount": 4240.2,
+      "date": "2024-01-11",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0073",
+      "amount": 228.99,
+      "date": "2024-08-14",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0074",
+      "amount": 21880.26,
+      "date": "2024-02-26",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0075",
+      "amount": 1979.88,
+      "date": "2024-05-14",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0076",
+      "amount": 608.16,
+      "date": "2024-09-27",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0077",
+      "amount": 3787.15,
+      "date": "2024-04-04",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0078",
+      "amount": 2337.33,
+      "date": "2024-01-27",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0079",
+      "amount": 14022.11,
+      "date": "2024-10-22",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0080",
+      "amount": 11198.25,
+      "date": "2024-08-06",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0081",
+      "amount": 7152.05,
+      "date": "2024-04-16",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0082",
+      "amount": 492.84,
+      "date": "2024-02-10",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0083",
+      "amount": 52150.96,
+      "date": "2024-06-11",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0084",
+      "amount": 1021.35,
+      "date": "2024-05-12",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0085",
+      "amount": 384.64,
+      "date": "2024-10-02",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0086",
+      "amount": 1695.55,
+      "date": "2024-02-22",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0087",
+      "amount": 281.76,
+      "date": "2024-09-12",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0088",
+      "amount": 19634.08,
+      "date": "2024-10-14",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0089",
+      "amount": 283.75,
+      "date": "2024-12-24",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0090",
+      "amount": 1557.11,
+      "date": "2024-03-03",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0091",
+      "amount": 44193.19,
+      "date": "2024-07-08",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0092",
+      "amount": 645.02,
+      "date": "2024-04-08",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0093",
+      "amount": 383.01,
+      "date": "2024-04-24",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0094",
+      "amount": 97901.7,
+      "date": "2024-04-27",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0095",
+      "amount": 57376.15,
+      "date": "2024-11-28",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0096",
+      "amount": 7870.83,
+      "date": "2024-07-12",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0097",
+      "amount": 327.36,
+      "date": "2024-10-22",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0098",
+      "amount": 5192.48,
+      "date": "2024-06-19",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0099",
+      "amount": 462.04,
+      "date": "2024-11-10",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0100",
+      "amount": 98469.98,
+      "date": "2024-10-11",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0101",
+      "amount": 3765.43,
+      "date": "2024-07-24",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0102",
+      "amount": 175.21,
+      "date": "2024-07-24",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0103",
+      "amount": 57301.28,
+      "date": "2024-10-15",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0104",
+      "amount": 9384.16,
+      "date": "2024-05-14",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0105",
+      "amount": 1744.25,
+      "date": "2024-06-26",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0106",
+      "amount": 715.65,
+      "date": "2024-12-17",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0107",
+      "amount": 826.89,
+      "date": "2024-04-28",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0108",
+      "amount": 3333.08,
+      "date": "2024-10-15",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0109",
+      "amount": 23948.03,
+      "date": "2024-06-13",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0110",
+      "amount": 352.6,
+      "date": "2024-04-25",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0111",
+      "amount": 2346.6,
+      "date": "2024-04-04",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0112",
+      "amount": 1122.11,
+      "date": "2024-01-13",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0113",
+      "amount": 30707.84,
+      "date": "2024-06-26",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0114",
+      "amount": 25350.13,
+      "date": "2024-08-26",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0115",
+      "amount": 20891.38,
+      "date": "2024-02-14",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0116",
+      "amount": 231.38,
+      "date": "2024-12-26",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0117",
+      "amount": 188.32,
+      "date": "2024-08-10",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0118",
+      "amount": 4121.84,
+      "date": "2024-07-15",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0119",
+      "amount": 19098.61,
+      "date": "2024-03-23",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0120",
+      "amount": 147.23,
+      "date": "2024-10-19",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0121",
+      "amount": 2741.0,
+      "date": "2024-12-06",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0122",
+      "amount": 29578.07,
+      "date": "2024-01-05",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0123",
+      "amount": 783.02,
+      "date": "2024-12-21",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0124",
+      "amount": 138.27,
+      "date": "2024-08-02",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0125",
+      "amount": 8178.36,
+      "date": "2024-06-16",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0126",
+      "amount": 504.8,
+      "date": "2024-07-21",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0127",
+      "amount": 188.89,
+      "date": "2024-09-14",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0128",
+      "amount": 1017.58,
+      "date": "2024-04-13",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0129",
+      "amount": 1604.91,
+      "date": "2024-02-01",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0130",
+      "amount": 5750.08,
+      "date": "2024-06-18",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0131",
+      "amount": 6755.05,
+      "date": "2024-12-23",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0132",
+      "amount": 246.25,
+      "date": "2024-12-19",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0133",
+      "amount": 55572.79,
+      "date": "2024-11-24",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0134",
+      "amount": 14821.43,
+      "date": "2024-09-03",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0135",
+      "amount": 98392.45,
+      "date": "2024-06-27",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0136",
+      "amount": 505.58,
+      "date": "2024-06-16",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0137",
+      "amount": 211.61,
+      "date": "2024-04-19",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0138",
+      "amount": 203.32,
+      "date": "2024-11-10",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0139",
+      "amount": 152.36,
+      "date": "2024-07-27",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0140",
+      "amount": 63321.75,
+      "date": "2024-02-09",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0141",
+      "amount": 34726.42,
+      "date": "2024-02-13",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0142",
+      "amount": 1006.81,
+      "date": "2024-08-16",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0143",
+      "amount": 997.34,
+      "date": "2024-10-22",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0144",
+      "amount": 152.09,
+      "date": "2024-02-28",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0145",
+      "amount": 582.65,
+      "date": "2024-02-11",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0146",
+      "amount": 53968.83,
+      "date": "2024-11-12",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0147",
+      "amount": 5067.26,
+      "date": "2024-01-19",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0148",
+      "amount": 697.31,
+      "date": "2024-03-10",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0149",
+      "amount": 1121.01,
+      "date": "2024-02-16",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0150",
+      "amount": 9902.56,
+      "date": "2024-04-27",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0151",
+      "amount": 191.79,
+      "date": "2024-04-05",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0152",
+      "amount": 3205.12,
+      "date": "2024-07-25",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0153",
+      "amount": 14240.65,
+      "date": "2024-01-21",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0154",
+      "amount": 174.57,
+      "date": "2024-09-02",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0155",
+      "amount": 111.67,
+      "date": "2024-04-12",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0156",
+      "amount": 494.75,
+      "date": "2024-03-06",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0157",
+      "amount": 1471.98,
+      "date": "2024-04-17",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0158",
+      "amount": 14554.15,
+      "date": "2024-09-24",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0159",
+      "amount": 683.12,
+      "date": "2024-08-26",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0160",
+      "amount": 358.4,
+      "date": "2024-10-03",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0161",
+      "amount": 1603.09,
+      "date": "2024-03-03",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0162",
+      "amount": 1445.67,
+      "date": "2024-10-24",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0163",
+      "amount": 3048.95,
+      "date": "2024-05-27",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0164",
+      "amount": 21013.5,
+      "date": "2024-04-26",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0165",
+      "amount": 3981.93,
+      "date": "2024-10-16",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0166",
+      "amount": 556.5,
+      "date": "2024-02-13",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0167",
+      "amount": 467.92,
+      "date": "2024-02-03",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0168",
+      "amount": 78755.5,
+      "date": "2024-05-24",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0169",
+      "amount": 170.34,
+      "date": "2024-10-04",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0170",
+      "amount": 8139.14,
+      "date": "2024-07-26",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0171",
+      "amount": 121.44,
+      "date": "2024-02-18",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0172",
+      "amount": 15585.53,
+      "date": "2024-01-09",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0173",
+      "amount": 4692.7,
+      "date": "2024-06-16",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0174",
+      "amount": 153.12,
+      "date": "2024-08-22",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0175",
+      "amount": 17340.04,
+      "date": "2024-07-24",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0176",
+      "amount": 15755.48,
+      "date": "2024-11-04",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0177",
+      "amount": 18334.14,
+      "date": "2024-03-17",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0178",
+      "amount": 12481.96,
+      "date": "2024-05-23",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0179",
+      "amount": 1843.61,
+      "date": "2024-10-27",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0180",
+      "amount": 597.14,
+      "date": "2024-07-05",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "ACME-0181",
+      "amount": 26228.27,
+      "date": "2024-12-16",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0182",
+      "amount": 2781.94,
+      "date": "2024-09-22",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0183",
+      "amount": 13004.63,
+      "date": "2024-06-01",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0184",
+      "amount": 4158.91,
+      "date": "2024-10-27",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0185",
+      "amount": 2933.87,
+      "date": "2024-12-08",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0186",
+      "amount": 5814.0,
+      "date": "2024-02-08",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0187",
+      "amount": 2611.04,
+      "date": "2024-09-01",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0188",
+      "amount": 66392.8,
+      "date": "2024-01-09",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0189",
+      "amount": 717.18,
+      "date": "2024-06-02",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0190",
+      "amount": 8331.07,
+      "date": "2024-07-16",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0191",
+      "amount": 857.69,
+      "date": "2024-06-12",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0192",
+      "amount": 4688.86,
+      "date": "2024-07-16",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0193",
+      "amount": 23512.77,
+      "date": "2024-01-18",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "ACME-0194",
+      "amount": 420.75,
+      "date": "2024-02-25",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0195",
+      "amount": 20428.53,
+      "date": "2024-07-08",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "ACME-0196",
+      "amount": 641.04,
+      "date": "2024-03-05",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "ACME-0197",
+      "amount": 741.15,
+      "date": "2024-02-24",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "ACME-0198",
+      "amount": 463.28,
+      "date": "2024-06-28",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "ACME-0199",
+      "amount": 500.26,
+      "date": "2024-05-23",
+      "description": "Support Contract"
+    }
+  ],
+  "FASTCONSULT": [
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0000",
+      "amount": 4879.16,
+      "date": "2025-01-11",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0001",
+      "amount": 9849.64,
+      "date": "2025-05-04",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0002",
+      "amount": 9784.81,
+      "date": "2025-03-26",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0003",
+      "amount": 4855.5,
+      "date": "2025-02-17",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0004",
+      "amount": 4857.32,
+      "date": "2025-04-16",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0005",
+      "amount": 4897.46,
+      "date": "2025-01-07",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0006",
+      "amount": 4895.91,
+      "date": "2025-05-03",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0007",
+      "amount": 9951.39,
+      "date": "2025-03-21",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0008",
+      "amount": 9964.42,
+      "date": "2025-05-25",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0009",
+      "amount": 9758.06,
+      "date": "2025-03-11",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0010",
+      "amount": 4837.18,
+      "date": "2025-02-08",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0011",
+      "amount": 4940.22,
+      "date": "2025-01-01",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0012",
+      "amount": 4762.36,
+      "date": "2025-05-06",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0013",
+      "amount": 9977.4,
+      "date": "2025-02-14",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0014",
+      "amount": 9781.15,
+      "date": "2025-04-17",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0015",
+      "amount": 9894.54,
+      "date": "2025-04-06",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0016",
+      "amount": 9918.29,
+      "date": "2025-03-27",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0017",
+      "amount": 9825.71,
+      "date": "2025-01-25",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0018",
+      "amount": 4792.3,
+      "date": "2025-01-04",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0019",
+      "amount": 4920.37,
+      "date": "2025-01-13",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0020",
+      "amount": 4878.49,
+      "date": "2025-05-17",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0021",
+      "amount": 4819.35,
+      "date": "2025-02-23",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0022",
+      "amount": 9864.54,
+      "date": "2025-01-01",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0023",
+      "amount": 9849.35,
+      "date": "2025-03-15",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0024",
+      "amount": 4872.54,
+      "date": "2025-04-01",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0025",
+      "amount": 4974.99,
+      "date": "2025-04-10",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0026",
+      "amount": 4839.43,
+      "date": "2025-02-12",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0027",
+      "amount": 4892.79,
+      "date": "2025-01-19",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0028",
+      "amount": 4910.68,
+      "date": "2025-01-06",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0029",
+      "amount": 4908.37,
+      "date": "2025-03-17",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0030",
+      "amount": 4800.47,
+      "date": "2025-04-21",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0031",
+      "amount": 9950.52,
+      "date": "2025-01-27",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0032",
+      "amount": 9820.73,
+      "date": "2025-04-09",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0033",
+      "amount": 9943.95,
+      "date": "2025-05-16",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0034",
+      "amount": 4949.42,
+      "date": "2025-05-01",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0035",
+      "amount": 9829.61,
+      "date": "2025-02-02",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0036",
+      "amount": 4784.16,
+      "date": "2025-01-08",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0037",
+      "amount": 4858.43,
+      "date": "2025-04-11",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0038",
+      "amount": 4922.26,
+      "date": "2025-03-16",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0039",
+      "amount": 9972.45,
+      "date": "2025-03-01",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0040",
+      "amount": 9968.41,
+      "date": "2025-01-14",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0041",
+      "amount": 4794.97,
+      "date": "2025-05-27",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0042",
+      "amount": 4926.31,
+      "date": "2025-04-15",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0043",
+      "amount": 9922.68,
+      "date": "2025-01-20",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0044",
+      "amount": 9836.9,
+      "date": "2025-05-26",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0045",
+      "amount": 9973.75,
+      "date": "2025-03-22",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0046",
+      "amount": 4816.63,
+      "date": "2025-02-05",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0047",
+      "amount": 4785.93,
+      "date": "2025-01-16",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0048",
+      "amount": 4954.05,
+      "date": "2025-05-26",
+      "description": "Consulting Services"
+    },
+    {
+      "invoice_id": "FASTCONSULT-FRAUD-0049",
+      "amount": 9787.3,
+      "date": "2025-03-19",
+      "description": "Consulting Services"
+    }
+  ],
+  "OFFICE_DEPOT": [
+    {
+      "invoice_id": "OFFICEDEPOT-0000",
+      "amount": 19282.58,
+      "date": "2024-02-11",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0001",
+      "amount": 7556.74,
+      "date": "2024-11-17",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0002",
+      "amount": 6792.0,
+      "date": "2024-10-13",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0003",
+      "amount": 986.38,
+      "date": "2024-05-27",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0004",
+      "amount": 507.06,
+      "date": "2024-04-18",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0005",
+      "amount": 8507.93,
+      "date": "2024-06-15",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0006",
+      "amount": 1982.84,
+      "date": "2024-02-25",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0007",
+      "amount": 200.37,
+      "date": "2024-10-04",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0008",
+      "amount": 728.21,
+      "date": "2024-08-13",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0009",
+      "amount": 2821.73,
+      "date": "2024-03-15",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0010",
+      "amount": 72649.28,
+      "date": "2024-07-23",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0011",
+      "amount": 21327.72,
+      "date": "2024-11-24",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0012",
+      "amount": 437.0,
+      "date": "2024-02-04",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0013",
+      "amount": 80905.38,
+      "date": "2024-03-17",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0014",
+      "amount": 107.76,
+      "date": "2024-12-12",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0015",
+      "amount": 92233.47,
+      "date": "2024-05-22",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0016",
+      "amount": 353.44,
+      "date": "2024-04-09",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0017",
+      "amount": 219.44,
+      "date": "2024-12-24",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0018",
+      "amount": 183.13,
+      "date": "2024-06-13",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0019",
+      "amount": 790.86,
+      "date": "2024-08-10",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0020",
+      "amount": 533.06,
+      "date": "2024-06-16",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0021",
+      "amount": 1819.26,
+      "date": "2024-07-10",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0022",
+      "amount": 144.0,
+      "date": "2024-04-08",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0023",
+      "amount": 8656.52,
+      "date": "2024-11-26",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0024",
+      "amount": 19104.44,
+      "date": "2024-12-21",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0025",
+      "amount": 5403.75,
+      "date": "2024-08-10",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0026",
+      "amount": 690.1,
+      "date": "2024-08-05",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0027",
+      "amount": 3175.2,
+      "date": "2024-05-07",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0028",
+      "amount": 280.24,
+      "date": "2024-02-13",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0029",
+      "amount": 250.39,
+      "date": "2024-06-11",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0030",
+      "amount": 14926.86,
+      "date": "2024-06-14",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0031",
+      "amount": 21801.81,
+      "date": "2024-12-17",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0032",
+      "amount": 4893.35,
+      "date": "2024-11-12",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0033",
+      "amount": 291.6,
+      "date": "2024-03-04",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0034",
+      "amount": 6183.37,
+      "date": "2024-11-27",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0035",
+      "amount": 3860.55,
+      "date": "2024-05-21",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0036",
+      "amount": 8260.57,
+      "date": "2024-02-20",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0037",
+      "amount": 238.94,
+      "date": "2024-04-05",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0038",
+      "amount": 10921.89,
+      "date": "2024-06-06",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0039",
+      "amount": 179.64,
+      "date": "2024-07-05",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0040",
+      "amount": 171.41,
+      "date": "2024-08-15",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0041",
+      "amount": 1908.14,
+      "date": "2024-08-19",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0042",
+      "amount": 1561.71,
+      "date": "2024-09-06",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0043",
+      "amount": 235.28,
+      "date": "2024-12-16",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0044",
+      "amount": 7200.39,
+      "date": "2024-06-16",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0045",
+      "amount": 8840.91,
+      "date": "2024-08-09",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0046",
+      "amount": 1627.64,
+      "date": "2024-07-02",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0047",
+      "amount": 1460.45,
+      "date": "2024-04-08",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0048",
+      "amount": 33161.97,
+      "date": "2024-05-20",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0049",
+      "amount": 437.35,
+      "date": "2024-02-10",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0050",
+      "amount": 470.87,
+      "date": "2024-02-28",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0051",
+      "amount": 3094.65,
+      "date": "2024-09-28",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0052",
+      "amount": 28296.42,
+      "date": "2024-07-02",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0053",
+      "amount": 17622.2,
+      "date": "2024-10-21",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0054",
+      "amount": 52947.98,
+      "date": "2024-10-02",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0055",
+      "amount": 913.59,
+      "date": "2024-05-13",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0056",
+      "amount": 1436.44,
+      "date": "2024-02-21",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0057",
+      "amount": 43299.42,
+      "date": "2024-09-26",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0058",
+      "amount": 3913.77,
+      "date": "2024-09-21",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0059",
+      "amount": 1528.0,
+      "date": "2024-03-26",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0060",
+      "amount": 50760.06,
+      "date": "2024-03-28",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0061",
+      "amount": 1569.28,
+      "date": "2024-06-28",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0062",
+      "amount": 18868.69,
+      "date": "2024-10-27",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0063",
+      "amount": 3688.08,
+      "date": "2024-03-19",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0064",
+      "amount": 37056.42,
+      "date": "2024-12-17",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0065",
+      "amount": 3367.6,
+      "date": "2024-06-06",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0066",
+      "amount": 24411.19,
+      "date": "2024-09-04",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0067",
+      "amount": 15732.95,
+      "date": "2024-05-12",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0068",
+      "amount": 4748.72,
+      "date": "2024-06-22",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0069",
+      "amount": 246.19,
+      "date": "2024-03-09",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0070",
+      "amount": 430.66,
+      "date": "2024-08-13",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0071",
+      "amount": 2602.41,
+      "date": "2024-02-24",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0072",
+      "amount": 16168.86,
+      "date": "2024-02-22",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0073",
+      "amount": 16782.21,
+      "date": "2024-09-10",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0074",
+      "amount": 34873.23,
+      "date": "2024-03-25",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0075",
+      "amount": 24689.64,
+      "date": "2024-08-14",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0076",
+      "amount": 9796.06,
+      "date": "2024-06-08",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0077",
+      "amount": 108.02,
+      "date": "2024-01-03",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0078",
+      "amount": 111.64,
+      "date": "2024-11-19",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0079",
+      "amount": 2404.42,
+      "date": "2024-12-25",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0080",
+      "amount": 117.09,
+      "date": "2024-05-18",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0081",
+      "amount": 42570.6,
+      "date": "2024-03-09",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0082",
+      "amount": 777.33,
+      "date": "2024-04-13",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0083",
+      "amount": 8573.72,
+      "date": "2024-04-01",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0084",
+      "amount": 82463.92,
+      "date": "2024-06-06",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0085",
+      "amount": 118.0,
+      "date": "2024-06-21",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0086",
+      "amount": 31837.67,
+      "date": "2024-04-16",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0087",
+      "amount": 1735.43,
+      "date": "2024-05-22",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0088",
+      "amount": 5304.51,
+      "date": "2024-11-19",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0089",
+      "amount": 177.68,
+      "date": "2024-06-12",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0090",
+      "amount": 83638.82,
+      "date": "2024-08-05",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0091",
+      "amount": 7181.64,
+      "date": "2024-07-18",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0092",
+      "amount": 26739.14,
+      "date": "2024-12-24",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0093",
+      "amount": 334.72,
+      "date": "2024-05-23",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0094",
+      "amount": 684.05,
+      "date": "2024-12-18",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0095",
+      "amount": 1339.15,
+      "date": "2024-08-14",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0096",
+      "amount": 2640.1,
+      "date": "2024-02-02",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0097",
+      "amount": 369.26,
+      "date": "2024-09-20",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0098",
+      "amount": 1180.96,
+      "date": "2024-01-10",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0099",
+      "amount": 33758.0,
+      "date": "2024-12-21",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0100",
+      "amount": 187.04,
+      "date": "2024-10-07",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0101",
+      "amount": 5763.53,
+      "date": "2024-03-13",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0102",
+      "amount": 410.31,
+      "date": "2024-08-10",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0103",
+      "amount": 562.02,
+      "date": "2024-10-14",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0104",
+      "amount": 224.91,
+      "date": "2024-06-01",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0105",
+      "amount": 53445.71,
+      "date": "2024-05-03",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0106",
+      "amount": 64958.24,
+      "date": "2024-11-17",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0107",
+      "amount": 15998.94,
+      "date": "2024-04-02",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0108",
+      "amount": 264.19,
+      "date": "2024-01-15",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0109",
+      "amount": 57073.73,
+      "date": "2024-02-13",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0110",
+      "amount": 52435.54,
+      "date": "2024-03-14",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0111",
+      "amount": 32478.88,
+      "date": "2024-10-23",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0112",
+      "amount": 124.86,
+      "date": "2024-07-28",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0113",
+      "amount": 36296.42,
+      "date": "2024-09-07",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0114",
+      "amount": 626.17,
+      "date": "2024-05-23",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0115",
+      "amount": 553.16,
+      "date": "2024-06-02",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0116",
+      "amount": 198.96,
+      "date": "2024-03-21",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0117",
+      "amount": 26778.13,
+      "date": "2024-09-10",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0118",
+      "amount": 1902.79,
+      "date": "2024-09-04",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0119",
+      "amount": 917.48,
+      "date": "2024-09-06",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0120",
+      "amount": 145.02,
+      "date": "2024-02-03",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0121",
+      "amount": 102.67,
+      "date": "2024-06-27",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0122",
+      "amount": 34857.23,
+      "date": "2024-06-11",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0123",
+      "amount": 65965.87,
+      "date": "2024-11-28",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0124",
+      "amount": 52204.44,
+      "date": "2024-08-09",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0125",
+      "amount": 149.52,
+      "date": "2024-06-08",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0126",
+      "amount": 5102.87,
+      "date": "2024-02-13",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0127",
+      "amount": 792.98,
+      "date": "2024-11-27",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0128",
+      "amount": 171.03,
+      "date": "2024-03-04",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0129",
+      "amount": 1701.44,
+      "date": "2024-10-27",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0130",
+      "amount": 15051.94,
+      "date": "2024-01-26",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0131",
+      "amount": 8148.66,
+      "date": "2024-06-19",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0132",
+      "amount": 1673.2,
+      "date": "2024-09-21",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0133",
+      "amount": 9661.13,
+      "date": "2024-11-18",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0134",
+      "amount": 923.03,
+      "date": "2024-04-15",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0135",
+      "amount": 264.59,
+      "date": "2024-02-03",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0136",
+      "amount": 124.73,
+      "date": "2024-12-14",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0137",
+      "amount": 1236.12,
+      "date": "2024-04-17",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0138",
+      "amount": 1267.51,
+      "date": "2024-05-14",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0139",
+      "amount": 6916.14,
+      "date": "2024-04-17",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0140",
+      "amount": 1271.66,
+      "date": "2024-11-14",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0141",
+      "amount": 49492.41,
+      "date": "2024-04-24",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0142",
+      "amount": 91216.72,
+      "date": "2024-09-24",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0143",
+      "amount": 41356.9,
+      "date": "2024-07-18",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0144",
+      "amount": 389.68,
+      "date": "2024-07-19",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0145",
+      "amount": 559.68,
+      "date": "2024-07-11",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0146",
+      "amount": 946.67,
+      "date": "2024-11-28",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0147",
+      "amount": 205.3,
+      "date": "2024-06-12",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0148",
+      "amount": 206.49,
+      "date": "2024-08-15",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0149",
+      "amount": 487.7,
+      "date": "2024-03-10",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0150",
+      "amount": 394.11,
+      "date": "2024-01-03",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0151",
+      "amount": 10567.43,
+      "date": "2024-03-17",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0152",
+      "amount": 50932.23,
+      "date": "2024-11-08",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0153",
+      "amount": 4251.83,
+      "date": "2024-05-19",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0154",
+      "amount": 2919.1,
+      "date": "2024-09-15",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0155",
+      "amount": 1840.38,
+      "date": "2024-09-22",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0156",
+      "amount": 398.29,
+      "date": "2024-07-16",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0157",
+      "amount": 26356.59,
+      "date": "2024-04-07",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0158",
+      "amount": 3557.69,
+      "date": "2024-06-13",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0159",
+      "amount": 1091.6,
+      "date": "2024-08-14",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0160",
+      "amount": 1070.08,
+      "date": "2024-02-05",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0161",
+      "amount": 82529.43,
+      "date": "2024-07-06",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0162",
+      "amount": 1427.78,
+      "date": "2024-08-25",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0163",
+      "amount": 23189.54,
+      "date": "2024-10-08",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0164",
+      "amount": 22055.3,
+      "date": "2024-03-24",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0165",
+      "amount": 27607.88,
+      "date": "2024-03-19",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0166",
+      "amount": 16671.98,
+      "date": "2024-11-27",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0167",
+      "amount": 921.41,
+      "date": "2024-09-02",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0168",
+      "amount": 3970.75,
+      "date": "2024-04-15",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0169",
+      "amount": 1592.33,
+      "date": "2024-10-20",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0170",
+      "amount": 23392.03,
+      "date": "2024-03-08",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0171",
+      "amount": 68408.01,
+      "date": "2024-10-27",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0172",
+      "amount": 14666.36,
+      "date": "2024-12-11",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0173",
+      "amount": 22866.74,
+      "date": "2024-07-27",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0174",
+      "amount": 37913.52,
+      "date": "2024-11-22",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0175",
+      "amount": 3690.22,
+      "date": "2024-11-11",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0176",
+      "amount": 997.91,
+      "date": "2024-06-21",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0177",
+      "amount": 3833.78,
+      "date": "2024-01-11",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0178",
+      "amount": 46270.48,
+      "date": "2024-05-28",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0179",
+      "amount": 174.12,
+      "date": "2024-02-17",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0180",
+      "amount": 493.37,
+      "date": "2024-11-05",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0181",
+      "amount": 3509.38,
+      "date": "2024-04-23",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0182",
+      "amount": 16793.17,
+      "date": "2024-01-01",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0183",
+      "amount": 7227.9,
+      "date": "2024-01-04",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0184",
+      "amount": 569.67,
+      "date": "2024-01-19",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0185",
+      "amount": 354.55,
+      "date": "2024-10-04",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0186",
+      "amount": 159.16,
+      "date": "2024-03-28",
+      "description": "Professional Services"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0187",
+      "amount": 206.52,
+      "date": "2024-11-27",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0188",
+      "amount": 16772.76,
+      "date": "2024-06-22",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0189",
+      "amount": 488.43,
+      "date": "2024-01-28",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0190",
+      "amount": 823.16,
+      "date": "2024-10-17",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0191",
+      "amount": 11932.76,
+      "date": "2024-09-04",
+      "description": "Annual Maintenance"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0192",
+      "amount": 80210.85,
+      "date": "2024-10-22",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0193",
+      "amount": 1874.2,
+      "date": "2024-07-24",
+      "description": "Office Supplies"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0194",
+      "amount": 7008.31,
+      "date": "2024-08-06",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0195",
+      "amount": 101.94,
+      "date": "2024-07-09",
+      "description": "Software License"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0196",
+      "amount": 932.6,
+      "date": "2024-06-25",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0197",
+      "amount": 2385.93,
+      "date": "2024-04-21",
+      "description": "Support Contract"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0198",
+      "amount": 2762.02,
+      "date": "2024-03-16",
+      "description": "Consulting Hours"
+    },
+    {
+      "invoice_id": "OFFICEDEPOT-0199",
+      "amount": 72879.28,
+      "date": "2024-07-20",
+      "description": "Consulting Hours"
+    }
+  ]
+}

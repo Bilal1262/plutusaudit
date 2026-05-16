@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "28c5f91e",
+    "standard": "IFRS 15",
+    "paragraph": "31",
+    "topic": "Software Subscriptions and SaaS",
+    "category": "",
+    "keywords": "software, subscription, saas, license, annual, monthly, cloud, platform",
+    "rule": "A software subscription or SaaS license is a service delivered over time. It represents a performance obligation satisfied ratably over the subscription period. The full invoice amount must NOT be expensed immediately. Initial recognition: Debit Prepaid Expenses (Asset), Credit Accounts Payable. Monthly amortization: Debit Subscription Expense (OPEX), Credit Prepaid Expenses. Example: A 12-month software license for $2,400 creates $200/month expense.",
+    "text": "Standard: IFRS 15, Paragraph: 31, Topic: Software Subscriptions and SaaS\nRule: A software subscription or SaaS license is a service delivered over time. It represents a performance obligation satisfied ratably over the subscription period. The full invoice amount must NOT be expensed immediately. Initial recognition: Debit Prepaid Expenses (Asset), Credit Accounts Payable. Monthly amortization: Debit Subscription Expense (OPEX), Credit Prepaid Expenses. Example: A 12-month software license for $2,400 creates $200/month expense.\nKeywords: software, subscription, saas, license, annual, monthly, cloud, platform"
+  },
+  {
+    "id": "78833e02",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Office Supplies and Consumables",
+    "category": "",
+    "keywords": "office supplies, stationery, paper, consumables, pens, printer, ink, folders",
+    "rule": "Office supplies purchased for immediate operational use are expensed as incurred. They do not meet capitalization criteria as they have no future economic benefit beyond the current period. Journal entry: Debit Office Supplies Expense (OPEX), Credit Accounts Payable. No deferral required. Examples: paper, pens, printer ink, folders, stationery.",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Office Supplies and Consumables\nRule: Office supplies purchased for immediate operational use are expensed as incurred. They do not meet capitalization criteria as they have no future economic benefit beyond the current period. Journal entry: Debit Office Supplies Expense (OPEX), Credit Accounts Payable. No deferral required. Examples: paper, pens, printer ink, folders, stationery.\nKeywords: office supplies, stationery, paper, consumables, pens, printer, ink, folders"
+  },
+  {
+    "id": "cb3b0d63",
+    "standard": "IAS 16",
+    "paragraph": "7",
+    "topic": "Property Plant and Equipment - Capitalization",
+    "category": "",
+    "keywords": "laptop, computer, server, equipment, hardware, machinery, furniture, vehicle, asset",
+    "rule": "An item must be capitalized (treated as CAPEX) when it is probable that future economic benefits will flow to the entity AND the cost can be measured reliably AND the useful life exceeds one accounting period (typically 1 year). Computers, laptops, servers, and equipment with useful life over 1 year must be capitalized. Journal entry: Debit Computer Equipment / Fixed Assets (CAPEX), Credit Accounts Payable. Depreciation is then recorded over the useful life.",
+    "text": "Standard: IAS 16, Paragraph: 7, Topic: Property Plant and Equipment - Capitalization\nRule: An item must be capitalized (treated as CAPEX) when it is probable that future economic benefits will flow to the entity AND the cost can be measured reliably AND the useful life exceeds one accounting period (typically 1 year). Computers, laptops, servers, and equipment with useful life over 1 year must be capitalized. Journal entry: Debit Computer Equipment / Fixed Assets (CAPEX), Credit Accounts Payable. Depreciation is then recorded over the useful life.\nKeywords: laptop, computer, server, equipment, hardware, machinery, furniture, vehicle, asset"
+  },
+  {
+    "id": "ed4f57fe",
+    "standard": "IAS 16",
+    "paragraph": "10",
+    "topic": "Low-Value Assets and Materiality Threshold",
+    "category": "",
+    "keywords": "keyboard, mouse, peripheral, accessory, cable, monitor, headset, webcam",
+    "rule": "Items below the company's capitalization threshold (commonly $500-$2,500 depending on policy) may be expensed immediately regardless of useful life. Keyboards, mice, small peripherals, and accessories typically fall below this threshold. Journal entry: Debit IT Equipment Expense (OPEX), Credit Accounts Payable.",
+    "text": "Standard: IAS 16, Paragraph: 10, Topic: Low-Value Assets and Materiality Threshold\nRule: Items below the company's capitalization threshold (commonly $500-$2,500 depending on policy) may be expensed immediately regardless of useful life. Keyboards, mice, small peripherals, and accessories typically fall below this threshold. Journal entry: Debit IT Equipment Expense (OPEX), Credit Accounts Payable.\nKeywords: keyboard, mouse, peripheral, accessory, cable, monitor, headset, webcam"
+  },
+  {
+    "id": "ba12901f",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Consulting and Professional Services - Expense Classification",
+    "category": "",
+    "keywords": "consulting, advisory, professional services, strategy, management consulting, advisory fee, professional fees",
+    "rule": "Consulting services, professional fees, and advisory fees received and paid by the entity are operating expenses recognized when services are rendered. Journal entry: Debit Professional Services Expense (OPEX), Credit Accounts Payable. These are NEVER classified under ASC 606 or IFRS 15 - those standards govern revenue recognition for the party delivering services, not the party receiving and paying for them.",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Consulting and Professional Services - Expense Classification\nRule: Consulting services, professional fees, and advisory fees received and paid by the entity are operating expenses recognized when services are rendered. Journal entry: Debit Professional Services Expense (OPEX), Credit Accounts Payable. These are NEVER classified under ASC 606 or IFRS 15 - those standards govern revenue recognition for the party delivering services, not the party receiving and paying for them.\nKeywords: consulting, advisory, professional services, strategy, management consulting, advisory fee, professional fees"
+  },
+  {
+    "id": "ba10f5bf",
+    "standard": "IAS 17 / IFRS 16",
+    "paragraph": "22",
+    "topic": "Office Rent and Lease Payments",
+    "category": "",
+    "keywords": "rent, lease, office space, premises, facility, building, coworking, workspace",
+    "rule": "Short-term lease payments (lease term 12 months or less) or low-value asset leases are expensed as incurred under IFRS 16 simplified approach. Journal entry: Debit Rent Expense (OPEX), Credit Accounts Payable. Long-term leases (over 12 months) require right-of-use asset recognition: Debit Right-of-Use Asset, Credit Lease Liability.",
+    "text": "Standard: IAS 17 / IFRS 16, Paragraph: 22, Topic: Office Rent and Lease Payments\nRule: Short-term lease payments (lease term 12 months or less) or low-value asset leases are expensed as incurred under IFRS 16 simplified approach. Journal entry: Debit Rent Expense (OPEX), Credit Accounts Payable. Long-term leases (over 12 months) require right-of-use asset recognition: Debit Right-of-Use Asset, Credit Lease Liability.\nKeywords: rent, lease, office space, premises, facility, building, coworking, workspace"
+  },
+  {
+    "id": "1b865a99",
+    "standard": "ASC 946 / IAS 38",
+    "paragraph": "18",
+    "topic": "Marketing and Advertising Expenses",
+    "category": "",
+    "keywords": "marketing, advertising, promotion, campaign, social media, digital marketing, branding, PR",
+    "rule": "Marketing, advertising, and promotional expenses are expensed as incurred. They do not meet the criteria for intangible asset recognition as future benefits are uncertain and cannot be reliably measured. Journal entry: Debit Marketing Expense / Advertising Expense (OPEX), Credit Accounts Payable.",
+    "text": "Standard: ASC 946 / IAS 38, Paragraph: 18, Topic: Marketing and Advertising Expenses\nRule: Marketing, advertising, and promotional expenses are expensed as incurred. They do not meet the criteria for intangible asset recognition as future benefits are uncertain and cannot be reliably measured. Journal entry: Debit Marketing Expense / Advertising Expense (OPEX), Credit Accounts Payable.\nKeywords: marketing, advertising, promotion, campaign, social media, digital marketing, branding, PR"
+  },
+  {
+    "id": "2e2b1efd",
+    "standard": "ASC 740",
+    "paragraph": "10",
+    "topic": "Travel and Entertainment Expenses",
+    "category": "",
+    "keywords": "travel, flight, hotel, accommodation, meals, entertainment, taxi, transport, conference",
+    "rule": "Travel expenses for business purposes are expensed as incurred in the period the travel occurs. Journal entry: Debit Travel Expense (OPEX), Credit Accounts Payable or Employee Expense Payable. Entertainment expenses require documentation of business purpose. Meals are typically 50% deductible for tax purposes but fully expensed for accounting purposes.",
+    "text": "Standard: ASC 740, Paragraph: 10, Topic: Travel and Entertainment Expenses\nRule: Travel expenses for business purposes are expensed as incurred in the period the travel occurs. Journal entry: Debit Travel Expense (OPEX), Credit Accounts Payable or Employee Expense Payable. Entertainment expenses require documentation of business purpose. Meals are typically 50% deductible for tax purposes but fully expensed for accounting purposes.\nKeywords: travel, flight, hotel, accommodation, meals, entertainment, taxi, transport, conference"
+  },
+  {
+    "id": "9f5c2942",
+    "standard": "IAS 38",
+    "paragraph": "54",
+    "topic": "Research and Development",
+    "category": "",
+    "keywords": "research, development, R&D, prototype, feasibility study, innovation, testing",
+    "rule": "Research costs must always be expensed as incurred - they cannot be capitalized. Development costs may be capitalized only when technical feasibility, intention to complete, ability to use or sell, and reliable measurement are all demonstrated. Journal entry for research: Debit R&D Expense (OPEX), Credit Accounts Payable.",
+    "text": "Standard: IAS 38, Paragraph: 54, Topic: Research and Development\nRule: Research costs must always be expensed as incurred - they cannot be capitalized. Development costs may be capitalized only when technical feasibility, intention to complete, ability to use or sell, and reliable measurement are all demonstrated. Journal entry for research: Debit R&D Expense (OPEX), Credit Accounts Payable.\nKeywords: research, development, R&D, prototype, feasibility study, innovation, testing"
+  },
+  {
+    "id": "4d4505b7",
+    "standard": "ASC 420",
+    "paragraph": "15",
+    "topic": "Utilities and Operating Expenses",
+    "category": "",
+    "keywords": "electricity, utilities, internet, broadband, telephone, water, gas, telecoms, wifi",
+    "rule": "Utility expenses including electricity, water, internet, and telecommunications are operating expenses incurred in the period of use. Journal entry: Debit Utilities Expense (OPEX), Credit Accounts Payable. These are never capitalized.",
+    "text": "Standard: ASC 420, Paragraph: 15, Topic: Utilities and Operating Expenses\nRule: Utility expenses including electricity, water, internet, and telecommunications are operating expenses incurred in the period of use. Journal entry: Debit Utilities Expense (OPEX), Credit Accounts Payable. These are never capitalized.\nKeywords: electricity, utilities, internet, broadband, telephone, water, gas, telecoms, wifi"
+  },
+  {
+    "id": "99521854",
+    "standard": "IAS 19",
+    "paragraph": "11",
+    "topic": "Employee Training and Development",
+    "category": "",
+    "keywords": "training, education, course, certification, workshop, seminar, conference registration, learning",
+    "rule": "Employee training, development, and education costs are expensed as incurred. They cannot be capitalized as intangible assets because the company does not control the future economic benefits (employee could leave). Journal entry: Debit Training Expense (OPEX), Credit Accounts Payable.",
+    "text": "Standard: IAS 19, Paragraph: 11, Topic: Employee Training and Development\nRule: Employee training, development, and education costs are expensed as incurred. They cannot be capitalized as intangible assets because the company does not control the future economic benefits (employee could leave). Journal entry: Debit Training Expense (OPEX), Credit Accounts Payable.\nKeywords: training, education, course, certification, workshop, seminar, conference registration, learning"
+  },
+  {
+    "id": "514039ad",
+    "standard": "ASC 350",
+    "paragraph": "40",
+    "topic": "Software Development Costs - Internal Use",
+    "category": "",
+    "keywords": "software development, custom software, implementation, system integration, ERP, CRM, development hours",
+    "rule": "Internal-use software development costs during the application development stage are capitalized. Preliminary project stage and post-implementation stage costs are expensed. For purchased software with useful life over 1 year: capitalize and amortize. Journal entry: Debit Intangible Assets - Software (CAPEX), Credit Accounts Payable.",
+    "text": "Standard: ASC 350, Paragraph: 40, Topic: Software Development Costs - Internal Use\nRule: Internal-use software development costs during the application development stage are capitalized. Preliminary project stage and post-implementation stage costs are expensed. For purchased software with useful life over 1 year: capitalize and amortize. Journal entry: Debit Intangible Assets - Software (CAPEX), Credit Accounts Payable.\nKeywords: software development, custom software, implementation, system integration, ERP, CRM, development hours"
+  },
+  {
+    "id": "b8421aa4",
+    "standard": "IFRS 15",
+    "paragraph": "106",
+    "topic": "Maintenance and Support Contracts",
+    "category": "",
+    "keywords": "maintenance, support, annual support, warranty, service contract, helpdesk, technical support",
+    "rule": "Annual maintenance and support contracts for software or equipment are recognized ratably over the contract period, similar to subscriptions. If the maintenance period spans multiple accounting periods, the prepaid portion is deferred. Journal entry: Debit Prepaid Maintenance, Credit Accounts Payable. Monthly: Debit Maintenance Expense, Credit Prepaid Maintenance.",
+    "text": "Standard: IFRS 15, Paragraph: 106, Topic: Maintenance and Support Contracts\nRule: Annual maintenance and support contracts for software or equipment are recognized ratably over the contract period, similar to subscriptions. If the maintenance period spans multiple accounting periods, the prepaid portion is deferred. Journal entry: Debit Prepaid Maintenance, Credit Accounts Payable. Monthly: Debit Maintenance Expense, Credit Prepaid Maintenance.\nKeywords: maintenance, support, annual support, warranty, service contract, helpdesk, technical support"
+  },
+  {
+    "id": "d7e1bf97",
+    "standard": "IAS 2",
+    "paragraph": "10",
+    "topic": "Inventory and Stock Purchases",
+    "category": "",
+    "keywords": "inventory, stock, goods, raw materials, components, parts, resale, manufacturing, merchandise",
+    "rule": "Goods purchased for resale or for use in production are recorded as inventory (asset) not as expense. Journal entry: Debit Inventory (Asset), Credit Accounts Payable. The inventory is expensed as Cost of Goods Sold (COGS) when the goods are sold. Raw materials for manufacturing follow the same treatment.",
+    "text": "Standard: IAS 2, Paragraph: 10, Topic: Inventory and Stock Purchases\nRule: Goods purchased for resale or for use in production are recorded as inventory (asset) not as expense. Journal entry: Debit Inventory (Asset), Credit Accounts Payable. The inventory is expensed as Cost of Goods Sold (COGS) when the goods are sold. Raw materials for manufacturing follow the same treatment.\nKeywords: inventory, stock, goods, raw materials, components, parts, resale, manufacturing, merchandise"
+  },
+  {
+    "id": "40114a2d",
+    "standard": "ASC 835",
+    "paragraph": "20",
+    "topic": "Interest and Finance Charges",
+    "category": "",
+    "keywords": "interest, finance charge, bank fee, loan fee, borrowing cost, credit facility",
+    "rule": "Interest expense on borrowings and finance charges are expensed in the period incurred. They are not capitalized unless directly attributable to the acquisition of a qualifying asset under IAS 23. Journal entry: Debit Interest Expense (Finance Cost), Credit Accounts Payable or Accrued Interest.",
+    "text": "Standard: ASC 835, Paragraph: 20, Topic: Interest and Finance Charges\nRule: Interest expense on borrowings and finance charges are expensed in the period incurred. They are not capitalized unless directly attributable to the acquisition of a qualifying asset under IAS 23. Journal entry: Debit Interest Expense (Finance Cost), Credit Accounts Payable or Accrued Interest.\nKeywords: interest, finance charge, bank fee, loan fee, borrowing cost, credit facility"
+  },
+  {
+    "id": "0dc0bf85",
+    "standard": "IFRS 15",
+    "paragraph": "38",
+    "topic": "Recruitment and Staffing Agency Fees",
+    "category": "",
+    "keywords": "recruitment, staffing, agency, headhunter, hiring fee, placement fee, temp agency",
+    "rule": "Recruitment fees paid to staffing agencies for hiring permanent employees are expensed as incurred as they represent the cost of the recruitment service already rendered. Journal entry: Debit Recruitment Expense (OPEX), Credit Accounts Payable. They are not capitalized as part of employee cost.",
+    "text": "Standard: IFRS 15, Paragraph: 38, Topic: Recruitment and Staffing Agency Fees\nRule: Recruitment fees paid to staffing agencies for hiring permanent employees are expensed as incurred as they represent the cost of the recruitment service already rendered. Journal entry: Debit Recruitment Expense (OPEX), Credit Accounts Payable. They are not capitalized as part of employee cost.\nKeywords: recruitment, staffing, agency, headhunter, hiring fee, placement fee, temp agency"
+  },
+  {
+    "id": "dd72214e",
+    "standard": "IAS 37",
+    "paragraph": "14",
+    "topic": "Insurance Premiums",
+    "category": "",
+    "keywords": "insurance, premium, indemnity, liability insurance, professional indemnity, cyber insurance, coverage",
+    "rule": "Insurance premiums covering future periods are initially recorded as prepaid assets and expensed ratably over the coverage period. Journal entry on payment: Debit Prepaid Insurance (Asset), Credit Accounts Payable. Monthly: Debit Insurance Expense, Credit Prepaid Insurance.",
+    "text": "Standard: IAS 37, Paragraph: 14, Topic: Insurance Premiums\nRule: Insurance premiums covering future periods are initially recorded as prepaid assets and expensed ratably over the coverage period. Journal entry on payment: Debit Prepaid Insurance (Asset), Credit Accounts Payable. Monthly: Debit Insurance Expense, Credit Prepaid Insurance.\nKeywords: insurance, premium, indemnity, liability insurance, professional indemnity, cyber insurance, coverage"
+  },
+  {
+    "id": "27aadb73",
+    "standard": "ASC 840",
+    "paragraph": "16",
+    "topic": "Printing and Reproduction Services",
+    "category": "",
+    "keywords": "printing, reproduction, copying, brochure, flyer, banner, signage, print run",
+    "rule": "Printing, copying, and document reproduction services used in operations are operating expenses incurred in the period. Journal entry: Debit Printing and Stationery Expense (OPEX), Credit Accounts Payable. Large print runs for marketing may be classified under Marketing Expense.",
+    "text": "Standard: ASC 840, Paragraph: 16, Topic: Printing and Reproduction Services\nRule: Printing, copying, and document reproduction services used in operations are operating expenses incurred in the period. Journal entry: Debit Printing and Stationery Expense (OPEX), Credit Accounts Payable. Large print runs for marketing may be classified under Marketing Expense.\nKeywords: printing, reproduction, copying, brochure, flyer, banner, signage, print run"
+  },
+  {
+    "id": "601a6210",
+    "standard": "IAS 16",
+    "paragraph": "15",
+    "topic": "Vehicle and Fleet Expenses",
+    "category": "",
+    "keywords": "vehicle, car, van, fleet, automobile, truck, lease vehicle, company car",
+    "rule": "Company vehicles with useful life over 1 year are capitalized as fixed assets. Journal entry: Debit Vehicles (CAPEX), Credit Accounts Payable. Running costs (fuel, servicing, insurance) are OPEX. Debit Vehicle Running Costs, Credit Accounts Payable. Leased vehicles under IFRS 16 require right-of-use asset recognition for leases over 12 months.",
+    "text": "Standard: IAS 16, Paragraph: 15, Topic: Vehicle and Fleet Expenses\nRule: Company vehicles with useful life over 1 year are capitalized as fixed assets. Journal entry: Debit Vehicles (CAPEX), Credit Accounts Payable. Running costs (fuel, servicing, insurance) are OPEX. Debit Vehicle Running Costs, Credit Accounts Payable. Leased vehicles under IFRS 16 require right-of-use asset recognition for leases over 12 months.\nKeywords: vehicle, car, van, fleet, automobile, truck, lease vehicle, company car"
+  },
+  {
+    "id": "3bba8eb7",
+    "standard": "ASC 605",
+    "paragraph": "25",
+    "topic": "Freight Shipping and Delivery",
+    "category": "",
+    "keywords": "freight, shipping, delivery, courier, logistics, DHL, FedEx, UPS, postage, dispatch",
+    "rule": "Freight and shipping costs for delivering goods to customers are selling expenses (OPEX). Freight costs for receiving inventory are part of inventory cost (capitalized into inventory value). Journal entry for delivery: Debit Freight Out Expense, Credit Accounts Payable. For receiving: Debit Inventory, Credit Accounts Payable.",
+    "text": "Standard: ASC 605, Paragraph: 25, Topic: Freight Shipping and Delivery\nRule: Freight and shipping costs for delivering goods to customers are selling expenses (OPEX). Freight costs for receiving inventory are part of inventory cost (capitalized into inventory value). Journal entry for delivery: Debit Freight Out Expense, Credit Accounts Payable. For receiving: Debit Inventory, Credit Accounts Payable.\nKeywords: freight, shipping, delivery, courier, logistics, DHL, FedEx, UPS, postage, dispatch"
+  },
+  {
+    "id": "5890d943",
+    "standard": "IAS 16",
+    "paragraph": "7b",
+    "topic": "Tangible Fixed Assets - Furniture and Fittings",
+    "category": "",
+    "keywords": "rug, carpet, furniture, furnishings, fixtures, fittings, decorative, art, painting",
+    "rule": "Furniture, fixtures, and high-value decorative items such as rugs, art, and furnishings with a cost above the capitalization threshold and useful life exceeding one accounting period are capitalized as Furniture and Fittings under Property Plant and Equipment. Journal entry: Debit Furniture and Fittings (CAPEX), Credit Accounts Payable. Low-value items below the capitalization threshold ($500-$2,500 depending on company policy) are expensed as Office Supplies Expense or Sundry Expenses.",
+    "text": "Standard: IAS 16, Paragraph: 7b, Topic: Tangible Fixed Assets - Furniture and Fittings\nRule: Furniture, fixtures, and high-value decorative items such as rugs, art, and furnishings with a cost above the capitalization threshold and useful life exceeding one accounting period are capitalized as Furniture and Fittings under Property Plant and Equipment. Journal entry: Debit Furniture and Fittings (CAPEX), Credit Accounts Payable. Low-value items below the capitalization threshold ($500-$2,500 depending on company policy) are expensed as Office Supplies Expense or Sundry Expenses.\nKeywords: rug, carpet, furniture, furnishings, fixtures, fittings, decorative, art, painting"
+  },
+  {
+    "id": "ebf536f4",
+    "standard": "",
+    "paragraph": "",
+    "topic": "",
+    "category": "",
+    "keywords": "",
+    "rule": "",
+    "text": "Standard: , Paragraph: , Topic: \nRule: \nKeywords: "
+  },
+  {
+    "id": "e65f0412",
+    "standard": "IAS 1 / ASC 205",
+    "paragraph": "IAS 1.15-17 / ASC 205-10",
+    "topic": "Substance Over Form and Fair Presentation",
+    "category": "",
+    "keywords": "substance over form, fair presentation, economic substance, classification, audit judgment, supporting documents",
+    "rule": "Classify transactions based on economic substance, not invoice wording alone. When invoice text conflicts with contract terms, service period, delivery evidence, asset control, or business purpose, use the underlying substance.",
+    "text": "Standard: IAS 1 / ASC 205, Paragraph: IAS 1.15-17 / ASC 205-10, Topic: Substance Over Form and Fair Presentation\nRule: Classify transactions based on economic substance, not invoice wording alone. When invoice text conflicts with contract terms, service period, delivery evidence, asset control, or business purpose, use the underlying substance.\nKeywords: substance over form, fair presentation, economic substance, classification, audit judgment, supporting documents"
+  },
+  {
+    "id": "d56762ad",
+    "standard": "IAS 1 / ASC 250",
+    "paragraph": "IAS 1.27-28 / ASC 250-10",
+    "topic": "Accrual Basis and Period Cut-Off",
+    "category": "",
+    "keywords": "accrual, cut-off, incurred, received not invoiced, GRNI, unbilled, period end, matching",
+    "rule": "Revenue and expenses are recognized when earned or incurred, not when cash is received or paid. If goods or services were received before period-end but invoiced after period-end, an accrual is required.",
+    "text": "Standard: IAS 1 / ASC 250, Paragraph: IAS 1.27-28 / ASC 250-10, Topic: Accrual Basis and Period Cut-Off\nRule: Revenue and expenses are recognized when earned or incurred, not when cash is received or paid. If goods or services were received before period-end but invoiced after period-end, an accrual is required.\nKeywords: accrual, cut-off, incurred, received not invoiced, GRNI, unbilled, period end, matching"
+  },
+  {
+    "id": "5bf61b15",
+    "standard": "IAS 1 / ASC 210",
+    "paragraph": "IAS 1.66-76 / ASC 210-10",
+    "topic": "Current vs Noncurrent Classification",
+    "category": "",
+    "keywords": "current, noncurrent, long term, short term, maturity, due within one year, operating cycle",
+    "rule": "Assets and liabilities expected to be realized, consumed, settled, or paid within the normal operating cycle or within 12 months are current. Amounts due beyond 12 months are noncurrent unless due on demand or covenant breach makes them current.",
+    "text": "Standard: IAS 1 / ASC 210, Paragraph: IAS 1.66-76 / ASC 210-10, Topic: Current vs Noncurrent Classification\nRule: Assets and liabilities expected to be realized, consumed, settled, or paid within the normal operating cycle or within 12 months are current. Amounts due beyond 12 months are noncurrent unless due on demand or covenant breach makes them current.\nKeywords: current, noncurrent, long term, short term, maturity, due within one year, operating cycle"
+  },
+  {
+    "id": "9171b88e",
+    "standard": "IAS 16 / ASC 360",
+    "paragraph": "IAS 16.12-14 / ASC 360-10",
+    "topic": "Repairs and Maintenance vs Capital Improvements",
+    "category": "",
+    "keywords": "repair, maintenance, upgrade, overhaul, improvement, renovation, replacement, refurbishment",
+    "rule": "Routine repairs and maintenance are expensed as incurred. Costs that enhance capacity, extend useful life, improve performance beyond original condition, or replace a major component may be capitalized if recognition criteria are met.",
+    "text": "Standard: IAS 16 / ASC 360, Paragraph: IAS 16.12-14 / ASC 360-10, Topic: Repairs and Maintenance vs Capital Improvements\nRule: Routine repairs and maintenance are expensed as incurred. Costs that enhance capacity, extend useful life, improve performance beyond original condition, or replace a major component may be capitalized if recognition criteria are met.\nKeywords: repair, maintenance, upgrade, overhaul, improvement, renovation, replacement, refurbishment"
+  },
+  {
+    "id": "bfa53fe6",
+    "standard": "IFRS 16 / ASC 842",
+    "paragraph": "IFRS 16.22 / ASC 842-20",
+    "topic": "Lease Recognition - Lessee Accounting",
+    "category": "",
+    "keywords": "lease, rent, right-of-use, ROU, lease liability, office lease, vehicle lease, equipment lease",
+    "rule": "A lease generally creates a right-of-use asset and lease liability when the entity controls the use of an identified asset for a period of time in exchange for consideration. IFRS allows exemptions for short-term leases and low-value assets. US GAAP recognizes both operating and finance leases on balance sheet for lessees.",
+    "text": "Standard: IFRS 16 / ASC 842, Paragraph: IFRS 16.22 / ASC 842-20, Topic: Lease Recognition - Lessee Accounting\nRule: A lease generally creates a right-of-use asset and lease liability when the entity controls the use of an identified asset for a period of time in exchange for consideration. IFRS allows exemptions for short-term leases and low-value assets. US GAAP recognizes both operating and finance leases on balance sheet for lessees.\nKeywords: lease, rent, right-of-use, ROU, lease liability, office lease, vehicle lease, equipment lease"
+  },
+  {
+    "id": "caf2207f",
+    "standard": "IFRS 16 / ASC 842",
+    "paragraph": "IFRS 16.5-6 / ASC 842-20-25",
+    "topic": "Short-Term and Low-Value Leases",
+    "category": "",
+    "keywords": "short-term lease, low-value lease, rental, coworking, temporary office, month to month",
+    "rule": "Short-term leases of 12 months or less and, under IFRS, low-value asset leases may be expensed if the entity elects the exemption. Purchase options or likely renewals may prevent short-term treatment.",
+    "text": "Standard: IFRS 16 / ASC 842, Paragraph: IFRS 16.5-6 / ASC 842-20-25, Topic: Short-Term and Low-Value Leases\nRule: Short-term leases of 12 months or less and, under IFRS, low-value asset leases may be expensed if the entity elects the exemption. Purchase options or likely renewals may prevent short-term treatment.\nKeywords: short-term lease, low-value lease, rental, coworking, temporary office, month to month"
+  },
+  {
+    "id": "e43c1f29",
+    "standard": "ASC 350-40 / IAS 38",
+    "paragraph": "ASC 350-40-25 / IAS 38.57",
+    "topic": "Internal-Use Software Development Costs",
+    "category": "",
+    "keywords": "software development, custom software, implementation, ERP, CRM, coding, configuration, system integration",
+    "rule": "Internal-use software costs are expensed during the preliminary project stage, capitalized during the application development stage when criteria are met, and expensed during training and post-implementation maintenance. Purchased software with useful life over one year may be capitalized if controlled by the entity.",
+    "text": "Standard: ASC 350-40 / IAS 38, Paragraph: ASC 350-40-25 / IAS 38.57, Topic: Internal-Use Software Development Costs\nRule: Internal-use software costs are expensed during the preliminary project stage, capitalized during the application development stage when criteria are met, and expensed during training and post-implementation maintenance. Purchased software with useful life over one year may be capitalized if controlled by the entity.\nKeywords: software development, custom software, implementation, ERP, CRM, coding, configuration, system integration"
+  },
+  {
+    "id": "0d43aa14",
+    "standard": "ASC 350-40 / IAS 38",
+    "paragraph": "ASC 350-40-25 / IAS 38.21",
+    "topic": "Cloud Computing Implementation Costs",
+    "category": "",
+    "keywords": "cloud implementation, SaaS implementation, configuration, customization, migration, data conversion, setup fee",
+    "rule": "SaaS access fees are usually service costs recognized over the service period. Certain cloud implementation costs may be deferred under US GAAP if they would qualify under internal-use software guidance. Under IFRS, configuration/customization is often expensed unless a controlled intangible asset is created.",
+    "text": "Standard: ASC 350-40 / IAS 38, Paragraph: ASC 350-40-25 / IAS 38.21, Topic: Cloud Computing Implementation Costs\nRule: SaaS access fees are usually service costs recognized over the service period. Certain cloud implementation costs may be deferred under US GAAP if they would qualify under internal-use software guidance. Under IFRS, configuration/customization is often expensed unless a controlled intangible asset is created.\nKeywords: cloud implementation, SaaS implementation, configuration, customization, migration, data conversion, setup fee"
+  },
+  {
+    "id": "e3db39d4",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.22-30 / ASC 606-10-25",
+    "topic": "Revenue Recognition - Five Step Model",
+    "category": "",
+    "keywords": "revenue, contract, performance obligation, transaction price, deferred revenue, contract liability, ASC 606, IFRS 15",
+    "rule": "Revenue is recognized by applying the five-step model: identify contract, identify performance obligations, determine transaction price, allocate transaction price, and recognize revenue when or as obligations are satisfied. Billing alone does not determine revenue recognition.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.22-30 / ASC 606-10-25, Topic: Revenue Recognition - Five Step Model\nRule: Revenue is recognized by applying the five-step model: identify contract, identify performance obligations, determine transaction price, allocate transaction price, and recognize revenue when or as obligations are satisfied. Billing alone does not determine revenue recognition.\nKeywords: revenue, contract, performance obligation, transaction price, deferred revenue, contract liability, ASC 606, IFRS 15"
+  },
+  {
+    "id": "8e50c9ab",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.35 / ASC 606-10-25-27",
+    "topic": "Revenue Over Time vs Point in Time",
+    "category": "",
+    "keywords": "over time, point in time, milestone, progress, control transfer, customer acceptance",
+    "rule": "Revenue is recognized over time if the customer receives and consumes benefits as performed, controls the asset as created, or the asset has no alternative use and there is an enforceable right to payment. Otherwise recognize at a point in time when control transfers.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.35 / ASC 606-10-25-27, Topic: Revenue Over Time vs Point in Time\nRule: Revenue is recognized over time if the customer receives and consumes benefits as performed, controls the asset as created, or the asset has no alternative use and there is an enforceable right to payment. Otherwise recognize at a point in time when control transfers.\nKeywords: over time, point in time, milestone, progress, control transfer, customer acceptance"
+  },
+  {
+    "id": "de56798a",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.106-108 / ASC 606-10-45",
+    "topic": "Deferred Revenue, Contract Assets, and Unbilled Revenue",
+    "category": "",
+    "keywords": "deferred revenue, contract asset, unbilled revenue, unearned revenue, advance billing, contract liability",
+    "rule": "Amounts billed or collected before performance are contract liabilities or deferred revenue. If revenue is recognized before the unconditional right to invoice, record contract asset or unbilled revenue and reclassify to AR when billing right becomes unconditional.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.106-108 / ASC 606-10-45, Topic: Deferred Revenue, Contract Assets, and Unbilled Revenue\nRule: Amounts billed or collected before performance are contract liabilities or deferred revenue. If revenue is recognized before the unconditional right to invoice, record contract asset or unbilled revenue and reclassify to AR when billing right becomes unconditional.\nKeywords: deferred revenue, contract asset, unbilled revenue, unearned revenue, advance billing, contract liability"
+  },
+  {
+    "id": "ff0e037b",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.50-59 / ASC 606-10-32",
+    "topic": "Variable Consideration and Refund Liabilities",
+    "category": "",
+    "keywords": "rebate, discount, refund, return, credit note, variable consideration, SLA credit, penalty",
+    "rule": "Discounts, rebates, credits, penalties, returns, SLA credits, and performance bonuses are variable consideration. Estimate variable consideration and constrain revenue to amounts not expected to reverse significantly.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.50-59 / ASC 606-10-32, Topic: Variable Consideration and Refund Liabilities\nRule: Discounts, rebates, credits, penalties, returns, SLA credits, and performance bonuses are variable consideration. Estimate variable consideration and constrain revenue to amounts not expected to reverse significantly.\nKeywords: rebate, discount, refund, return, credit note, variable consideration, SLA credit, penalty"
+  },
+  {
+    "id": "bacf3803",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.B34-B38 / ASC 606-10-55",
+    "topic": "Principal vs Agent Revenue",
+    "category": "",
+    "keywords": "principal, agent, gross revenue, net revenue, marketplace, reseller, pass through, commission",
+    "rule": "If the entity controls the good or service before transfer to the customer, it is principal and recognizes gross revenue. If it arranges for another party to provide the good or service, it is agent and recognizes net commission or fee revenue.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.B34-B38 / ASC 606-10-55, Topic: Principal vs Agent Revenue\nRule: If the entity controls the good or service before transfer to the customer, it is principal and recognizes gross revenue. If it arranges for another party to provide the good or service, it is agent and recognizes net commission or fee revenue.\nKeywords: principal, agent, gross revenue, net revenue, marketplace, reseller, pass through, commission"
+  },
+  {
+    "id": "6b6199c7",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.B79-B82 / ASC 606-10-55",
+    "topic": "Bill-and-Hold Arrangements",
+    "category": "",
+    "keywords": "bill and hold, warehouse, customer request, delivery delay, revenue cut-off, segregation",
+    "rule": "Bill-and-hold revenue is recognized only when strict criteria are met, including substantive reason, product separately identified as customer-owned, ready for transfer, and inability to use or redirect the product.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.B79-B82 / ASC 606-10-55, Topic: Bill-and-Hold Arrangements\nRule: Bill-and-hold revenue is recognized only when strict criteria are met, including substantive reason, product separately identified as customer-owned, ready for transfer, and inability to use or redirect the product.\nKeywords: bill and hold, warehouse, customer request, delivery delay, revenue cut-off, segregation"
+  },
+  {
+    "id": "fe881019",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.B20-B27 / ASC 606-10-55",
+    "topic": "Consignment Inventory",
+    "category": "",
+    "keywords": "consignment, consignee, sell-through, channel inventory, return rights, distributor",
+    "rule": "Products delivered on consignment remain inventory of the consignor until control transfers to an end customer or other sale criteria are met. Delivery to the consignee alone does not create revenue.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.B20-B27 / ASC 606-10-55, Topic: Consignment Inventory\nRule: Products delivered on consignment remain inventory of the consignor until control transfers to an end customer or other sale criteria are met. Delivery to the consignee alone does not create revenue.\nKeywords: consignment, consignee, sell-through, channel inventory, return rights, distributor"
+  },
+  {
+    "id": "925fc9a6",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.B64-B76 / ASC 606-10-55",
+    "topic": "Customer Options, Loyalty Points, and Material Rights",
+    "category": "",
+    "keywords": "loyalty points, coupon, material right, renewal option, discount, free goods, rewards",
+    "rule": "Loyalty points, renewal discounts, coupons, free goods, and customer options are separate performance obligations if they provide a material right beyond what similar customers receive. Allocate transaction price and defer revenue for the material right.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.B64-B76 / ASC 606-10-55, Topic: Customer Options, Loyalty Points, and Material Rights\nRule: Loyalty points, renewal discounts, coupons, free goods, and customer options are separate performance obligations if they provide a material right beyond what similar customers receive. Allocate transaction price and defer revenue for the material right.\nKeywords: loyalty points, coupon, material right, renewal option, discount, free goods, rewards"
+  },
+  {
+    "id": "51761267",
+    "standard": "IFRS 15 / ASC 606",
+    "paragraph": "IFRS 15.60-65 / ASC 606-10-32",
+    "topic": "Significant Financing Component",
+    "category": "",
+    "keywords": "significant financing, advance payment, extended terms, time value, interest income, deferred payment",
+    "rule": "If payment timing provides a significant financing benefit to customer or entity, adjust transaction price for time value of money unless a practical expedient applies, such as one year or less between transfer and payment.",
+    "text": "Standard: IFRS 15 / ASC 606, Paragraph: IFRS 15.60-65 / ASC 606-10-32, Topic: Significant Financing Component\nRule: If payment timing provides a significant financing benefit to customer or entity, adjust transaction price for time value of money unless a practical expedient applies, such as one year or less between transfer and payment.\nKeywords: significant financing, advance payment, extended terms, time value, interest income, deferred payment"
+  },
+  {
+    "id": "a96b335c",
+    "standard": "ASC 340-40 / IFRS 15",
+    "paragraph": "ASC 340-40-25 / IFRS 15.91-98",
+    "topic": "Contract Costs - Sales Commissions and Fulfillment Costs",
+    "category": "",
+    "keywords": "sales commission, contract cost, deferred commission, fulfillment cost, onboarding, customer acquisition cost",
+    "rule": "Incremental costs of obtaining a contract, such as recoverable sales commissions, are capitalized unless the amortization period is one year or less and practical expedient is elected. Fulfillment costs are capitalized only if they relate directly to a contract, generate resources used to satisfy obligations, and are expected to be recovered.",
+    "text": "Standard: ASC 340-40 / IFRS 15, Paragraph: ASC 340-40-25 / IFRS 15.91-98, Topic: Contract Costs - Sales Commissions and Fulfillment Costs\nRule: Incremental costs of obtaining a contract, such as recoverable sales commissions, are capitalized unless the amortization period is one year or less and practical expedient is elected. Fulfillment costs are capitalized only if they relate directly to a contract, generate resources used to satisfy obligations, and are expected to be recovered.\nKeywords: sales commission, contract cost, deferred commission, fulfillment cost, onboarding, customer acquisition cost"
+  },
+  {
+    "id": "9e0037f3",
+    "standard": "IAS 2 / ASC 330",
+    "paragraph": "IAS 2.10-18 / ASC 330-10",
+    "topic": "Inventory Cost Components",
+    "category": "",
+    "keywords": "inventory, stock, raw materials, finished goods, landed cost, freight-in, COGS",
+    "rule": "Inventory cost includes purchase price, import duties, non-refundable taxes, freight-in, handling, conversion costs, and costs directly attributable to bringing inventory to present location and condition. Inventory is expensed as COGS when sold.",
+    "text": "Standard: IAS 2 / ASC 330, Paragraph: IAS 2.10-18 / ASC 330-10, Topic: Inventory Cost Components\nRule: Inventory cost includes purchase price, import duties, non-refundable taxes, freight-in, handling, conversion costs, and costs directly attributable to bringing inventory to present location and condition. Inventory is expensed as COGS when sold.\nKeywords: inventory, stock, raw materials, finished goods, landed cost, freight-in, COGS"
+  },
+  {
+    "id": "3e2bad45",
+    "standard": "IAS 2 / ASC 330",
+    "paragraph": "IAS 2.28-33 / ASC 330-10-35",
+    "topic": "Inventory Net Realizable Value and Obsolescence",
+    "category": "",
+    "keywords": "obsolete inventory, NRV, write-down, slow moving, damaged goods, excess stock, reserve",
+    "rule": "Inventory is written down when cost is not recoverable due to damage, obsolescence, slow movement, declining selling prices, or excess stock. IFRS uses lower of cost and net realizable value; US GAAP treatment depends on inventory method.",
+    "text": "Standard: IAS 2 / ASC 330, Paragraph: IAS 2.28-33 / ASC 330-10-35, Topic: Inventory Net Realizable Value and Obsolescence\nRule: Inventory is written down when cost is not recoverable due to damage, obsolescence, slow movement, declining selling prices, or excess stock. IFRS uses lower of cost and net realizable value; US GAAP treatment depends on inventory method.\nKeywords: obsolete inventory, NRV, write-down, slow moving, damaged goods, excess stock, reserve"
+  },
+  {
+    "id": "6ebaa0e6",
+    "standard": "IAS 2 / ASC 330",
+    "paragraph": "IAS 2.16 / ASC 330-10",
+    "topic": "Abnormal Waste, Storage, and Production Inefficiency",
+    "category": "",
+    "keywords": "scrap, spoilage, abnormal waste, rework, storage, idle capacity, production variance",
+    "rule": "Abnormal waste, excessive spoilage, avoidable rework, idle capacity costs, and storage not necessary for production are expensed as incurred rather than included in inventory.",
+    "text": "Standard: IAS 2 / ASC 330, Paragraph: IAS 2.16 / ASC 330-10, Topic: Abnormal Waste, Storage, and Production Inefficiency\nRule: Abnormal waste, excessive spoilage, avoidable rework, idle capacity costs, and storage not necessary for production are expensed as incurred rather than included in inventory.\nKeywords: scrap, spoilage, abnormal waste, rework, storage, idle capacity, production variance"
+  },
+  {
+    "id": "fdd5cfdc",
+    "standard": "IAS 2 / ASC 330",
+    "paragraph": "IAS 2.25 / ASC 330-10",
+    "topic": "Inventory Costing Methods",
+    "category": "",
+    "keywords": "FIFO, LIFO, weighted average, specific identification, inventory costing, cost flow",
+    "rule": "Inventory cost flow assumptions must be applied consistently. IFRS permits FIFO and weighted average but prohibits LIFO. US GAAP permits FIFO, weighted average, specific identification, and LIFO when elected.",
+    "text": "Standard: IAS 2 / ASC 330, Paragraph: IAS 2.25 / ASC 330-10, Topic: Inventory Costing Methods\nRule: Inventory cost flow assumptions must be applied consistently. IFRS permits FIFO and weighted average but prohibits LIFO. US GAAP permits FIFO, weighted average, specific identification, and LIFO when elected.\nKeywords: FIFO, LIFO, weighted average, specific identification, inventory costing, cost flow"
+  },
+  {
+    "id": "e374d2fb",
+    "standard": "IAS 23 / ASC 835-20",
+    "paragraph": "IAS 23.8 / ASC 835-20",
+    "topic": "Borrowing Costs Capitalization",
+    "category": "",
+    "keywords": "interest, borrowing cost, capitalized interest, qualifying asset, construction, loan, finance charge",
+    "rule": "Borrowing costs directly attributable to acquiring, constructing, or producing a qualifying asset are capitalized while the asset is being prepared for intended use or sale. Other interest costs are expensed as incurred.",
+    "text": "Standard: IAS 23 / ASC 835-20, Paragraph: IAS 23.8 / ASC 835-20, Topic: Borrowing Costs Capitalization\nRule: Borrowing costs directly attributable to acquiring, constructing, or producing a qualifying asset are capitalized while the asset is being prepared for intended use or sale. Other interest costs are expensed as incurred.\nKeywords: interest, borrowing cost, capitalized interest, qualifying asset, construction, loan, finance charge"
+  },
+  {
+    "id": "e8f80e90",
+    "standard": "IAS 36 / ASC 360",
+    "paragraph": "IAS 36.9-12 / ASC 360-10-35",
+    "topic": "Impairment of Long-Lived Assets",
+    "category": "",
+    "keywords": "impairment, recoverable amount, fair value, value in use, CGU, long-lived asset",
+    "rule": "Assets are tested for impairment when indicators exist. IFRS compares carrying amount to recoverable amount. US GAAP long-lived assets held and used first use an undiscounted cash flow recoverability test, then fair value measurement if not recoverable.",
+    "text": "Standard: IAS 36 / ASC 360, Paragraph: IAS 36.9-12 / ASC 360-10-35, Topic: Impairment of Long-Lived Assets\nRule: Assets are tested for impairment when indicators exist. IFRS compares carrying amount to recoverable amount. US GAAP long-lived assets held and used first use an undiscounted cash flow recoverability test, then fair value measurement if not recoverable.\nKeywords: impairment, recoverable amount, fair value, value in use, CGU, long-lived asset"
+  },
+  {
+    "id": "aabb8617",
+    "standard": "IAS 36 / ASC 350",
+    "paragraph": "IAS 36.90 / ASC 350-20",
+    "topic": "Goodwill Impairment",
+    "category": "",
+    "keywords": "goodwill, impairment, acquisition, CGU, reporting unit, purchase price allocation",
+    "rule": "Goodwill is not amortized under IFRS or US GAAP. It is tested for impairment annually and when indicators exist. Goodwill is allocated to CGUs under IFRS or reporting units under US GAAP.",
+    "text": "Standard: IAS 36 / ASC 350, Paragraph: IAS 36.90 / ASC 350-20, Topic: Goodwill Impairment\nRule: Goodwill is not amortized under IFRS or US GAAP. It is tested for impairment annually and when indicators exist. Goodwill is allocated to CGUs under IFRS or reporting units under US GAAP.\nKeywords: goodwill, impairment, acquisition, CGU, reporting unit, purchase price allocation"
+  },
+  {
+    "id": "ea6a6537",
+    "standard": "IFRS 3 / ASC 805",
+    "paragraph": "IFRS 3.10-19 / ASC 805-20",
+    "topic": "Business Combination and Acquisition Accounting",
+    "category": "",
+    "keywords": "acquisition, business combination, goodwill, PPA, due diligence, transaction costs",
+    "rule": "In a business combination, identifiable assets acquired and liabilities assumed are recognized at acquisition-date fair value, with goodwill or bargain purchase gain for the difference. Acquisition-related transaction costs are generally expensed, not included in consideration transferred.",
+    "text": "Standard: IFRS 3 / ASC 805, Paragraph: IFRS 3.10-19 / ASC 805-20, Topic: Business Combination and Acquisition Accounting\nRule: In a business combination, identifiable assets acquired and liabilities assumed are recognized at acquisition-date fair value, with goodwill or bargain purchase gain for the difference. Acquisition-related transaction costs are generally expensed, not included in consideration transferred.\nKeywords: acquisition, business combination, goodwill, PPA, due diligence, transaction costs"
+  },
+  {
+    "id": "33066019",
+    "standard": "IAS 37 / ASC 450",
+    "paragraph": "IAS 37.14 / ASC 450-20",
+    "topic": "Provisions and Contingent Liabilities",
+    "category": "",
+    "keywords": "provision, contingency, legal claim, lawsuit, probable, estimate, accrued liability",
+    "rule": "Recognize a provision when there is a present obligation from a past event, outflow is probable, and amount can be reliably estimated. Under US GAAP, loss contingencies are accrued when probable and reasonably estimable. Possible obligations are disclosed but not recognized.",
+    "text": "Standard: IAS 37 / ASC 450, Paragraph: IAS 37.14 / ASC 450-20, Topic: Provisions and Contingent Liabilities\nRule: Recognize a provision when there is a present obligation from a past event, outflow is probable, and amount can be reliably estimated. Under US GAAP, loss contingencies are accrued when probable and reasonably estimable. Possible obligations are disclosed but not recognized.\nKeywords: provision, contingency, legal claim, lawsuit, probable, estimate, accrued liability"
+  },
+  {
+    "id": "0f06c8d5",
+    "standard": "IAS 37 / ASC 460 / ASC 606",
+    "paragraph": "IAS 37.24 / ASC 606-10-55",
+    "topic": "Warranty Obligations",
+    "category": "",
+    "keywords": "warranty, guarantee, service plan, assurance warranty, extended warranty, repair obligation",
+    "rule": "Assurance-type warranties are accrued when the related sale occurs based on expected costs. Service-type warranties are separate performance obligations and revenue is deferred and recognized over the service period.",
+    "text": "Standard: IAS 37 / ASC 460 / ASC 606, Paragraph: IAS 37.24 / ASC 606-10-55, Topic: Warranty Obligations\nRule: Assurance-type warranties are accrued when the related sale occurs based on expected costs. Service-type warranties are separate performance obligations and revenue is deferred and recognized over the service period.\nKeywords: warranty, guarantee, service plan, assurance warranty, extended warranty, repair obligation"
+  },
+  {
+    "id": "217ff733",
+    "standard": "IAS 19 / ASC 710",
+    "paragraph": "IAS 19.11 / ASC 710-10",
+    "topic": "Payroll, Bonuses, Commissions, and Vacation Accruals",
+    "category": "",
+    "keywords": "payroll, salary, wages, bonus, commission, vacation, holiday pay, employee, payroll tax",
+    "rule": "Wages, salaries, bonuses, commissions, vacation pay, and payroll taxes are accrued when employees render service, even if paid later. Accumulating compensated absences are accrued when earned if criteria are met.",
+    "text": "Standard: IAS 19 / ASC 710, Paragraph: IAS 19.11 / ASC 710-10, Topic: Payroll, Bonuses, Commissions, and Vacation Accruals\nRule: Wages, salaries, bonuses, commissions, vacation pay, and payroll taxes are accrued when employees render service, even if paid later. Accumulating compensated absences are accrued when earned if criteria are met.\nKeywords: payroll, salary, wages, bonus, commission, vacation, holiday pay, employee, payroll tax"
+  },
+  {
+    "id": "749c1933",
+    "standard": "IAS 19 / ASC 715",
+    "paragraph": "IAS 19.57 / ASC 715-30",
+    "topic": "Pension and Post-Employment Benefits",
+    "category": "",
+    "keywords": "pension, retirement, defined benefit, defined contribution, actuarial, post-employment",
+    "rule": "Defined contribution plans are expensed as contributions become payable. Defined benefit plans require actuarial measurement of obligation and plan assets, with service cost, interest cost, remeasurements, and disclosures under applicable standards.",
+    "text": "Standard: IAS 19 / ASC 715, Paragraph: IAS 19.57 / ASC 715-30, Topic: Pension and Post-Employment Benefits\nRule: Defined contribution plans are expensed as contributions become payable. Defined benefit plans require actuarial measurement of obligation and plan assets, with service cost, interest cost, remeasurements, and disclosures under applicable standards.\nKeywords: pension, retirement, defined benefit, defined contribution, actuarial, post-employment"
+  },
+  {
+    "id": "fa16e313",
+    "standard": "IFRS 2 / ASC 718",
+    "paragraph": "718-10-50",
+    "topic": "Share-Based Compensation",
+    "category": "",
+    "keywords": "stock option, RSU, share based compensation, equity award, vesting, grant date",
+    "rule": "Equity-settled share-based awards are measured at grant-date fair value and expensed over the vesting period. Liability-classified awards are remeasured until settlement. Forfeitures, modifications, and performance conditions must be evaluated.",
+    "text": "Standard: IFRS 2 / ASC 718, Paragraph: 718-10-50, Topic: Share-Based Compensation\nRule: Equity-settled share-based awards are measured at grant-date fair value and expensed over the vesting period. Liability-classified awards are remeasured until settlement. Forfeitures, modifications, and performance conditions must be evaluated.\nKeywords: stock option, RSU, share based compensation, equity award, vesting, grant date"
+  },
+  {
+    "id": "f66be102",
+    "standard": "IAS 12 / ASC 740",
+    "paragraph": "IAS 12.15-24 / ASC 740-10",
+    "topic": "Income Taxes - Current and Deferred",
+    "category": "",
+    "keywords": "income tax, corporate tax, deferred tax, tax payable, DTA, DTL, valuation allowance",
+    "rule": "Current tax is recognized for taxes payable or recoverable for the period. Deferred tax assets and liabilities are recognized for temporary differences between accounting carrying amounts and tax bases, subject to recoverability or valuation allowance assessment.",
+    "text": "Standard: IAS 12 / ASC 740, Paragraph: IAS 12.15-24 / ASC 740-10, Topic: Income Taxes - Current and Deferred\nRule: Current tax is recognized for taxes payable or recoverable for the period. Deferred tax assets and liabilities are recognized for temporary differences between accounting carrying amounts and tax bases, subject to recoverability or valuation allowance assessment.\nKeywords: income tax, corporate tax, deferred tax, tax payable, DTA, DTL, valuation allowance"
+  },
+  {
+    "id": "9b53668a",
+    "standard": "IAS 12 / ASC 740",
+    "paragraph": "IAS 12.46 / ASC 740-10",
+    "topic": "Sales Tax, VAT, and GST",
+    "category": "",
+    "keywords": "VAT, GST, sales tax, input tax, output tax, tax code, reverse charge",
+    "rule": "VAT, GST, and sales tax collected from customers or paid to vendors are usually recorded as tax receivable or payable when the company acts as tax collector, not as revenue or expense. Non-recoverable taxes are included in asset cost or expense depending on the underlying item.",
+    "text": "Standard: IAS 12 / ASC 740, Paragraph: IAS 12.46 / ASC 740-10, Topic: Sales Tax, VAT, and GST\nRule: VAT, GST, and sales tax collected from customers or paid to vendors are usually recorded as tax receivable or payable when the company acts as tax collector, not as revenue or expense. Non-recoverable taxes are included in asset cost or expense depending on the underlying item.\nKeywords: VAT, GST, sales tax, input tax, output tax, tax code, reverse charge"
+  },
+  {
+    "id": "6db9f010",
+    "standard": "IAS 21 / ASC 830",
+    "paragraph": "IAS 21.21-28 / ASC 830-20",
+    "topic": "Foreign Currency Transactions",
+    "category": "",
+    "keywords": "foreign currency, FX, exchange rate, revaluation, translation, EUR, USD, GBP",
+    "rule": "Foreign currency transactions are initially recorded at the spot rate on transaction date. Monetary balances are retranslated at closing rates at reporting date, with exchange differences recognized in profit or loss unless hedge or net investment rules apply.",
+    "text": "Standard: IAS 21 / ASC 830, Paragraph: IAS 21.21-28 / ASC 830-20, Topic: Foreign Currency Transactions\nRule: Foreign currency transactions are initially recorded at the spot rate on transaction date. Monetary balances are retranslated at closing rates at reporting date, with exchange differences recognized in profit or loss unless hedge or net investment rules apply.\nKeywords: foreign currency, FX, exchange rate, revaluation, translation, EUR, USD, GBP"
+  },
+  {
+    "id": "7d6a42f8",
+    "standard": "IFRS 9 / ASC 326",
+    "paragraph": "IFRS 9.5.5 / ASC 326-20",
+    "topic": "Accounts Receivable Credit Losses",
+    "category": "",
+    "keywords": "bad debt, allowance, expected credit loss, ECL, CECL, doubtful accounts, aging",
+    "rule": "Receivables must be evaluated for expected credit losses. IFRS uses expected credit loss model, often lifetime ECL for trade receivables. US GAAP uses CECL for financial assets measured at amortized cost.",
+    "text": "Standard: IFRS 9 / ASC 326, Paragraph: IFRS 9.5.5 / ASC 326-20, Topic: Accounts Receivable Credit Losses\nRule: Receivables must be evaluated for expected credit losses. IFRS uses expected credit loss model, often lifetime ECL for trade receivables. US GAAP uses CECL for financial assets measured at amortized cost.\nKeywords: bad debt, allowance, expected credit loss, ECL, CECL, doubtful accounts, aging"
+  },
+  {
+    "id": "8b1c4e64",
+    "standard": "IFRS 9 / ASC 815",
+    "paragraph": "IFRS 9.6 / ASC 815-20",
+    "topic": "Derivatives and Hedge Accounting",
+    "category": "",
+    "keywords": "derivative, hedge, forward, swap, option, fair value, FX forward, cash flow hedge",
+    "rule": "Derivatives are recognized on balance sheet at fair value. Hedge accounting is allowed only when documentation, eligibility, and effectiveness requirements are met. Otherwise fair value changes generally go to profit or loss.",
+    "text": "Standard: IFRS 9 / ASC 815, Paragraph: IFRS 9.6 / ASC 815-20, Topic: Derivatives and Hedge Accounting\nRule: Derivatives are recognized on balance sheet at fair value. Hedge accounting is allowed only when documentation, eligibility, and effectiveness requirements are met. Otherwise fair value changes generally go to profit or loss.\nKeywords: derivative, hedge, forward, swap, option, fair value, FX forward, cash flow hedge"
+  },
+  {
+    "id": "745a8478",
+    "standard": "IFRS 9 / ASC 470",
+    "paragraph": "IFRS 9.5.4 / ASC 835-30",
+    "topic": "Debt, Loans, and Effective Interest Method",
+    "category": "",
+    "keywords": "debt, loan, borrowing, note payable, interest, covenant, effective interest, debt issuance costs",
+    "rule": "Debt is initially recognized at fair value net of eligible transaction costs and subsequently measured using the effective interest method unless measured at fair value. Debt issuance costs are generally deferred and amortized over the debt term.",
+    "text": "Standard: IFRS 9 / ASC 470, Paragraph: IFRS 9.5.4 / ASC 835-30, Topic: Debt, Loans, and Effective Interest Method\nRule: Debt is initially recognized at fair value net of eligible transaction costs and subsequently measured using the effective interest method unless measured at fair value. Debt issuance costs are generally deferred and amortized over the debt term.\nKeywords: debt, loan, borrowing, note payable, interest, covenant, effective interest, debt issuance costs"
+  },
+  {
+    "id": "a9483080",
+    "standard": "IAS 32 / ASC 480",
+    "paragraph": "IAS 32.15-32 / ASC 480-10",
+    "topic": "Liability vs Equity Classification",
+    "category": "",
+    "keywords": "equity, liability, preferred shares, convertible, redemption, warrant, fixed for fixed",
+    "rule": "Financial instruments are classified as liabilities or equity based on contractual obligations. An obligation to deliver cash or another financial asset generally creates a liability. Fixed-for-fixed equity settlement may support equity classification under IFRS subject to detailed rules.",
+    "text": "Standard: IAS 32 / ASC 480, Paragraph: IAS 32.15-32 / ASC 480-10, Topic: Liability vs Equity Classification\nRule: Financial instruments are classified as liabilities or equity based on contractual obligations. An obligation to deliver cash or another financial asset generally creates a liability. Fixed-for-fixed equity settlement may support equity classification under IFRS subject to detailed rules.\nKeywords: equity, liability, preferred shares, convertible, redemption, warrant, fixed for fixed"
+  },
+  {
+    "id": "377f6bc5",
+    "standard": "IAS 7 / ASC 230",
+    "paragraph": "IAS 7.10 / ASC 230-10",
+    "topic": "Cash Flow Statement Classification",
+    "category": "",
+    "keywords": "cash flow, operating, investing, financing, statement of cash flows, noncash",
+    "rule": "Cash flows are classified as operating, investing, or financing based on nature. IFRS permits some policy choices for interest and dividends; US GAAP is more prescriptive.",
+    "text": "Standard: IAS 7 / ASC 230, Paragraph: IAS 7.10 / ASC 230-10, Topic: Cash Flow Statement Classification\nRule: Cash flows are classified as operating, investing, or financing based on nature. IFRS permits some policy choices for interest and dividends; US GAAP is more prescriptive.\nKeywords: cash flow, operating, investing, financing, statement of cash flows, noncash"
+  },
+  {
+    "id": "87935da6",
+    "standard": "IAS 7 / ASC 305",
+    "paragraph": "IAS 7.6-8 / ASC 305-10",
+    "topic": "Cash, Cash Equivalents, and Restricted Cash",
+    "category": "",
+    "keywords": "cash, cash equivalent, bank, deposit, money market, treasury bill, restricted cash, overdraft",
+    "rule": "Cash equivalents are short-term, highly liquid investments readily convertible to known cash amounts and subject to insignificant value-change risk, typically original maturities of three months or less. Restricted cash must be separately tracked and disclosed.",
+    "text": "Standard: IAS 7 / ASC 305, Paragraph: IAS 7.6-8 / ASC 305-10, Topic: Cash, Cash Equivalents, and Restricted Cash\nRule: Cash equivalents are short-term, highly liquid investments readily convertible to known cash amounts and subject to insignificant value-change risk, typically original maturities of three months or less. Restricted cash must be separately tracked and disclosed.\nKeywords: cash, cash equivalent, bank, deposit, money market, treasury bill, restricted cash, overdraft"
+  },
+  {
+    "id": "da4da421",
+    "standard": "IAS 10 / ASC 855",
+    "paragraph": "IAS 10.3-10 / ASC 855-10",
+    "topic": "Events After Reporting Period",
+    "category": "",
+    "keywords": "subsequent event, after reporting period, adjusting event, non-adjusting, disclosure, year end",
+    "rule": "Adjusting subsequent events provide evidence of conditions existing at reporting date and require adjustment. Non-adjusting events relate to conditions arising after reporting date and generally require disclosure if material.",
+    "text": "Standard: IAS 10 / ASC 855, Paragraph: IAS 10.3-10 / ASC 855-10, Topic: Events After Reporting Period\nRule: Adjusting subsequent events provide evidence of conditions existing at reporting date and require adjustment. Non-adjusting events relate to conditions arising after reporting date and generally require disclosure if material.\nKeywords: subsequent event, after reporting period, adjusting event, non-adjusting, disclosure, year end"
+  },
+  {
+    "id": "39b42b37",
+    "standard": "IAS 8 / ASC 250",
+    "paragraph": "IAS 8.5 / ASC 250-10",
+    "topic": "Accounting Estimates vs Errors",
+    "category": "",
+    "keywords": "estimate, error, prior period adjustment, restatement, accounting policy, retrospective, prospective",
+    "rule": "Changes in accounting estimates are applied prospectively. Prior period errors are corrected retrospectively when material. Changes in accounting policy are applied retrospectively unless impracticable or transitional guidance says otherwise.",
+    "text": "Standard: IAS 8 / ASC 250, Paragraph: IAS 8.5 / ASC 250-10, Topic: Accounting Estimates vs Errors\nRule: Changes in accounting estimates are applied prospectively. Prior period errors are corrected retrospectively when material. Changes in accounting policy are applied retrospectively unless impracticable or transitional guidance says otherwise.\nKeywords: estimate, error, prior period adjustment, restatement, accounting policy, retrospective, prospective"
+  },
+  {
+    "id": "fca8460f",
+    "standard": "IAS 24 / ASC 850",
+    "paragraph": "IAS 24.9-18 / ASC 850-10",
+    "topic": "Related Party Transactions",
+    "category": "",
+    "keywords": "related party, affiliate, director, shareholder, owner, family, management, arm's length",
+    "rule": "Related party relationships, transactions, balances, commitments, and key management compensation require identification and disclosure. Transactions should be assessed for arm's-length terms and proper authorization.",
+    "text": "Standard: IAS 24 / ASC 850, Paragraph: IAS 24.9-18 / ASC 850-10, Topic: Related Party Transactions\nRule: Related party relationships, transactions, balances, commitments, and key management compensation require identification and disclosure. Transactions should be assessed for arm's-length terms and proper authorization.\nKeywords: related party, affiliate, director, shareholder, owner, family, management, arm's length"
+  },
+  {
+    "id": "c88a1352",
+    "standard": "IFRS 10 / ASC 810",
+    "paragraph": "IFRS 10.7 / ASC 810-10",
+    "topic": "Consolidation and Control",
+    "category": "",
+    "keywords": "consolidation, control, subsidiary, VIE, structured entity, noncontrolling interest, group",
+    "rule": "Consolidate entities controlled by the reporting entity. IFRS control requires power over investee, exposure to variable returns, and ability to use power to affect returns. US GAAP uses voting interest and variable interest entity models.",
+    "text": "Standard: IFRS 10 / ASC 810, Paragraph: IFRS 10.7 / ASC 810-10, Topic: Consolidation and Control\nRule: Consolidate entities controlled by the reporting entity. IFRS control requires power over investee, exposure to variable returns, and ability to use power to affect returns. US GAAP uses voting interest and variable interest entity models.\nKeywords: consolidation, control, subsidiary, VIE, structured entity, noncontrolling interest, group"
+  },
+  {
+    "id": "5ac45123",
+    "standard": "IFRS 10 / ASC 810",
+    "paragraph": "IFRS 10.B86 / ASC 810-10",
+    "topic": "Intercompany Eliminations",
+    "category": "",
+    "keywords": "intercompany, elimination, group, parent, subsidiary, IC receivable, IC payable, transfer pricing",
+    "rule": "Intercompany receivables, payables, revenue, expenses, dividends, loans, and unrealized profits in inventory or fixed assets are eliminated in consolidation.",
+    "text": "Standard: IFRS 10 / ASC 810, Paragraph: IFRS 10.B86 / ASC 810-10, Topic: Intercompany Eliminations\nRule: Intercompany receivables, payables, revenue, expenses, dividends, loans, and unrealized profits in inventory or fixed assets are eliminated in consolidation.\nKeywords: intercompany, elimination, group, parent, subsidiary, IC receivable, IC payable, transfer pricing"
+  },
+  {
+    "id": "b37f29f0",
+    "standard": "IAS 28 / ASC 323",
+    "paragraph": "IAS 28.3 / ASC 323-10",
+    "topic": "Equity Method Investments",
+    "category": "",
+    "keywords": "associate, equity method, significant influence, investment, share of profit, dividend",
+    "rule": "Investments with significant influence, generally presumed at 20 percent or more voting power unless rebutted, are accounted for using the equity method. The investor recognizes its share of investee profit or loss and adjusts the investment carrying amount.",
+    "text": "Standard: IAS 28 / ASC 323, Paragraph: IAS 28.3 / ASC 323-10, Topic: Equity Method Investments\nRule: Investments with significant influence, generally presumed at 20 percent or more voting power unless rebutted, are accounted for using the equity method. The investor recognizes its share of investee profit or loss and adjusts the investment carrying amount.\nKeywords: associate, equity method, significant influence, investment, share of profit, dividend"
+  },
+  {
+    "id": "4d855bea",
+    "standard": "IAS 20 / ASC 958 / ASC 450",
+    "paragraph": "IAS 20.7-12",
+    "topic": "Government Grants and Incentives",
+    "category": "",
+    "keywords": "government grant, subsidy, incentive, aid, grant income, deferred grant, reimbursement",
+    "rule": "Government grants are recognized when there is reasonable assurance that conditions will be met and grant will be received. Income grants are recognized systematically with related costs. Asset grants under IFRS are deferred or deducted from asset carrying amount depending on policy.",
+    "text": "Standard: IAS 20 / ASC 958 / ASC 450, Paragraph: IAS 20.7-12, Topic: Government Grants and Incentives\nRule: Government grants are recognized when there is reasonable assurance that conditions will be met and grant will be received. Income grants are recognized systematically with related costs. Asset grants under IFRS are deferred or deducted from asset carrying amount depending on policy.\nKeywords: government grant, subsidy, incentive, aid, grant income, deferred grant, reimbursement"
+  },
+  {
+    "id": "e938e8f3",
+    "standard": "IAS 40 / ASC 360",
+    "paragraph": "IAS 40.5 / ASC 360-10",
+    "topic": "Investment Property",
+    "category": "",
+    "keywords": "investment property, rental property, capital appreciation, real estate, fair value model",
+    "rule": "Under IFRS, property held to earn rentals or for capital appreciation is investment property and accounted for using fair value or cost model policy. Under US GAAP, investment property generally follows property guidance unless industry-specific rules apply.",
+    "text": "Standard: IAS 40 / ASC 360, Paragraph: IAS 40.5 / ASC 360-10, Topic: Investment Property\nRule: Under IFRS, property held to earn rentals or for capital appreciation is investment property and accounted for using fair value or cost model policy. Under US GAAP, investment property generally follows property guidance unless industry-specific rules apply.\nKeywords: investment property, rental property, capital appreciation, real estate, fair value model"
+  },
+  {
+    "id": "c831da73",
+    "standard": "IAS 16 / ASC 360",
+    "paragraph": "IAS 16.30-31 / ASC 360-10",
+    "topic": "Depreciation of Fixed Assets",
+    "category": "",
+    "keywords": "depreciation, useful life, accumulated depreciation, straight line, asset register, in service",
+    "rule": "Depreciable assets are depreciated over useful lives from the date available for intended use. Depreciation method should reflect consumption pattern and be reviewed periodically. Land is generally not depreciated.",
+    "text": "Standard: IAS 16 / ASC 360, Paragraph: IAS 16.30-31 / ASC 360-10, Topic: Depreciation of Fixed Assets\nRule: Depreciable assets are depreciated over useful lives from the date available for intended use. Depreciation method should reflect consumption pattern and be reviewed periodically. Land is generally not depreciated.\nKeywords: depreciation, useful life, accumulated depreciation, straight line, asset register, in service"
+  },
+  {
+    "id": "96ad2cc6",
+    "standard": "IAS 16 / ASC 360",
+    "paragraph": "IAS 16.67-72 / ASC 360-10",
+    "topic": "Fixed Asset Disposals",
+    "category": "",
+    "keywords": "disposal, sale of asset, scrap, retirement, write off, gain on disposal, loss on disposal",
+    "rule": "When a fixed asset is sold, scrapped, or retired, remove cost and accumulated depreciation and recognize gain or loss based on proceeds compared with carrying amount.",
+    "text": "Standard: IAS 16 / ASC 360, Paragraph: IAS 16.67-72 / ASC 360-10, Topic: Fixed Asset Disposals\nRule: When a fixed asset is sold, scrapped, or retired, remove cost and accumulated depreciation and recognize gain or loss based on proceeds compared with carrying amount.\nKeywords: disposal, sale of asset, scrap, retirement, write off, gain on disposal, loss on disposal"
+  },
+  {
+    "id": "1314aa69",
+    "standard": "IAS 16 / ASC 360",
+    "paragraph": "IAS 16.16-17 / ASC 360-10",
+    "topic": "Directly Attributable Asset Costs",
+    "category": "",
+    "keywords": "installation, delivery, site preparation, testing, commissioning, directly attributable, asset cost",
+    "rule": "PPE cost includes purchase price and directly attributable costs needed to bring asset to location and condition for intended use, such as delivery, installation, site preparation, testing, and professional fees. General administration, training, and maintenance are expensed.",
+    "text": "Standard: IAS 16 / ASC 360, Paragraph: IAS 16.16-17 / ASC 360-10, Topic: Directly Attributable Asset Costs\nRule: PPE cost includes purchase price and directly attributable costs needed to bring asset to location and condition for intended use, such as delivery, installation, site preparation, testing, and professional fees. General administration, training, and maintenance are expensed.\nKeywords: installation, delivery, site preparation, testing, commissioning, directly attributable, asset cost"
+  },
+  {
+    "id": "6d16c16f",
+    "standard": "IAS 16 / ASC 360",
+    "paragraph": "IAS 16.73 / ASC 360-10",
+    "topic": "Construction in Progress",
+    "category": "",
+    "keywords": "construction in progress, CIP, project cost, build out, construction, in service, capitalization",
+    "rule": "Costs incurred to construct or develop a fixed asset before it is ready for use are recorded as construction in progress. Depreciation begins when asset is available for intended use, not necessarily when it generates revenue.",
+    "text": "Standard: IAS 16 / ASC 360, Paragraph: IAS 16.73 / ASC 360-10, Topic: Construction in Progress\nRule: Costs incurred to construct or develop a fixed asset before it is ready for use are recorded as construction in progress. Depreciation begins when asset is available for intended use, not necessarily when it generates revenue.\nKeywords: construction in progress, CIP, project cost, build out, construction, in service, capitalization"
+  },
+  {
+    "id": "f01ff94d",
+    "standard": "IFRS 16 / IAS 16 / ASC 842",
+    "paragraph": "16.16",
+    "topic": "Leasehold Improvements",
+    "category": "",
+    "keywords": "leasehold improvement, tenant improvement, buildout, renovation, fit out, landlord incentive",
+    "rule": "Improvements to leased property are capitalized if asset criteria are met and cost exceeds threshold. Depreciate over shorter of useful life and lease term unless ownership transfers or renewal is reasonably certain.",
+    "text": "Standard: IFRS 16 / IAS 16 / ASC 842, Paragraph: 16.16, Topic: Leasehold Improvements\nRule: Improvements to leased property are capitalized if asset criteria are met and cost exceeds threshold. Depreciate over shorter of useful life and lease term unless ownership transfers or renewal is reasonably certain.\nKeywords: leasehold improvement, tenant improvement, buildout, renovation, fit out, landlord incentive"
+  },
+  {
+    "id": "a5c24f4f",
+    "standard": "IAS 37 / ASC 410",
+    "paragraph": "21-410-20",
+    "topic": "Asset Retirement Obligations and Restoration Costs",
+    "category": "",
+    "keywords": "asset retirement obligation, ARO, restoration, decommissioning, dismantling, make good",
+    "rule": "Obligations to dismantle, remove, or restore assets or leased sites are recognized when a present obligation exists and can be estimated. Initial obligation is usually capitalized as part of related asset and depreciated, with liability accretion over time.",
+    "text": "Standard: IAS 37 / ASC 410, Paragraph: 21-410-20, Topic: Asset Retirement Obligations and Restoration Costs\nRule: Obligations to dismantle, remove, or restore assets or leased sites are recognized when a present obligation exists and can be estimated. Initial obligation is usually capitalized as part of related asset and depreciated, with liability accretion over time.\nKeywords: asset retirement obligation, ARO, restoration, decommissioning, dismantling, make good"
+  },
+  {
+    "id": "8699fe5a",
+    "standard": "IAS 38 / ASC 350",
+    "paragraph": "IAS 38.21 / ASC 350-30",
+    "topic": "Acquired Intangible Assets",
+    "category": "",
+    "keywords": "intangible, patent, trademark, license, customer relationship, technology, amortization",
+    "rule": "An acquired intangible asset is recognized when identifiable, controlled by the entity, future benefits are probable, and cost or fair value can be measured reliably. Finite-lived intangibles are amortized; indefinite-lived intangibles are not amortized but tested for impairment.",
+    "text": "Standard: IAS 38 / ASC 350, Paragraph: IAS 38.21 / ASC 350-30, Topic: Acquired Intangible Assets\nRule: An acquired intangible asset is recognized when identifiable, controlled by the entity, future benefits are probable, and cost or fair value can be measured reliably. Finite-lived intangibles are amortized; indefinite-lived intangibles are not amortized but tested for impairment.\nKeywords: intangible, patent, trademark, license, customer relationship, technology, amortization"
+  },
+  {
+    "id": "10c7b600",
+    "standard": "IAS 38 / ASC 350",
+    "paragraph": "IAS 38.63 / ASC 350-30",
+    "topic": "Internally Generated Brands and Customer Lists",
+    "category": "",
+    "keywords": "brand, trademark, customer list, masthead, publishing title, internally generated intangible",
+    "rule": "Internally generated brands, mastheads, publishing titles, customer lists, and similar items are not recognized as intangible assets because cost cannot be distinguished reliably from business development as a whole. Acquired identifiable intangibles may be recognized.",
+    "text": "Standard: IAS 38 / ASC 350, Paragraph: IAS 38.63 / ASC 350-30, Topic: Internally Generated Brands and Customer Lists\nRule: Internally generated brands, mastheads, publishing titles, customer lists, and similar items are not recognized as intangible assets because cost cannot be distinguished reliably from business development as a whole. Acquired identifiable intangibles may be recognized.\nKeywords: brand, trademark, customer list, masthead, publishing title, internally generated intangible"
+  },
+  {
+    "id": "5b690079",
+    "standard": "IAS 38 / ASC 720",
+    "paragraph": "350-40-25 / 38-69",
+    "topic": "Website Development and Hosting Costs",
+    "category": "",
+    "keywords": "website, web development, hosting, domain, SEO, landing page, content, maintenance",
+    "rule": "Website planning and maintenance are expensed. Application and infrastructure development may be capitalized if they create a controlled resource and meet software/intangible criteria. Content creation and advertising content are normally expensed unless specific asset criteria are met.",
+    "text": "Standard: IAS 38 / ASC 720, Paragraph: 350-40-25 / 38-69, Topic: Website Development and Hosting Costs\nRule: Website planning and maintenance are expensed. Application and infrastructure development may be capitalized if they create a controlled resource and meet software/intangible criteria. Content creation and advertising content are normally expensed unless specific asset criteria are met.\nKeywords: website, web development, hosting, domain, SEO, landing page, content, maintenance"
+  },
+  {
+    "id": "cc621cff",
+    "standard": "ASC 720 / IAS 38",
+    "paragraph": "ASC 720-35 / IAS 38.69",
+    "topic": "Advertising Prepayments and Media Buys",
+    "category": "",
+    "keywords": "media buy, ad placement, insertion order, campaign schedule, prepaid advertising, billboard, online ads",
+    "rule": "Payments for future advertising placements are recorded as prepaid advertising until the advertisement runs. Once the advertisement is aired, published, displayed, or delivered, expense is recognized.",
+    "text": "Standard: ASC 720 / IAS 38, Paragraph: ASC 720-35 / IAS 38.69, Topic: Advertising Prepayments and Media Buys\nRule: Payments for future advertising placements are recorded as prepaid advertising until the advertisement runs. Once the advertisement is aired, published, displayed, or delivered, expense is recognized.\nKeywords: media buy, ad placement, insertion order, campaign schedule, prepaid advertising, billboard, online ads"
+  },
+  {
+    "id": "2f105d1b",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Legal and Professional Fees",
+    "category": "",
+    "keywords": "legal fees, lawyer, attorney, audit fee, tax advice, professional services, consultant",
+    "rule": "Legal, audit, tax advisory, consulting, and professional fees are expensed as services are rendered unless directly attributable to a qualifying asset, debt issuance, equity issuance, or business combination treatment.",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Legal and Professional Fees\nRule: Legal, audit, tax advisory, consulting, and professional fees are expensed as services are rendered unless directly attributable to a qualifying asset, debt issuance, equity issuance, or business combination treatment.\nKeywords: legal fees, lawyer, attorney, audit fee, tax advice, professional services, consultant"
+  },
+  {
+    "id": "0f25a5d6",
+    "standard": "ASC 340 / IAS 32 / ASC 835",
+    "paragraph": "ASC 340-10 / IAS 32.37",
+    "topic": "Debt and Equity Issuance Costs",
+    "category": "",
+    "keywords": "debt issuance cost, equity issuance cost, IPO cost, financing fee, underwriting, loan fee",
+    "rule": "Debt issuance costs are generally deferred and amortized using the effective interest method. Equity issuance costs directly attributable to issuing equity are deducted from equity proceeds if offering is successful. Aborted offering costs are expensed.",
+    "text": "Standard: ASC 340 / IAS 32 / ASC 835, Paragraph: ASC 340-10 / IAS 32.37, Topic: Debt and Equity Issuance Costs\nRule: Debt issuance costs are generally deferred and amortized using the effective interest method. Equity issuance costs directly attributable to issuing equity are deducted from equity proceeds if offering is successful. Aborted offering costs are expensed.\nKeywords: debt issuance cost, equity issuance cost, IPO cost, financing fee, underwriting, loan fee"
+  },
+  {
+    "id": "797f1b4d",
+    "standard": "IAS 32 / ASC 505",
+    "paragraph": "IAS 32.35 / ASC 505-10",
+    "topic": "Dividends and Distributions",
+    "category": "",
+    "keywords": "dividend, distribution, retained earnings, shareholder payment, declared dividend, equity",
+    "rule": "Dividends are recognized as a liability when authorized and no longer at entity discretion. Dividends are distributions of equity, not expenses.",
+    "text": "Standard: IAS 32 / ASC 505, Paragraph: IAS 32.35 / ASC 505-10, Topic: Dividends and Distributions\nRule: Dividends are recognized as a liability when authorized and no longer at entity discretion. Dividends are distributions of equity, not expenses.\nKeywords: dividend, distribution, retained earnings, shareholder payment, declared dividend, equity"
+  },
+  {
+    "id": "34d2318a",
+    "standard": "ASC 705 / IAS 2 / IAS 16",
+    "paragraph": "ASC 705-20 / IAS 2.11",
+    "topic": "Vendor Rebates, Discounts, and Purchase Credits",
+    "category": "",
+    "keywords": "vendor rebate, purchase discount, supplier credit, credit memo, volume rebate, allowance",
+    "rule": "Vendor rebates and purchase discounts reduce the cost of related inventory, asset, or expense when linked to a purchase. If underlying item has been sold or consumed, reduce COGS or expense. Do not record purchase rebates as revenue unless they are for distinct services provided to vendor.",
+    "text": "Standard: ASC 705 / IAS 2 / IAS 16, Paragraph: ASC 705-20 / IAS 2.11, Topic: Vendor Rebates, Discounts, and Purchase Credits\nRule: Vendor rebates and purchase discounts reduce the cost of related inventory, asset, or expense when linked to a purchase. If underlying item has been sold or consumed, reduce COGS or expense. Do not record purchase rebates as revenue unless they are for distinct services provided to vendor.\nKeywords: vendor rebate, purchase discount, supplier credit, credit memo, volume rebate, allowance"
+  },
+  {
+    "id": "c74dff5f",
+    "standard": "IAS 2 / ASC 330",
+    "paragraph": "IAS 2.11 / ASC 330",
+    "topic": "Freight-In vs Freight-Out",
+    "category": "",
+    "keywords": "freight, shipping, delivery, courier, logistics, DHL, FedEx, UPS, inbound, outbound",
+    "rule": "Freight-in, import duties, and handling required to bring inventory to its present location and condition are included in inventory cost. Freight-out or shipping to customers is a selling or fulfillment expense unless a separate shipping performance obligation exists.",
+    "text": "Standard: IAS 2 / ASC 330, Paragraph: IAS 2.11 / ASC 330, Topic: Freight-In vs Freight-Out\nRule: Freight-in, import duties, and handling required to bring inventory to its present location and condition are included in inventory cost. Freight-out or shipping to customers is a selling or fulfillment expense unless a separate shipping performance obligation exists.\nKeywords: freight, shipping, delivery, courier, logistics, DHL, FedEx, UPS, inbound, outbound"
+  },
+  {
+    "id": "7d6b5471",
+    "standard": "IAS 16 / IAS 2 / ASC 360 / ASC 330",
+    "paragraph": "IAS 16.16 / IAS 2.11",
+    "topic": "Import Duties and Non-Refundable Taxes",
+    "category": "",
+    "keywords": "import duty, customs, tariff, landed cost, non-refundable tax, recoverable VAT",
+    "rule": "Import duties and non-refundable purchase taxes are included in cost of inventory or fixed assets when directly attributable to acquisition. Recoverable VAT/GST is recorded separately as receivable.",
+    "text": "Standard: IAS 16 / IAS 2 / ASC 360 / ASC 330, Paragraph: IAS 16.16 / IAS 2.11, Topic: Import Duties and Non-Refundable Taxes\nRule: Import duties and non-refundable purchase taxes are included in cost of inventory or fixed assets when directly attributable to acquisition. Recoverable VAT/GST is recorded separately as receivable.\nKeywords: import duty, customs, tariff, landed cost, non-refundable tax, recoverable VAT"
+  },
+  {
+    "id": "80bb3dc4",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Travel, Meals, and Entertainment",
+    "category": "",
+    "keywords": "travel, flight, hotel, accommodation, meals, entertainment, taxi, transport, airfare",
+    "rule": "Business travel costs are expensed when travel occurs. Advance payments for future travel may be prepaid until travel date. Meals and entertainment require business purpose documentation and may have tax deductibility limits that do not change book expense classification.",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Travel, Meals, and Entertainment\nRule: Business travel costs are expensed when travel occurs. Advance payments for future travel may be prepaid until travel date. Meals and entertainment require business purpose documentation and may have tax deductibility limits that do not change book expense classification.\nKeywords: travel, flight, hotel, accommodation, meals, entertainment, taxi, transport, airfare"
+  },
+  {
+    "id": "013dd8cd",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Employee Expense Reimbursements",
+    "category": "",
+    "keywords": "reimbursement, expense claim, employee payable, receipt, corporate card, out of pocket",
+    "rule": "Approved employee reimbursements are recognized in the appropriate expense category based on underlying item and period incurred, not as generic payroll unless policy requires. Amounts owed to employees are employee payables.",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Employee Expense Reimbursements\nRule: Approved employee reimbursements are recognized in the appropriate expense category based on underlying item and period incurred, not as generic payroll unless policy requires. Amounts owed to employees are employee payables.\nKeywords: reimbursement, expense claim, employee payable, receipt, corporate card, out of pocket"
+  },
+  {
+    "id": "08dc9ef9",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Bank Fees and Merchant Processing Fees",
+    "category": "",
+    "keywords": "bank fee, wire fee, merchant fee, card processing, Stripe, PayPal, transaction fee",
+    "rule": "Bank service charges, merchant processing fees, wire fees, and card fees are generally expensed as incurred. Fees directly attributable to debt issuance may be deferred under debt guidance.",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Bank Fees and Merchant Processing Fees\nRule: Bank service charges, merchant processing fees, wire fees, and card fees are generally expensed as incurred. Fees directly attributable to debt issuance may be deferred under debt guidance.\nKeywords: bank fee, wire fee, merchant fee, card processing, Stripe, PayPal, transaction fee"
+  },
+  {
+    "id": "c0509273",
+    "standard": "IAS 1 / ASC 210",
+    "paragraph": "IAS 1.54 / ASC 210",
+    "topic": "Customer Deposits and Advance Payments",
+    "category": "",
+    "keywords": "customer deposit, advance payment, prepayment, deferred revenue, unearned revenue",
+    "rule": "Cash received from customers before goods or services are delivered is a liability, not revenue, until performance obligations are satisfied or refund obligation expires.",
+    "text": "Standard: IAS 1 / ASC 210, Paragraph: IAS 1.54 / ASC 210, Topic: Customer Deposits and Advance Payments\nRule: Cash received from customers before goods or services are delivered is a liability, not revenue, until performance obligations are satisfied or refund obligation expires.\nKeywords: customer deposit, advance payment, prepayment, deferred revenue, unearned revenue"
+  },
+  {
+    "id": "452db25c",
+    "standard": "IAS 1 / ASC 405",
+    "paragraph": "66",
+    "topic": "Accrued Expenses vs Accounts Payable",
+    "category": "",
+    "keywords": "accrued expense, accounts payable, invoice received, received not invoiced, GRNI, accrual reversal",
+    "rule": "Use accounts payable when invoice has been received and obligation is recorded. Use accrued expenses when goods or services have been received but invoice has not yet been received or processed.",
+    "text": "Standard: IAS 1 / ASC 405, Paragraph: 66, Topic: Accrued Expenses vs Accounts Payable\nRule: Use accounts payable when invoice has been received and obligation is recorded. Use accrued expenses when goods or services have been received but invoice has not yet been received or processed.\nKeywords: accrued expense, accounts payable, invoice received, received not invoiced, GRNI, accrual reversal"
+  },
+  {
+    "id": "739485c2",
+    "standard": "IAS 1 / ASC 210",
+    "paragraph": "IAS 1.66",
+    "topic": "Prepaid Expenses",
+    "category": "",
+    "keywords": "prepaid, advance payment, future period, amortization, service period, subscription, insurance, rent",
+    "rule": "Payments for goods or services to be received in future periods are recorded as prepaid assets and expensed systematically over the period of benefit. Immaterial prepaids may be expensed immediately if policy allows.",
+    "text": "Standard: IAS 1 / ASC 210, Paragraph: IAS 1.66, Topic: Prepaid Expenses\nRule: Payments for goods or services to be received in future periods are recorded as prepaid assets and expensed systematically over the period of benefit. Immaterial prepaids may be expensed immediately if policy allows.\nKeywords: prepaid, advance payment, future period, amortization, service period, subscription, insurance, rent"
+  },
+  {
+    "id": "c8c05483",
+    "standard": "IAS 1 / ASC 210",
+    "paragraph": "66",
+    "topic": "Deposits Paid to Vendors and Landlords",
+    "category": "",
+    "keywords": "deposit, security deposit, landlord deposit, refundable, non-refundable, retainer, advance",
+    "rule": "Refundable deposits paid to vendors, landlords, utilities, or service providers are assets, not expenses. Non-refundable deposits are prepaid expenses or asset costs depending on purpose and period of benefit.",
+    "text": "Standard: IAS 1 / ASC 210, Paragraph: 66, Topic: Deposits Paid to Vendors and Landlords\nRule: Refundable deposits paid to vendors, landlords, utilities, or service providers are assets, not expenses. Non-refundable deposits are prepaid expenses or asset costs depending on purpose and period of benefit.\nKeywords: deposit, security deposit, landlord deposit, refundable, non-refundable, retainer, advance"
+  },
+  {
+    "id": "edfae92d",
+    "standard": "IAS 37 / ASC 420",
+    "paragraph": "IAS 37.70-83 / ASC 420-10",
+    "topic": "Restructuring Costs and Exit Activities",
+    "category": "",
+    "keywords": "restructuring, exit cost, severance, termination benefit, closure, relocation, redundancy",
+    "rule": "Restructuring provisions are recognized only when detailed criteria are met. Under IFRS, a constructive obligation may arise from a detailed formal plan and valid expectation. Under US GAAP, one-time termination benefits and exit costs have specific recognition timing.",
+    "text": "Standard: IAS 37 / ASC 420, Paragraph: IAS 37.70-83 / ASC 420-10, Topic: Restructuring Costs and Exit Activities\nRule: Restructuring provisions are recognized only when detailed criteria are met. Under IFRS, a constructive obligation may arise from a detailed formal plan and valid expectation. Under US GAAP, one-time termination benefits and exit costs have specific recognition timing.\nKeywords: restructuring, exit cost, severance, termination benefit, closure, relocation, redundancy"
+  },
+  {
+    "id": "156674de",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Fines, Penalties, and Settlements",
+    "category": "",
+    "keywords": "fine, penalty, settlement, regulator, legal settlement, violation, non-deductible",
+    "rule": "Fines and penalties are expensed when incurred or when obligation is probable and estimable. Legal settlements follow provision/contingency guidance. Fines and penalties should be separately identifiable because they may be non-deductible for tax.",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Fines, Penalties, and Settlements\nRule: Fines and penalties are expensed when incurred or when obligation is probable and estimable. Legal settlements follow provision/contingency guidance. Fines and penalties should be separately identifiable because they may be non-deductible for tax.\nKeywords: fine, penalty, settlement, regulator, legal settlement, violation, non-deductible"
+  },
+  {
+    "id": "3e5d1b32",
+    "standard": "ISA 240 / PCAOB AS 2401",
+    "paragraph": "ISA 240 / AS 2401",
+    "topic": "Fraud Risk - Revenue Recognition",
+    "category": "fraud_control",
+    "keywords": "fraud risk, revenue recognition, cut-off, manual journal, side agreement, channel stuffing, quarter end",
+    "rule": "Revenue recognition is presumed to be a fraud risk in audits unless rebutted. Audit AI should flag unusual revenue entries, manual postings, cut-off anomalies, side agreements, round amounts, and transactions near period-end.",
+    "text": "Standard: ISA 240 / PCAOB AS 2401, Paragraph: ISA 240 / AS 2401, Topic: Fraud Risk - Revenue Recognition\nRule: Revenue recognition is presumed to be a fraud risk in audits unless rebutted. Audit AI should flag unusual revenue entries, manual postings, cut-off anomalies, side agreements, round amounts, and transactions near period-end.\nKeywords: fraud risk, revenue recognition, cut-off, manual journal, side agreement, channel stuffing, quarter end"
+  },
+  {
+    "id": "cff5451d",
+    "standard": "ISA 240 / PCAOB AS 2401",
+    "paragraph": "ISA 240 / AS 2401",
+    "topic": "Management Override of Controls",
+    "category": "fraud_control",
+    "keywords": "management override, manual journal, top-side, late entry, round amount, unsupported, post-close",
+    "rule": "Manual journal entries, top-side adjustments, changes to estimates, and unusual transactions outside normal processes require review for management override risk.",
+    "text": "Standard: ISA 240 / PCAOB AS 2401, Paragraph: ISA 240 / AS 2401, Topic: Management Override of Controls\nRule: Manual journal entries, top-side adjustments, changes to estimates, and unusual transactions outside normal processes require review for management override risk.\nKeywords: management override, manual journal, top-side, late entry, round amount, unsupported, post-close"
+  },
+  {
+    "id": "cbcae4b8",
+    "standard": "ISA 315 / PCAOB AS 2110",
+    "paragraph": "ISA 315 / AS 2110",
+    "topic": "Risk Assessment and Significant Accounts",
+    "category": "fraud_control",
+    "keywords": "risk assessment, significant account, materiality, audit planning, inherent risk, control risk",
+    "rule": "Accounts with high volume, complexity, estimation uncertainty, fraud susceptibility, related-party activity, or material balance should be flagged as significant accounts for audit planning and RAG retrieval priority.",
+    "text": "Standard: ISA 315 / PCAOB AS 2110, Paragraph: ISA 315 / AS 2110, Topic: Risk Assessment and Significant Accounts\nRule: Accounts with high volume, complexity, estimation uncertainty, fraud susceptibility, related-party activity, or material balance should be flagged as significant accounts for audit planning and RAG retrieval priority.\nKeywords: risk assessment, significant account, materiality, audit planning, inherent risk, control risk"
+  },
+  {
+    "id": "b8246cc1",
+    "standard": "ISA 500 / PCAOB AS 1105",
+    "paragraph": "ISA 500 / AS 1105",
+    "topic": "Audit Evidence Reliability",
+    "category": "fraud_control",
+    "keywords": "audit evidence, reliability, external evidence, confirmation, support, source document",
+    "rule": "Audit evidence is more reliable when obtained from independent external sources, generated directly by the auditor, or supported by effective controls. Internally generated evidence alone is weaker, especially for high-risk estimates or related-party transactions.",
+    "text": "Standard: ISA 500 / PCAOB AS 1105, Paragraph: ISA 500 / AS 1105, Topic: Audit Evidence Reliability\nRule: Audit evidence is more reliable when obtained from independent external sources, generated directly by the auditor, or supported by effective controls. Internally generated evidence alone is weaker, especially for high-risk estimates or related-party transactions.\nKeywords: audit evidence, reliability, external evidence, confirmation, support, source document"
+  },
+  {
+    "id": "f9d7f438",
+    "standard": "ISA 520 / PCAOB AS 2305",
+    "paragraph": "ISA 520 / AS 2305",
+    "topic": "Analytical Procedures and Fluctuation Review",
+    "category": "fraud_control",
+    "keywords": "analytical procedure, variance, fluctuation, trend, margin, ratio, anomaly",
+    "rule": "Unexpected relationships, unusual trends, margin changes, account spikes, or deviations from budget/prior period should be flagged for investigation. Analytical procedures support risk assessment and substantive testing but require corroboration for significant risks.",
+    "text": "Standard: ISA 520 / PCAOB AS 2305, Paragraph: ISA 520 / AS 2305, Topic: Analytical Procedures and Fluctuation Review\nRule: Unexpected relationships, unusual trends, margin changes, account spikes, or deviations from budget/prior period should be flagged for investigation. Analytical procedures support risk assessment and substantive testing but require corroboration for significant risks.\nKeywords: analytical procedure, variance, fluctuation, trend, margin, ratio, anomaly"
+  },
+  {
+    "id": "925e48a8",
+    "standard": "ISA 560 / ASC 855",
+    "paragraph": "560-12-855-10",
+    "topic": "Subsequent Payments as Audit Evidence",
+    "category": "fraud_control",
+    "keywords": "subsequent payment, search for unrecorded liabilities, SURL, AP cutoff, post year-end payment",
+    "rule": "Payments made after period-end can provide evidence that liabilities existed at period-end. Post-period cash disbursement testing helps identify unrecorded liabilities and cut-off errors.",
+    "text": "Standard: ISA 560 / ASC 855, Paragraph: 560-12-855-10, Topic: Subsequent Payments as Audit Evidence\nRule: Payments made after period-end can provide evidence that liabilities existed at period-end. Post-period cash disbursement testing helps identify unrecorded liabilities and cut-off errors.\nKeywords: subsequent payment, search for unrecorded liabilities, SURL, AP cutoff, post year-end payment"
+  },
+  {
+    "id": "1959725e",
+    "standard": "IAS 1 / ASC 210 / Audit Practice",
+    "paragraph": "117-129",
+    "topic": "Suspense, Clearing, and Miscellaneous Accounts",
+    "category": "fraud_control",
+    "keywords": "suspense, clearing, miscellaneous, uncategorized, unknown vendor, reclass, unresolved",
+    "rule": "Suspense, clearing, miscellaneous, and uncategorized accounts should be temporary and regularly reconciled. Items must be reclassified to correct account once nature is known.",
+    "text": "Standard: IAS 1 / ASC 210 / Audit Practice, Paragraph: 117-129, Topic: Suspense, Clearing, and Miscellaneous Accounts\nRule: Suspense, clearing, miscellaneous, and uncategorized accounts should be temporary and regularly reconciled. Items must be reclassified to correct account once nature is known.\nKeywords: suspense, clearing, miscellaneous, uncategorized, unknown vendor, reclass, unresolved"
+  },
+  {
+    "id": "8776ab6a",
+    "standard": "IAS 1 / ASC 210",
+    "paragraph": "IAS 1.32 / ASC 210-20",
+    "topic": "Offsetting Assets, Liabilities, Income, and Expenses",
+    "category": "",
+    "keywords": "offsetting, netting, gross presentation, right of setoff, net settlement",
+    "rule": "Assets and liabilities or income and expenses are not offset unless required or permitted by a specific standard and legally enforceable right and net settlement intention exist where applicable.",
+    "text": "Standard: IAS 1 / ASC 210, Paragraph: IAS 1.32 / ASC 210-20, Topic: Offsetting Assets, Liabilities, Income, and Expenses\nRule: Assets and liabilities or income and expenses are not offset unless required or permitted by a specific standard and legally enforceable right and net settlement intention exist where applicable.\nKeywords: offsetting, netting, gross presentation, right of setoff, net settlement"
+  },
+  {
+    "id": "409ba781",
+    "standard": "Audit Practice",
+    "paragraph": "AP-DUP-01",
+    "topic": "Duplicate Invoice Detection",
+    "category": "fraud_control",
+    "keywords": "duplicate invoice, duplicate payment, invoice number, AP duplicate, fuzzy match, vendor duplicate",
+    "rule": "Potential duplicate invoices should be held for review before payment or posting when vendor, invoice number, date, amount, bank account, PO, or description match prior transactions. Accounting classification is secondary until duplicate risk is resolved.",
+    "text": "Standard: Audit Practice, Paragraph: AP-DUP-01, Topic: Duplicate Invoice Detection\nRule: Potential duplicate invoices should be held for review before payment or posting when vendor, invoice number, date, amount, bank account, PO, or description match prior transactions. Accounting classification is secondary until duplicate risk is resolved.\nKeywords: duplicate invoice, duplicate payment, invoice number, AP duplicate, fuzzy match, vendor duplicate"
+  },
+  {
+    "id": "25e0cada",
+    "standard": "ASC 850 / IAS 24 / Audit Practice",
+    "paragraph": "ASC 850-10 / IAS 24",
+    "topic": "Vendor Master and Related Party Audit Red Flags",
+    "category": "fraud_control",
+    "keywords": "vendor master, bank change, duplicate vendor, related party, fraud, supplier onboarding, payment control",
+    "rule": "New vendors, changes to bank details, vendors with employee addresses, duplicate tax IDs, and related-party links require enhanced review. Classification should be suspended or flagged if vendor legitimacy is not established.",
+    "text": "Standard: ASC 850 / IAS 24 / Audit Practice, Paragraph: ASC 850-10 / IAS 24, Topic: Vendor Master and Related Party Audit Red Flags\nRule: New vendors, changes to bank details, vendors with employee addresses, duplicate tax IDs, and related-party links require enhanced review. Classification should be suspended or flagged if vendor legitimacy is not established.\nKeywords: vendor master, bank change, duplicate vendor, related party, fraud, supplier onboarding, payment control"
+  },
+  {
+    "id": "fd37db89",
+    "standard": "IAS 1 / ASC 720 / Audit Practice",
+    "paragraph": "117",
+    "topic": "Cost Center and Department Coding",
+    "category": "fraud_control",
+    "keywords": "cost center, department, allocation, shared cost, SG&A, R&D, COGS, department coding",
+    "rule": "GL classification should include cost center or department based on who consumes the benefit, not simply who approved invoice. Shared costs should be allocated using a consistent, supportable basis.",
+    "text": "Standard: IAS 1 / ASC 720 / Audit Practice, Paragraph: 117, Topic: Cost Center and Department Coding\nRule: GL classification should include cost center or department based on who consumes the benefit, not simply who approved invoice. Shared costs should be allocated using a consistent, supportable basis.\nKeywords: cost center, department, allocation, shared cost, SG&A, R&D, COGS, department coding"
+  },
+  {
+    "id": "b053d344",
+    "standard": "IAS 1 / ASC 720 / Audit Practice",
+    "paragraph": "29-31",
+    "topic": "Materiality and Posting Thresholds",
+    "category": "fraud_control",
+    "keywords": "materiality, threshold, capitalization policy, posting threshold, trivial, aggregate misstatement",
+    "rule": "Classification decisions should consider quantitative and qualitative materiality. Immaterial items may be expensed under policy, but intentional misclassification to manage earnings is not acceptable even if individual items are small.",
+    "text": "Standard: IAS 1 / ASC 720 / Audit Practice, Paragraph: 29-31, Topic: Materiality and Posting Thresholds\nRule: Classification decisions should consider quantitative and qualitative materiality. Immaterial items may be expensed under policy, but intentional misclassification to manage earnings is not acceptable even if individual items are small.\nKeywords: materiality, threshold, capitalization policy, posting threshold, trivial, aggregate misstatement"
+  },
+  {
+    "id": "60facaa2",
+    "standard": "IAS 1 / ASC 720 / Audit Practice",
+    "paragraph": "118",
+    "topic": "Chart of Accounts Mapping Confidence",
+    "category": "fraud_control",
+    "keywords": "GL mapping, classification confidence, RAG, ambiguity, human review, account coding, invoice AI",
+    "rule": "When invoice text matches multiple accounting treatments, classify using hierarchy: contract/service period, asset control/useful life, inventory/resale intent, tax recoverability, department use, vendor history, and entity policy. Low-confidence classifications should be routed for human review.",
+    "text": "Standard: IAS 1 / ASC 720 / Audit Practice, Paragraph: 118, Topic: Chart of Accounts Mapping Confidence\nRule: When invoice text matches multiple accounting treatments, classify using hierarchy: contract/service period, asset control/useful life, inventory/resale intent, tax recoverability, department use, vendor history, and entity policy. Low-confidence classifications should be routed for human review.\nKeywords: GL mapping, classification confidence, RAG, ambiguity, human review, account coding, invoice AI"
+  },
+  {
+    "id": "611de578",
+    "standard": "IAS 1 / ASC 720 / Audit Practice",
+    "paragraph": "104",
+    "topic": "Negative Expenses and Credit Balances",
+    "category": "fraud_control",
+    "keywords": "negative expense, credit balance, refund, rebate, reversal, vendor credit, expense reduction",
+    "rule": "Negative expense balances and credit balances in expense accounts require review. They may be valid due to refunds, rebates, reclasses, or accrual reversals, but should be supported and classified correctly.",
+    "text": "Standard: IAS 1 / ASC 720 / Audit Practice, Paragraph: 104, Topic: Negative Expenses and Credit Balances\nRule: Negative expense balances and credit balances in expense accounts require review. They may be valid due to refunds, rebates, reclasses, or accrual reversals, but should be supported and classified correctly.\nKeywords: negative expense, credit balance, refund, rebate, reversal, vendor credit, expense reduction"
+  },
+  {
+    "id": "79a1269a",
+    "standard": "IAS 37 / ASC 405",
+    "paragraph": "37-79-405-20",
+    "topic": "Liability Derecognition and Aged Payables",
+    "category": "",
+    "keywords": "aged payable, liability release, derecognition, write back, stale AP, extinguishment",
+    "rule": "A liability is derecognized only when extinguished, paid, legally released, or expired under applicable law. Old payables should not be released to income solely because they are aged.",
+    "text": "Standard: IAS 37 / ASC 405, Paragraph: 37-79-405-20, Topic: Liability Derecognition and Aged Payables\nRule: A liability is derecognized only when extinguished, paid, legally released, or expired under applicable law. Old payables should not be released to income solely because they are aged.\nKeywords: aged payable, liability release, derecognition, write back, stale AP, extinguishment"
+  },
+  {
+    "id": "0aa583d5",
+    "standard": "IAS 1 / ASC 720 / Audit Practice",
+    "paragraph": "114",
+    "topic": "Purchase Order Commitments",
+    "category": "fraud_control",
+    "keywords": "purchase order, commitment, open PO, executory contract, noncancelable, goods received",
+    "rule": "A purchase order alone usually does not create an accounting liability until goods/services are received or an unavoidable obligation exists. Open purchase commitments may require disclosure if material.",
+    "text": "Standard: IAS 1 / ASC 720 / Audit Practice, Paragraph: 114, Topic: Purchase Order Commitments\nRule: A purchase order alone usually does not create an accounting liability until goods/services are received or an unavoidable obligation exists. Open purchase commitments may require disclosure if material.\nKeywords: purchase order, commitment, open PO, executory contract, noncancelable, goods received"
+  },
+  {
+    "id": "908072a6",
+    "standard": "IAS 1 / ASC 720 / Audit Practice",
+    "paragraph": "120",
+    "topic": "Three-Way Match for Purchases",
+    "category": "fraud_control",
+    "keywords": "three way match, PO, purchase order, goods receipt, invoice match, receiving, GRNI",
+    "rule": "Inventory and fixed asset purchases should be matched to purchase order, receiving evidence, and vendor invoice before posting or payment. Service purchases should be matched to contract/SOW and service acceptance.",
+    "text": "Standard: IAS 1 / ASC 720 / Audit Practice, Paragraph: 120, Topic: Three-Way Match for Purchases\nRule: Inventory and fixed asset purchases should be matched to purchase order, receiving evidence, and vendor invoice before posting or payment. Service purchases should be matched to contract/SOW and service acceptance.\nKeywords: three way match, PO, purchase order, goods receipt, invoice match, receiving, GRNI"
+  },
+  {
+    "id": "e7c58d87",
+    "standard": "IAS 1 / ASC 720 / Audit Practice",
+    "paragraph": "88",
+    "topic": "Personal or Non-Business Expenses",
+    "category": "fraud_control",
+    "keywords": "personal expense, owner expense, employee receivable, non-business, disallowed, reimbursement",
+    "rule": "Personal, owner, or employee non-business expenses should not be recorded as company operating expenses. Treat them as receivables from employee/owner, distributions, compensation, or disallowed expenses depending on facts.",
+    "text": "Standard: IAS 1 / ASC 720 / Audit Practice, Paragraph: 88, Topic: Personal or Non-Business Expenses\nRule: Personal, owner, or employee non-business expenses should not be recorded as company operating expenses. Treat them as receivables from employee/owner, distributions, compensation, or disallowed expenses depending on facts.\nKeywords: personal expense, owner expense, employee receivable, non-business, disallowed, reimbursement"
+  },
+  {
+    "id": "caca28e7",
+    "standard": "ASC 720",
+    "paragraph": "25-1",
+    "topic": "Facilities and Grounds Maintenance",
+    "category": "",
+    "keywords": "landscape, grounds, maintenance, cleaning, janitorial,",
+    "rule": "Landscaping, grounds maintenance, cleaning, janitorial,",
+    "text": "Standard: ASC 720, Paragraph: 25-1, Topic: Facilities and Grounds Maintenance\nRule: Landscaping, grounds maintenance, cleaning, janitorial,\nKeywords: landscape, grounds, maintenance, cleaning, janitorial,"
+  }
+]

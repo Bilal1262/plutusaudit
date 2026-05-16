@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+dist/
+*.local
+.vite/
+
+# Env
+.env
+.env.local
+
+# DB / artifacts
+*.db
+*.sqlite
+veridian.db
+
+# RAG indexes are large; usually rebuilt — keep optional
+# (un-comment to skip committing)
+# backend/rag/gaap.faiss
+# backend/rag/chunks.json
+# backend/rag/bm25.pkl
+# backend/rag/embed_cache.pkl
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
